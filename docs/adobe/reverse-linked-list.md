@@ -2,13 +2,11 @@
 sidebar_position: 1
 ---
 
-# Right View Tree
+# Reversed Linked List
 
 ### Problem Statement
 
-Given a Binary Tree, print Right view of it.
-
-<!-- <iframe width="768" height="432" src="https://miro.com/app/live-embed/o9J_l7I441E=/?moveToViewport=-2029,-243,992,463" frameBorder="0" scrolling="no" allowFullScreen></iframe> -->
+Given a Linked List, print reverse if it.
 
 ### Code
 
