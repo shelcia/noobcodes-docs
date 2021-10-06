@@ -11,13 +11,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap"); */
 
 :root {
-  --ifm-color-primary: #25c2a0;
+  /* --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: rgb(33, 175, 144);
   --ifm-color-primary-darker: rgb(31, 165, 136);
   --ifm-color-primary-darkest: rgb(26, 136, 112);
   --ifm-color-primary-light: rgb(70, 203, 174);
   --ifm-color-primary-lighter: rgb(102, 212, 189);
-  --ifm-color-primary-lightest: rgb(146, 224, 208);
+  --ifm-color-primary-lightest: rgb(146, 224, 208); */
+  --ifm-color-primary: #25a5c2;
+  --ifm-color-primary-dark: rgb(33, 137, 175);
+  --ifm-color-primary-darker: rgb(31, 152, 165);
+  --ifm-color-primary-darkest: rgb(26, 125, 136);
+  --ifm-color-primary-light: rgb(70, 194, 203);
+  --ifm-color-primary-lighter: rgb(102, 195, 212);
+  --ifm-color-primary-lightest: rgb(146, 212, 224);
   --ifm-code-font-size: 95%;
 }
 
