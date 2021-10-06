@@ -6,13 +6,16 @@ module.exports = {
   title: "Hello Folks",
   tagline:
     "This website has got selective interview questions picked from various sources.",
-  url: "https://your-docusaurus-test-site.com",
-  baseUrl: "/",
+  // url: "https://your-docusaurus-test-site.com",
+  // baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  url: "https://noobcodes-docs.netlify.app/", // Your website URL
+  baseUrl: "/",
+  projectName: "Noobcodes",
+  organizationName: "Noobcodes",
+  trailingSlash: false,
   themeConfig: {
     prism: {
       theme: require("prism-react-renderer/themes/nightOwl"),
