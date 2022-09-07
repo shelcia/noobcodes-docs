@@ -10,7 +10,7 @@ Linked List Insertion
 
 ### Code
 
-```jsx title="python code"
+```jsx title="Python Code"
 # INSERTION OF NODE AT END , BEGGINING AND AT GIVEN POS VALUE
 
 class linkedListNode:

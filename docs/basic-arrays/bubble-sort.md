@@ -10,7 +10,7 @@ Bubble Sort
 
 ### Code
 
-```jsx title="python code"
+```jsx title="Python Code"
 # BUBBLE SORT
 def bubbleSort(array):
     for index in range(0, len(array)):

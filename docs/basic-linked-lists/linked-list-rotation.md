@@ -10,7 +10,7 @@ Linked List Rotation
 
 ### Code
 
-```jsx title="python code"
+```jsx title="Python Code"
 class linkedListNode:
     def __init__(self, value, nextNode=None):
         self.value = value

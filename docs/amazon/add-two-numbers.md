@@ -1,5 +1,6 @@
 ---
-sidebar_position: 4
+sidebar_position: 1
+tags: [amazon]
 ---
 
 # Add Two Numbers
@@ -14,7 +15,7 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 
 ### Code
 
-```jsx title="python code"
+```jsx title="Python Code"
 
 
 class ListNode:

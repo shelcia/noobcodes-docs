@@ -10,7 +10,7 @@ Binary Tree Introduction
 
 ### Code
 
-```jsx title="python code"
+```jsx title="Python Code"
 # BINARY TREE INTRODUCTION
 
 

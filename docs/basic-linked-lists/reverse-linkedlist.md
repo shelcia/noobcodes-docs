@@ -10,7 +10,7 @@ Reverse LinkedList
 
 ### Code
 
-```jsx title="python code"
+```jsx title="Python Code"
 # REVERSE LINKED LIST
 
 class linkedListNode:

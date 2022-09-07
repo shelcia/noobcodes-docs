@@ -10,7 +10,7 @@ Swap nodes Pairwise
 
 ### Code
 
-```jsx title="python code"
+```jsx title="Python Code"
 # SWAP PAIRWISE ELEMENTS
 
 class linkedListNode:

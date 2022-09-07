@@ -10,7 +10,7 @@ Print Nth element from end
 
 ### Code
 
-```jsx title="python code"
+```jsx title="Python Code"
 # Program for n’th node from the end of a Linked List
 
 

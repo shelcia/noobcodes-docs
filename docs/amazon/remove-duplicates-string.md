@@ -1,5 +1,6 @@
 ---
-sidebar_position: 6
+sidebar_position: 16
+tags: [amazon]
 ---
 
 # Remove duplicates from a given string
@@ -10,7 +11,7 @@ Remove duplicates from a given string
 
 ### Code
 
-```jsx title="python code"
+```jsx title="Python Code"
 def removeDuplicates(string):
 
     # arr = list(string)

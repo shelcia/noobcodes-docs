@@ -1,5 +1,6 @@
 ---
-sidebar_position: 1
+sidebar_position: 20
+tags: [amazon]
 ---
 
 # Trie - Introduction
@@ -20,7 +21,7 @@ A trie (pronounced as "try") or prefix tree is a tree data structure used to eff
 
 ## Code
 
-```jsx title="python code"
+```jsx title="Python Code"
 class TrieNode:
 
     def __init__(self):

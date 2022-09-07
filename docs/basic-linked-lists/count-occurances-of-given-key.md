@@ -10,7 +10,7 @@ Count Occurances of given key
 
 ### Code
 
-```jsx title="python code"
+```jsx title="Python Code"
 # COUNT OCCURANCES OF GIVEN INTEGER IN LINKED LIST
 
 class linkedListNode:

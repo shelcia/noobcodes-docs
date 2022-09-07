@@ -10,7 +10,7 @@ Print Middle Element
 
 ### Code
 
-```jsx title="python code"
+```jsx title="Python Code"
 # PRINT MIDDLE ELEMENT USING DOUBLE POINTER METHOD
 
 class linkedListNode:

@@ -10,7 +10,7 @@ Given a Linked List, print reverse if it.
 
 ### Code
 
-```jsx title="python code"
+```jsx title="Python Code"
 class linkedListNode:
 
     def __init__(self, value, nextNode=None):

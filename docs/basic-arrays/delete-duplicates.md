@@ -10,7 +10,7 @@ Delete Duplicate
 
 ### Code
 
-```jsx title="python code"
+```jsx title="Python Code"
 # DELETE DUPLICATES
 
 def deleteDuplicates(array):

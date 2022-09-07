@@ -10,7 +10,7 @@ Selection Sort
 
 ### Code
 
-```jsx title="python code"
+```jsx title="Python Code"
 # SELECTION SORT
 
 # FIND THE MINIMUM IN [0,...N] THEN [1,...N] AND SO ON AND SWAP

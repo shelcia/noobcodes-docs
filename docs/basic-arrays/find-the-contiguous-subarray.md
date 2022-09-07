@@ -10,7 +10,7 @@ Find the Contiguous Subarray
 
 ### Code
 
-```jsx title="python code"
+```jsx title="Python Code"
 def findContiguous(arr):
     max_sum = arr[0]
     start_ptr = 0

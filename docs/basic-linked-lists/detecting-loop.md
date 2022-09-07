@@ -10,7 +10,7 @@ Detecting Loop
 
 ### Code
 
-```jsx title="python code"
+```jsx title="Python Code"
 # DETECT LOOP
 
 

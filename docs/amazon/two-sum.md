@@ -1,5 +1,6 @@
 ---
-sidebar_position: 9
+sidebar_position: 21
+tags: [amazon]
 ---
 
 # Two sum
@@ -11,7 +12,7 @@ such that they add up to target.
 
 ### Code
 
-```jsx title="python code"
+```jsx title="Python Code"
 class Solution:
     def twoSum(self, nums, target: int):
 

@@ -10,7 +10,7 @@ Linked List Search
 
 ### Code
 
-```jsx title="python code"
+```jsx title="Python Code"
 # SEARCH ELEMENT ITERATIVE AND RECURSIVE
 
 

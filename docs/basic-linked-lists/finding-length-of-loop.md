@@ -10,7 +10,7 @@ Finding Length of Loop
 
 ### Code
 
-```jsx title="python code"
+```jsx title="Python Code"
 # FIND LENGTH OF THE LOOP
 # USING FLOYDS ALGORITHM
 

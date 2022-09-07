@@ -10,7 +10,7 @@ Move last element to first in LinkedList
 
 ### Code
 
-```jsx title="python code"
+```jsx title="Python Code"
 # LAST TO FIRST ELEMENT IN LINKEDLIST
 
 class linkedListNode:

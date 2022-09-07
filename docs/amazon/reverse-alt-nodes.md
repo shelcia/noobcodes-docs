@@ -1,5 +1,6 @@
 ---
-sidebar_position: 7
+sidebar_position: 17
+tags: [amazon]
 ---
 
 # Reverse Alternate nodes
@@ -21,7 +22,7 @@ Append the even node list at the end of odd node list.
 
 ### Code
 
-```jsx title="python code"
+```jsx title="Python Code"
 class Node:
 
     # Constructor to initialize the node object

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 3
 tags: [amazon, binary tree, dll, linkedlist]
 ---
 
@@ -12,7 +12,7 @@ The left and right pointers in nodes are to be used as previous and next pointer
 
 ### Code
 
-```jsx title="python code"
+```jsx title="Python Code"
 
 class Node:
     def __init__(self, value, left=None, right=None):

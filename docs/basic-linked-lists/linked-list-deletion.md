@@ -10,7 +10,7 @@ Linked List Deletion
 
 ### Code
 
-```jsx title="python code"
+```jsx title="Python Code"
 # DELETING LINKEDLIST AT END BEGINNING, MIDDLE AND AT GIVEN POSITION VALUE
 
 class linkedListNode:

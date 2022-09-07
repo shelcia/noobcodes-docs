@@ -10,7 +10,7 @@ Binary Tree Insertion
 
 ### Code
 
-```jsx title="python code"
+```jsx title="Python Code"
 # BINARY TREE INSERTIONS
 
 class binaryTreeNode:

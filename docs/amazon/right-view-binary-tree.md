@@ -1,5 +1,6 @@
 ---
-sidebar_position: 2
+sidebar_position: 18
+tags: [amazon]
 ---
 
 # Right View Tree
@@ -12,7 +13,7 @@ Given a Binary Tree, print Right view of it.
 
 ### Code
 
-```jsx title="python code"
+```jsx title="Python Code"
 class Node:
     # A constructor to create a new Binary tree Node
     def __init__(self, value, left=None, right=None):

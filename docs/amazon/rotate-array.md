@@ -1,5 +1,6 @@
 ---
-sidebar_position: 8
+sidebar_position: 19
+tags: [amazon]
 ---
 
 # Rotate Array
@@ -10,7 +11,7 @@ Write a function rotate(ar[], d, n) that rotates arr[] of size n by d elements.
 
 ### Code
 
-```jsx title="python code"
+```jsx title="Python Code"
 def rotateLeftArray(arr, k):
     n = len(arr)
     if k > n:

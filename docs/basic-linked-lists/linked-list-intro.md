@@ -10,7 +10,7 @@ Linked List Intro
 
 ### Code
 
-```jsx title="python code"
+```jsx title="Python Code"
 # CREATING LINKED LIST
 # 1.VALUE
 # 2.NEXT NODE

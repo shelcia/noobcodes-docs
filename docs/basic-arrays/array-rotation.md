@@ -10,7 +10,7 @@ Array Rotation
 
 ### Code
 
-```jsx title="python code"
+```jsx title="Python Code"
 # ROTATION OF ARRAYS
 
 def rotateArrayStep(arr, rotations):

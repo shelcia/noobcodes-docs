@@ -10,7 +10,7 @@ Remove Duplicates from Sorted LinkedList
 
 ### Code
 
-```jsx title="python code"
+```jsx title="Python Code"
 # REMOVE DUPLICATES FROM SORTED ARRAY
 
 class linkedListNode:

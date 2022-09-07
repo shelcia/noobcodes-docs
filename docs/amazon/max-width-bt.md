@@ -1,5 +1,6 @@
 ---
-sidebar_position: 10
+sidebar_position: 13
+tags: [amazon]
 ---
 
 # Maximum width of a binary tree
@@ -28,7 +29,7 @@ So the maximum width of the tree is 3.
 
 ### Code
 
-```jsx title="python code"
+```jsx title="Python Code"
 
 class Node:
 

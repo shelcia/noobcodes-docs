@@ -10,7 +10,7 @@ Finding Palindrome
 
 ### Code
 
-```jsx title="python code"
+```jsx title="Python Code"
 # 1. METHOD 1 - REVERSE THE LINKEDLIST AND CHECK IF THE ARE EQUAL
 # 2. FIND THE MIDDLE ELEMENT AND CHECK IF FIRST HALF EQUALS SECOND HALF
 

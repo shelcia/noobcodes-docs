@@ -10,7 +10,7 @@ Remove Duplicates in LinkedList
 
 ### Code
 
-```jsx title="python code"
+```jsx title="Python Code"
 # REMOVE DUPLICATES
 
 class linkedListNode:

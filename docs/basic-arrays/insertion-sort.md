@@ -10,7 +10,7 @@ Insertion Sort
 
 ### Code
 
-```jsx title="python code"
+```jsx title="Python Code"
 # INSERTION SORT
 
 # COMPARE THE PREDECESSOR WITH KEY, IF LESS SWAP WITH THE ELEMENT AND SO ON
