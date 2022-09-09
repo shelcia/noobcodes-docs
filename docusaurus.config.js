@@ -40,7 +40,7 @@ module.exports = {
           label: "GitHub",
           position: "right",
         },
-        { search: true },
+        // { search: true },
       ],
     },
     footer: {
