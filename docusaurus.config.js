@@ -24,7 +24,8 @@ module.exports = {
       title: "Noobcodes",
       logo: {
         alt: "My Site Logo",
-        src: "img/logo.svg",
+        // src: "img/logo.svg",
+        src: "img/logo.png",
       },
       items: [
         {
@@ -39,7 +40,7 @@ module.exports = {
           label: "GitHub",
           position: "right",
         },
-        // { search: true },
+        { search: true },
       ],
     },
     footer: {
@@ -99,15 +100,14 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/",
+          editUrl: "https://github.com/shelcia/noobcodes-docs/edit/master",
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/blog/",
-        },
+        // blog: {
+        //   showReadingTime: true,
+        //   // Please change this to your repo.
+        //   editUrl:
+        //     "https://github.com/facebook/docusaurus/edit/master/website/blog/",
+        // },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
