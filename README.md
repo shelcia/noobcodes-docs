@@ -24,6 +24,9 @@ You can refer to the following articles on the basics of Git and Github and also
 - Create a Pull Request which will be promptly reviewed and suggestions would be added to improve it.
 - Add Screenshots to help us know what this Script is all about.
 
+### By the end of december contribute to the problem statements given in the zip
+
+[LeetCode-Questions-CompanyWise-master.zip](https://github.com/shelcia/noobcodes-docs/files/10148119/LeetCode-Questions-CompanyWise-master.zip)
 
 ## ⭐ Issues:
 For major changes, you are welcome to open an issue to discuss what you would like to change. Enhancements will be appreciated.
@@ -47,16 +50,6 @@ This command starts a local development server and opens up a browser window. Mo
 ```console
 yarn build
 ```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Deployment
-
-```console
-GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
 
 ##  💼  Code of Conduct
 
