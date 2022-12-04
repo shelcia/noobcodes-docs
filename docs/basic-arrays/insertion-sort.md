@@ -6,7 +6,7 @@ sidebar_position: 6
 
 ### Problem Statement
 
-Insertion Sort
+Sort a linked list using insertion sort.
 
 ### Code
 

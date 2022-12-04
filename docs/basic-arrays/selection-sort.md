@@ -6,7 +6,7 @@ sidebar_position: 5
 
 ### Problem Statement
 
-Selection Sort
+Sort a linked list using Selection Sort.
 
 ### Code
 

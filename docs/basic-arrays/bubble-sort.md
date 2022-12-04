@@ -6,7 +6,7 @@ sidebar_position: 4
 
 ### Problem Statement
 
-Bubble Sort
+Sort a linked list using Bubble Sort
 
 ### Code
 
