@@ -1,6 +1,6 @@
 ---
 sidebar_position: 11
-tags: [Blind 75, Divide and Conquer, Dynamic Programming]
+tags: [blind-75, Divide and Conquer, Dynamic Programming]
 ---
 
 # Maximum Subarray

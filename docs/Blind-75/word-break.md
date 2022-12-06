@@ -1,6 +1,6 @@
 ---
-sidebar_position: 7
-tags: [Blind 75, Hash Table, String, Dynamic Programming, Trie, Memoization]
+sidebar_position: 14
+tags: [blind-75, Hash Table, String, Dynamic Programming, Trie, Memoization]
 ---
 
 # Word Break

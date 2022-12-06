@@ -1,6 +1,6 @@
 ---
-sidebar_position: 6
-tags: [Blind 75, array, dynamic programming]
+sidebar_position: 10
+tags: [blind-75, array, dynamic programming]
 ---
 
 # Maximum Product Subarray

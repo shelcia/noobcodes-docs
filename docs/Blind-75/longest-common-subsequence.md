@@ -1,6 +1,6 @@
 ---
-sidebar_position: 10
-tags: [Blind 75, String, Dynamic Programming]
+sidebar_position: 7
+tags: [blind-75, String, Dynamic Programming]
 ---
 
 # Longest Common Subsequence

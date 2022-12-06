@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 9
 tags: [blind-75]
 ---
 
@@ -16,6 +16,7 @@ Input: s = "babad"
 Output: "bab"
 Explanation: "aba" is also a valid answer.
 ```
+
 #### Example 2:
 
 ```
@@ -25,8 +26,9 @@ Output: "bb"
 
 #### Constraints:
 
-* `1 <= s.length <= 1000`
-* `s` consist of only digits and English letters.
+- `1 <= s.length <= 1000`
+- `s` consist of only digits and English letters.
+
 ### Code
 
 ```jsx title="Python Code"
@@ -38,13 +40,13 @@ class Solution:
                 l-=1
                 r+=1
             return s[l+1:r]
-        
+
         for i in range(len(s)):
             s1 = findLongest(s, i, i)
             if len(s1) > len(longest): longest = s1
-            
+
             s2 = findLongest(s, i, i+1)
             if len(s2) > len(longest): longest = s2
-                
+
         return longest
 ```

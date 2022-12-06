@@ -1,50 +1,57 @@
 ---
-sidebar_position: 4
-tags: [blind-75]
+sidebar_position: 12
+tags: [Blind 75, string, dynamic programming]
 ---
 
-# Palindromic Substrings
+# Palindromic Substring
 
 ### Problem Statement
 
-Given a string `s`, return the number of palindromic substrings in it.
+Given a string s, return the number of palindromic substrings in it.
 
 A string is a palindrome when it reads the same backward as forward.
 
 A substring is a contiguous sequence of characters within the string.
 
-#### Example 1:
+### Examples
 
 ```
+Example 1:
+
 Input: s = "abc"
 Output: 3
 Explanation: Three palindromic strings: "a", "b", "c".
-```
-#### Example 2:
 
-```
+Example 2:
+
 Input: s = "aaa"
 Output: 6
 Explanation: Six palindromic strings: "a", "a", "a", "aa", "aa", "aaa".
 ```
 
-#### Constraints:
+### Constraints
 
-* `1 <= s.length <= 1000`
-* `s` consists of lowercase English letters.
+```
+1 <= s.length <= 1000
+s consists of lowercase English letters.
+```
+
 ### Code
 
-```jsx title="Python Code"
+```jsx title="Python3 Code"
+
 class Solution:
     def countSubstrings(self, s: str) -> int:
-        count = 0
-        N = len(s)
-        dp = [[False] * N for _ in range(N)]
-        for l in range(1, N + 1): #each possible length when the string length is l
-            for start in range(N - l + 1): #outer
-                end = start+l-1
-                if l == 1 or (l == 2 and s[start] == s[end]) or (l >= 3 and s[start] == s[end] and dp[start + 1][end - 1]):#dp
-                    dp[start][end] = True
-                    count += 1
-        return count
+        res = n = len(s)
+        for i in range(n):
+            r = l = i
+            while r + 1 < n and s[l] == s[r+1]:
+                r += 1
+                res += 1
+            while r + 1 < n and l > 0 and s[l-1] == s[r+1]:
+                r += 1
+                l -= 1
+                res += 1
+        return res
+
 ```

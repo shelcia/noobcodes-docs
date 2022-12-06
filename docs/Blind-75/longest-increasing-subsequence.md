@@ -1,6 +1,6 @@
 ---
 sidebar_position: 8
-tags: [Blind 75, Dynamic Programming, array, binary search]
+tags: [blind-75, Dynamic Programming, array, binary search]
 ---
 
 # Longest Increasing Subsequence

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 12
+sidebar_position: 6
 tags: [Blind 75, greedy, Dynamic Programming]
 ---
 

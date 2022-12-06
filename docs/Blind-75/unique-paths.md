@@ -1,6 +1,6 @@
 ---
-sidebar_position: 9
-tags: [Blind 75, Dynamic Programming, combinatorics]
+sidebar_position: 13
+tags: [blind-75, Dynamic Programming, combinatorics]
 ---
 
 # Unique Paths
@@ -11,7 +11,7 @@ There is a robot on an m x n grid. The robot is initially located at the top-lef
 
 Given the two integers m and n, return the number of possible unique paths that the robot can take to reach the bottom-right corner.
 
-The test cases are generated so that the answer will be less than or equal to 2 * 10^9.
+The test cases are generated so that the answer will be less than or equal to 2 \* 10^9.
 
 ### Examples
 
