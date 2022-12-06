@@ -1,5 +1,5 @@
 const lightCodeTheme = require("prism-react-renderer/themes/github");
-const darkCodeTheme = require("prism-react-renderer/themes/dracula");
+const darkCodeTheme = require("prism-react-renderer/themes/nightOwl");
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
@@ -17,6 +17,13 @@ module.exports = {
   organizationName: "Noobcodes",
   trailingSlash: false,
   themeConfig: {
+    metadata: [
+      {
+        name: "keywords",
+        content:
+          "interview, preparation, python, java, data structures, algorithm, amazon, atlassian",
+      },
+    ],
     prism: {
       theme: require("prism-react-renderer/themes/nightOwl"),
     },
@@ -81,7 +88,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Noobcodes, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Noobcodes Docs. Built with Docusaurus.`,
     },
     prism: {
       theme: lightCodeTheme,
