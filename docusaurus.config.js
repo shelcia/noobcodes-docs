@@ -23,8 +23,7 @@ module.exports = {
     navbar: {
       title: "Noobcodes",
       logo: {
-        alt: "My Site Logo",
-        // src: "img/logo.svg",
+        alt: "Noobcodes Logo",
         src: "img/logo.png",
       },
       items: [
@@ -34,7 +33,7 @@ module.exports = {
           position: "left",
           label: "Programs",
         },
-        // { to: "/blog", label: "Blog", position: "left" },
+        { to: "/blog", label: "Blog", position: "left" },
         {
           href: "https://github.com/shelcia/noobcodes-docs",
           label: "GitHub",
@@ -58,27 +57,23 @@ module.exports = {
         {
           title: "Community",
           items: [
-            // {
-            //   label: "Stack Overflow",
-            //   href: "https://stackoverflow.com/questions/tagged/docusaurus",
-            // },
             {
               label: "Discord",
-              href: "https://discord.gg/YAnZW37u",
+              href: "https://discord.gg/gA5gRV2vF2",
             },
             // {
             //   label: "Twitter",
-            //   href: "https://twitter.com/docusaurus",
+            //   href: "https://twitter.com/shelciadavid",
             // },
           ],
         },
         {
           title: "More",
           items: [
-            // {
-            //   label: "Blog",
-            //   to: "/blog",
-            // },
+            {
+              label: "Blog",
+              to: "/blog",
+            },
             {
               label: "GitHub",
               href: "https://github.com/shelcia/noobcodes-docs",
@@ -99,15 +94,12 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          // Please change this to your repo.
           editUrl: "https://github.com/shelcia/noobcodes-docs/edit/master",
         },
-        // blog: {
-        //   showReadingTime: true,
-        //   // Please change this to your repo.
-        //   editUrl:
-        //     "https://github.com/facebook/docusaurus/edit/master/website/blog/",
-        // },
+        blog: {
+          showReadingTime: true,
+          editUrl: "https://github.com/shelcia/noobcodes-docs/edit/master",
+        },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
