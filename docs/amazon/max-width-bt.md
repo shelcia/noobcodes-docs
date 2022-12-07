@@ -27,6 +27,8 @@ width of level 3 is 3
 width of level 4 is 2.
 So the maximum width of the tree is 3.
 
+[LeetCode link](https://leetcode.com/problems/maximum-width-of-binary-tree/)
+
 ### Code
 
 ```jsx title="Python Code"

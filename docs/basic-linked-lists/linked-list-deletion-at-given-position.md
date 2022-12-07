@@ -6,7 +6,8 @@ sidebar_position: 4
 
 ### Problem Statement
 
-Linked List Deletion at given Position
+Linked List Deletion at given Position.
+[LeetCode link](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/)
 
 ### Code
 

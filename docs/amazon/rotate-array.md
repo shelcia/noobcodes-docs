@@ -8,6 +8,7 @@ tags: [amazon]
 ### Problem Statement
 
 Write a function rotate(ar[], d, n) that rotates arr[] of size n by d elements.
+[LeetCode link](https://leetcode.com/problems/rotate-array/)
 
 ### Code
 

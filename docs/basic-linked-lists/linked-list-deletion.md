@@ -7,6 +7,7 @@ sidebar_position: 3
 ### Problem Statement
 
 Linked List Deletion
+[LeetCode link](https://leetcode.com/problems/delete-node-in-a-linked-list/)
 
 ### Code
 

@@ -7,6 +7,7 @@ sidebar_position: 16
 ### Problem Statement
 
 Swap nodes Pairwise
+[LeetCode link](https://leetcode.com/problems/swap-nodes-in-pairs/)
 
 ### Code
 
