@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 8
 tags: [paypal, array, matrix]
 ---
 
@@ -9,7 +9,8 @@ tags: [paypal, array, matrix]
 
 Given an m x n matrix, return all elements of the matrix in spiral order.
 
-### Examples 
+### Examples
+
 ```
 Example 1:
 
@@ -22,13 +23,16 @@ Input: matrix = [[1,2,3,4],[5,6,7,8],[9,10,11,12]]
 Output: [1,2,3,4,8,12,11,10,9,5,6,7]
 Based on that, we return true.
 ```
+
 ### Constraints
+
 ```
 m == matrix.length
 n == matrix[i].length
 1 <= m, n <= 10
 -100 <= matrix[i][j] <= 100
 ```
+
 ### Code
 
 ```jsx title="Python3 Code"

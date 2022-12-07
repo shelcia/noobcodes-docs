@@ -1,6 +1,6 @@
 ---
-sidebar_position: 26
-tags: [amazon]
+sidebar_position: 24
+tags: [amazon, array]
 ---
 
 # Top K Frequent Words

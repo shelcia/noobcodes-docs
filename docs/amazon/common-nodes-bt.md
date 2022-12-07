@@ -1,6 +1,6 @@
 ---
-sidebar_position: 7
-tags: [amazon]
+sidebar_position: 8
+tags: [amazon, binary tree]
 ---
 
 # Print Common Nodes in Two Binary Search Trees

@@ -1,9 +1,9 @@
 ---
-sidebar_position: 1
-tags: [amazon]
+sidebar_position: 2
+tags: [amazon, alien-dictionary]
 ---
 
-# Verifying an Alien Dictionary
+# Alien Dictionary - Verification
 
 ### Problem Statement
 
@@ -61,3 +61,4 @@ class Solution:
                     break
 
         return True
+```

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 7
 tags: [paypal, math, string]
 ---
 
@@ -22,7 +22,8 @@ The robot performs the instructions given in order, and repeats them forever.
 
 Return true if and only if there exists a circle in the plane such that the robot never leaves the circle.
 
-### Examples 
+### Examples
+
 ```
 Example 1:
 
@@ -64,6 +65,7 @@ Explanation: The robot is initially at (0, 0) facing the north direction.
 Repeating the instructions, the robot goes into the cycle: (0, 0) --> (0, 1) --> (-1, 1) --> (-1, 0) --> (0, 0).
 Based on that, we return true.
 ```
+
 ### Code
 
 ```jsx title="Python3 Code"

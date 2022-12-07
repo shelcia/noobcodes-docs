@@ -1,6 +1,6 @@
 ---
-sidebar_position: 10
-tags: [amazon, contiguous]
+sidebar_position: 11
+tags: [amazon, contiguous, array]
 ---
 
 # Contiguous Product Subarray (Maximum)

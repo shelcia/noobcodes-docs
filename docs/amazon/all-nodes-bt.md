@@ -1,6 +1,6 @@
 ---
-sidebar_position: 2
-tags: [amazon]
+sidebar_position: 3
+tags: [amazon, binary tree]
 ---
 
 # All Nodes in Two Binary Search Trees to be Printed

@@ -1,6 +1,6 @@
 ---
-sidebar_position: 8
-tags: [paypal,linked list, recursion]
+sidebar_position: 6
+tags: [paypal, linked list, recursion]
 ---
 
 # Reverse Nodes in k-Group

@@ -1,6 +1,6 @@
 ---
-sidebar_position: 20
-tags: [amazon]
+sidebar_position: 21
+tags: [amazon, binary tree]
 ---
 
 # Right View Tree

@@ -1,6 +1,6 @@
 ---
-sidebar_position: 9
-tags: [amazon]
+sidebar_position: 10
+tags: [amazon, array]
 ---
 
 # Contiguous Array

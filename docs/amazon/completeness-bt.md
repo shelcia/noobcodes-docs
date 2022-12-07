@@ -1,6 +1,6 @@
 ---
-sidebar_position: 8
-tags: [amazon]
+sidebar_position: 9
+tags: [amazon, binary tree]
 ---
 
 # Completeness of Binary Tree
