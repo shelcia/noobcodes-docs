@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+tags: [adobe]
 ---
 
 # Pascal's Triangle
