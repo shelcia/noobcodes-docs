@@ -8,6 +8,7 @@ tags: [amazon]
 ### Problem Statement
 
 Given a Binary Tree, print Right view of it.
+[LeetCode link](https://leetcode.com/problems/binary-tree-right-side-view/)
 
 <!-- <iframe width="768" height="432" src="https://miro.com/app/live-embed/o9J_l7I441E=/?moveToViewport=-2029,-243,992,463" frameBorder="0" scrolling="no" allowFullScreen></iframe> -->
 

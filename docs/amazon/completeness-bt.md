@@ -8,6 +8,7 @@ tags: [amazon]
 ### Problem Statement
 
 Check whether a given Binary Tree is Complete or not
+[LeetCode link](https://leetcode.com/problems/check-completeness-of-a-binary-tree/)
 
 Given a Binary Tree, write a function to check whether the given Binary Tree is Complete
 Binary Tree or not.

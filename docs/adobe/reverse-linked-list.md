@@ -7,6 +7,7 @@ sidebar_position: 1
 ### Problem Statement
 
 Given a Linked List, print reverse if it.
+[LeetCode link](https://leetcode.com/problems/reverse-linked-list/)
 
 ### Code
 
