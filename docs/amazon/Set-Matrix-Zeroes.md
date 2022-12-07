@@ -1,5 +1,5 @@
 ---
-sidebar_position: 22
+sidebar_position: 26
 tags: [amazon]
 ---
 
@@ -12,11 +12,7 @@ Given an m x n integer matrix matrix, if an element is 0, set its entire row and
 #### Examples:      
 
 ```
-1      1      1                 1       0       1
-                                              
-1      0      1       ------>   0       0       0
-                      ------>
-1      1      1                 1       0       1
+
 
 
 Input: matrix = [[1,1,1],[1,0,1],[1,1,1]]
