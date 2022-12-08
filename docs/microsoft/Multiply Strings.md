@@ -1,0 +1,48 @@
+---
+sidebar_position: 10
+tags: [microsoft]
+---
+
+###Problem Statement
+Given two non-negative integers num1 and num2 represented as strings, return the product of num1 and num2, also represented as a string.
+
+Note: You must not use any built-in BigInteger library or convert the inputs to integer directly.
+
+ 
+
+###Example 1:
+
+Input: num1 = "2", num2 = "3"
+Output: "6"
+
+
+###Example 2:
+
+Input: num1 = "123", num2 = "456"
+Output: "56088"
+ 
+
+###Constraints:
+
+1 <= num1.length, num2.length <= 200
+num1 and num2 consist of digits only.
+Both num1 and num2 do not contain any leading zero, except the number 0 itself.
+
+
+###Code:
+class Solution:
+  def multiply(self, num1: str, num2: str) -> str:
+    s = [0] * (len(num1) + len(num2))
+
+    for i in reversed(range(len(num1))):
+      for j in reversed(range(len(num2))):
+        mult = int(num1[i]) * int(num2[j])
+        summ = mult + s[i + j + 1]
+        s[i + j] += summ // 10
+        s[i + j + 1] = summ % 10
+
+    for i, c in enumerate(s):
+      if c != 0:
+        break
+
+    return ''.join(map(str, s[i:]))
