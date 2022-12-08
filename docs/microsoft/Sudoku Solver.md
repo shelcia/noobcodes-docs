@@ -3,6 +3,8 @@ sidebar_position: 7
 tags: [microsoft]
 ---
 
+#Sudoku Solver
+
 ###Problem statement
 Write a program to solve a Sudoku puzzle by filling the empty cells.
 

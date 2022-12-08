@@ -3,6 +3,8 @@ sidebar_position: 11
 tags: [microsoft]
 ---
 
+#Binary Search Tree Iterator
+
 ###Problem Statement
 Implement the BSTIterator class that represents an iterator over the in-order traversal of a binary search tree (BST):
 

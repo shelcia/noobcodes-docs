@@ -3,6 +3,8 @@ sidebar_position: 9
 tags: [microsoft]
 ---
 
+#Inorder Successor in BST
+
 ###Code:
 class Solution:
   def inorderSuccessor(self, root: Optional[TreeNode], p: Optional[TreeNode]) -> Optional[TreeNode]:
