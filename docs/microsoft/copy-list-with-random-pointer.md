@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 tags: [microsoft]
 ---
 
@@ -17,9 +17,9 @@ Return the head of the copied linked list.
 
 The linked list is represented in the input/output as a list of `n` nodes. Each node is represented as a pair of `[val, random_index]` where:
 
-* `val`: an integer representing `Node.val`
-* `random_index`: the index of the node (range from `0` to `n-1`) that the `random` pointer points to, or `null` if it does not point to any node.
-Your code will only be given the `head` of the original linked list.
+- `val`: an integer representing `Node.val`
+- `random_index`: the index of the node (range from `0` to `n-1`) that the `random` pointer points to, or `null` if it does not point to any node.
+  Your code will only be given the `head` of the original linked list.
 
 #### Example 1:
 
@@ -71,11 +71,11 @@ class Solution:
             return None
 
         mapping = {}
-        
+
         current = head
-        
+
         while current != None:
-            mapping[current] = Node(current.val)    
+            mapping[current] = Node(current.val)
             current= current.next
 
         for node in mapping:
@@ -83,7 +83,7 @@ class Solution:
                 mapping[node].next = mapping[node.next]
             if node.random:
                 mapping[node].random = mapping[node.random]
-            
-            
+
+
         return mapping[head]
 ```

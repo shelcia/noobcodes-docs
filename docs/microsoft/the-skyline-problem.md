@@ -1,5 +1,5 @@
 ---
-sidebar_position: 7
+sidebar_position: 10
 tags: [microsoft]
 ---
 
@@ -11,9 +11,9 @@ A city's **skyline** is the outer contour of the silhouette formed by all the bu
 
 The geometric information of each building is given in the array `buildings` where `buildings[i] = [lefti, righti, heighti]`:
 
-* left<sub>i</sub> is the x coordinate of the left edge of the i<sup>th</sup> building.
-* right<sub>i</sub> is the x coordinate of the right edge of the i<sup>th</sup> building.
-* height<sub>i</sub> is the height of the i<sup>th</sup> building.
+- left<sub>i</sub> is the x coordinate of the left edge of the i<sup>th</sup> building.
+- right<sub>i</sub> is the x coordinate of the right edge of the i<sup>th</sup> building.
+- height<sub>i</sub> is the height of the i<sup>th</sup> building.
 
 You may assume all buildings are perfect rectangles grounded on an absolutely flat surface at height `0`.
 
@@ -43,9 +43,9 @@ Output: [[0,3],[5,0]]
 #### Constraints:
 
 - 1 <= buildings.length <= 10<sup>4</sup>
-0 <= left<sub>i</sub> < right<sub>i</sub> <= 2<sup>31</sup> - 1
-1 <= height<sub>i</sub> <= 2<sup>31</sup> - 1
-buildings is sorted by left<sub>i</sub> in non-decreasing order.
+  0 <= left<sub>i</sub> < right<sub>i</sub> <= 2<sup>31</sup> - 1
+  1 <= height<sub>i</sub> <= 2<sup>31</sup> - 1
+  buildings is sorted by left<sub>i</sub> in non-decreasing order.
 
 ### Code
 

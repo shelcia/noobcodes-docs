@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 4
 tags: [microsoft]
 ---
 
@@ -9,8 +9,8 @@ tags: [microsoft]
 
 Given an input string `s` and a pattern `p`, implement regular expression matching with support for `'.'` and `'*'` where:
 
-* `'.'` Matches any single character.​​​​
-* `'*'` Matches zero or more of the preceding element.
+- `'.'` Matches any single character.​​​​
+- `'*'` Matches zero or more of the preceding element.
 
 The matching should cover the entire input string (not partial).
 
@@ -57,17 +57,17 @@ class Solution(object):
         :rtype: bool
         """
         m,n = len(s),len(p)
-        
-        DP = [[False for j in range(n+1)] for i in range(m+1)]  
-        
+
+        DP = [[False for j in range(n+1)] for i in range(m+1)]
+
         DP[0][0] = True
-        
+
         for i in range(m+1):
             for j in range(1,n+1):
                 if p[j-1]=="*":
                     DP[i][j] = DP[i][j-2] or i>0 and DP[i-1][j] and (s[i-1]==p[j-2] or p[j-2]==".")
                 else:
                     DP[i][j] = i>0 and DP[i-1][j-1] and (s[i-1]==p[j-1] or p[j-1]==".")
-        
+
         return DP[-1][-1]
 ```
