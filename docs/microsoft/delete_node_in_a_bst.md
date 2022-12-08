@@ -21,7 +21,8 @@ Initially, all next pointers are set to `NULL`.
 
 #### Example 1:
 
-![alt text](https://assets.leetcode.com/uploads/2019/12/18/e1.png)
+
+![image](https://user-images.githubusercontent.com/75152702/206384027-9c319923-2d9f-4a54-801a-728e9b1f5f13.png)
 
 ```
 Input: root = [1,2,3,4,5,null,7]
@@ -31,7 +32,7 @@ Explanation: Given the above binary tree (Figure A), your function should popula
 
 #### Example 2:
 
-![alt text](https://assets.leetcode.com/uploads/2019/12/18/e2.png)
+
 
 ```
 Input: root = []
