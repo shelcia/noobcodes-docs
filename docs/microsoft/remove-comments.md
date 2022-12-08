@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 4
 tags: [microsoft]
 ---
 
@@ -7,14 +7,13 @@ tags: [microsoft]
 
 ### Problem Statement
 
-Given a C++ program, remove comments from it. The program source is an array of strings `source` where `source[i]` is the `ith` line of the source code. This represents the result of splitting the original source code string by the newline character `'\n'`.
+Given a C++ program, remove comments from it. The program source is an array of strings `source` where `source[i]` is the i<sup>th</sup> line of the source code. This represents the result of splitting the original source code string by the newline character `'\n'`.
 
 In C++, there are two types of comments, line comments, and block comments.
 
 - The string `"//"` denotes a line comment, which represents that it and the rest of the characters to the right of it in the same line should be ignored.
 - The string `"/*"` denotes a block comment, which represents that all characters until the next (non-overlapping) occurrence of `"*/"` should be ignored. (Here, occurrences happen in reading order: line by line from left to right.) To be clear, the string `"/*/"` does not yet end the block comment, as the ending would be overlapping the beginning.
-
-The first effective comment takes precedence over others.
+  The first effective comment takes precedence over others.
 
 - For example, if the string `"//"` occurs in a block comment, it is ignored.
 - Similarly, if the string `"/*"` occurs in a line or block comment, it is also ignored.
@@ -29,7 +28,7 @@ It is guaranteed that every open block comment will eventually be closed, so `"/
 
 Finally, implicit newline characters can be deleted by block comments. Please see the examples below for details.
 
-After removing the comments from the source code, return the source code in the same format.
+After removing the comments from the source code, return _the source code in the same format_.
 
 #### Example 1:
 
@@ -78,38 +77,53 @@ Explanation: The original source string is "a/*comment\nline\nmore_comment*/b", 
 
 ```jsx title="Python Code"
 class Solution:
-  def removeComments(self, source: List[str]) -> List[str]:
-    ans = []
-    commenting = False
-    modified = ''
+    def removeComments(self, source: List[str]) -> List[str]:
+        res = []
 
-    for line in source:
-      i = 0
-      while i < len(line):
-        if i + 1 == len(line):
-          if not commenting:
-            modified += line[i]
-          i += 1
-          break
-        twoChars = line[i:i + 2]
-        if twoChars == '/*' and not commenting:
-          commenting = True
-          i += 2
-        elif twoChars == '*/' and commenting:
-          commenting = False
-          i += 2
-        elif twoChars == '//':
-          if not commenting:
-            break
-          else:
-            i += 2
-        else:
-          if not commenting:
-            modified += line[i]
-          i += 1
-      if modified and not commenting:
-        ans.append(modified)
-        modified = ''
+        close, tmp = True, ""
+        for idx,s in enumerate(source):
+            i = 0
+            while i < len(s):
+                c = s[i]
+                if c in '/*':
+                    if i+1 < len(s) and s[i:i+2] == '//' and close:
+                        break
+                    elif i+1 < len(s) and s[i:i+2] == '/*' and close:
+                        close = False
+                        i += 2
+                        continue
+                    elif i+1 < len(s) and s[i: i+2] == '*/' and not close:
+                        close = True
+                        i += 2
+                        continue
+                if close:
+                    tmp += c
+                i += 1
+            if tmp != "" and close:
+                res.append(tmp)
+                tmp = ""
+        return res
 
-    return ans
+```
+
+```jsx title="C++"
+class Solution {
+public:
+    vector<string> removeComments(vector<string>& source) {
+        vector<string> ans;
+        string s;
+        bool comment = false;
+        for(int i = 0; i < source.size(); i++) {
+            for(int j = 0; j < source[i].size(); j++) {
+                if(!comment && j + 1 < source[i].size() && source[i][j] == '/' && source[i][j+1]=='/') break;
+                else if(!comment && j + 1 < source[i].size() && source[i][j] == '/' && source[i][j+1]=='*') comment = true, j++;
+                else if(comment && j + 1 < source[i].size() && source[i][j] == '*' && source[i][j+1]=='/') comment = false, j++;
+                else if(!comment) s.push_back(source[i][j]);
+            }
+
+            if(!comment && s.size()) ans.push_back(s), s.clear();
+        }
+        return ans;
+    }
+};
 ```
