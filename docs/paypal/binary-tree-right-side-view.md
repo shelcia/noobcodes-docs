@@ -1,5 +1,5 @@
 ---
-sidebar_position: 6
+sidebar_position: 2
 tags: [paypal, tree, depth-first search, breadth-first search, binary tree]
 ---
 

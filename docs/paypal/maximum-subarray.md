@@ -1,5 +1,5 @@
 ---
-sidebar_position: 7
+sidebar_position: 3
 tags: [paypal, array, divide and conquer, Dynamic Programming]
 ---
 
@@ -44,7 +44,7 @@ Output: 23
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
         curr , maxi = float("-inf"),nums[0]
-        
+
         for x in nums:
             curr = max(x,curr+x)
             #current greedily chooses

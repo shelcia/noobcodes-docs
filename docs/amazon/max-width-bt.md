@@ -1,6 +1,6 @@
 ---
-sidebar_position: 14
-tags: [amazon]
+sidebar_position: 15
+tags: [amazon, binary tree]
 ---
 
 # Maximum width of a binary tree

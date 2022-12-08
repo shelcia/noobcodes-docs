@@ -1,6 +1,6 @@
 ---
-sidebar_position: 22
-tags: [amazon]
+sidebar_position: 25
+tags: [amazon, trie]
 ---
 
 # Trie - Introduction

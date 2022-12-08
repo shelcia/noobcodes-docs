@@ -1,6 +1,6 @@
 ---
-sidebar_position: 6
-tags: [amazon]
+sidebar_position: 7
+tags: [amazon, graph]
 ---
 
 # Clone Graph

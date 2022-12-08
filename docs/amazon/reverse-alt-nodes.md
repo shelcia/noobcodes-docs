@@ -1,6 +1,6 @@
 ---
-sidebar_position: 19
-tags: [amazon]
+sidebar_position: 20
+tags: [amazon, linked list]
 ---
 
 # Reverse Alternate nodes

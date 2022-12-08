@@ -1,6 +1,6 @@
 ---
-sidebar_position: 12
-tags: [amazon]
+sidebar_position: 13
+tags: [amazon, binary tree]
 ---
 
 # Diameter of a Binary Tree

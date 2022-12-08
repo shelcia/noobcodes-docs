@@ -1,6 +1,6 @@
 ---
-sidebar_position: 13
-tags: [amazon]
+sidebar_position: 14
+tags: [amazon, array]
 ---
 
 # Dupliates in a Array
