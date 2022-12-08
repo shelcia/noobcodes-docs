@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 tags: [amazon, binary tree, dll, linkedlist]
 ---
 
@@ -9,6 +9,7 @@ tags: [amazon, binary tree, dll, linkedlist]
 
 Given a Binary Tree (BT), convert it to a Doubly Linked List(DLL) In-Place.
 The left and right pointers in nodes are to be used as previous and next pointers respectively.
+[LeetCode link](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)
 
 ### Code
 

@@ -1,5 +1,6 @@
 ---
-sidebar_position: 25
+
+sidebar_position: 28
 tags: [amazon]
 ---
 
@@ -14,8 +15,6 @@ An input string is valid if:
 Open brackets must be closed by the same type of brackets.
 Open brackets must be closed in the correct order.
 Every close bracket has a corresponding open bracket of the same type.
-
-
 
 ### Code
 
@@ -41,7 +40,7 @@ class Solution {
 	    return true;
 	}
 	return false;
-        
+
     }
 }
 

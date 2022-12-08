@@ -7,6 +7,7 @@ sidebar_position: 18
 ### Problem Statement
 
 Linked List Rotation
+[LeetCode link](https://leetcode.com/problems/rotate-list/)
 
 ### Code
 

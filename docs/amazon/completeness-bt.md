@@ -1,6 +1,6 @@
 ---
-sidebar_position: 8
-tags: [amazon]
+sidebar_position: 9
+tags: [amazon, binary tree]
 ---
 
 # Completeness of Binary Tree
@@ -8,6 +8,7 @@ tags: [amazon]
 ### Problem Statement
 
 Check whether a given Binary Tree is Complete or not
+[LeetCode link](https://leetcode.com/problems/check-completeness-of-a-binary-tree/)
 
 Given a Binary Tree, write a function to check whether the given Binary Tree is Complete
 Binary Tree or not.

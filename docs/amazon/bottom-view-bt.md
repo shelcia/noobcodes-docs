@@ -1,6 +1,6 @@
 ---
-sidebar_position: 4
-tags: [amazon]
+sidebar_position: 5
+tags: [amazon, binary tree]
 ---
 
 # Bottom View of a Binary Tree

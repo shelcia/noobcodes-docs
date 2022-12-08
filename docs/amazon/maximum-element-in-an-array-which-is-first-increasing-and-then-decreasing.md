@@ -1,6 +1,6 @@
 ---
-sidebar_position: 15
-tags: [amazon]
+sidebar_position: 16
+tags: [amazon, array]
 ---
 
 # Find the maximum element in an array which is first increasing and then decreasing

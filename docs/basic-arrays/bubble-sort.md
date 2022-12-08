@@ -7,6 +7,7 @@ sidebar_position: 4
 ### Problem Statement
 
 Sort a linked list using Bubble Sort
+[LeetCode link](https://leetcode.com/problems/sort-list/)
 
 ### Code
 

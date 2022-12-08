@@ -7,6 +7,7 @@ sidebar_position: 2
 ### Problem Statement
 
 Array Rotation
+[LeetCode link](https://leetcode.com/problems/rotate-array/)
 
 ### Code
 

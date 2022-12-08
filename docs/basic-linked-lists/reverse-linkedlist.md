@@ -7,6 +7,7 @@ sidebar_position: 13
 ### Problem Statement
 
 Reverse LinkedList
+[LeetCode link](https://leetcode.com/problems/reverse-linked-list/)
 
 ### Code
 

@@ -7,6 +7,7 @@ sidebar_position: 12
 ### Problem Statement
 
 Finding Palindrome
+[LeetCode link](https://leetcode.com/problems/palindrome-linked-list/)
 
 ### Code
 

@@ -1,6 +1,6 @@
 ---
-sidebar_position: 13
-tags: [amazon]
+sidebar_position: 14
+tags: [amazon, array]
 ---
 
 # Dupliates in a Array
@@ -9,7 +9,8 @@ tags: [amazon]
 
 Given an array of n elements that contains elements from 0 to n-1,
 with any of these numbers appearing any number of times.
-Find these repeating numbers in O(n) and using only constant memory space..
+Find these repeating numbers in O(n) and using only constant memory space.
+[LeetCode link](https://leetcode.com/problems/find-all-duplicates-in-an-array/)
 
 ### Code
 
