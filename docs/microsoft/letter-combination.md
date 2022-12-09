@@ -52,7 +52,6 @@ class Solution(object):
         nums.sort()
         self.dfs(nums, [], res)
         return res
-
     def dfs(self, nums, path, res):
         res.append(path)
         for i in range(len(nums)):
