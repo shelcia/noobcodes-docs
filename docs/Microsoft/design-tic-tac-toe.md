@@ -1,5 +1,5 @@
 ---
-sidebar_position: 12
+sidebar_position: 3
 tags: [microsoft]
 ---
 
@@ -9,23 +9,23 @@ tags: [microsoft]
 
 Design `Tic-Tac-Toe` game.
 
-* board has fixed size of `3`
-* `X` always take the first move
-* If a place already got taken, and one player want to take that place,
+- board has fixed size of `3`
+- `X` always take the first move
+- If a place already got taken, and one player want to take that place,
 
 an AlreadyTakenException will be thrown
 
-* If one player wins, and somebody try to make another move, a GameEndException will be thrown.
-* If all the places got taken,you should print "it's a draw"
-* If the winner shows up, return True
-* If tie or if there is no winner yet, return False
+- If one player wins, and somebody try to make another move, a GameEndException will be thrown.
+- If all the places got taken,you should print "it's a draw"
+- If the winner shows up, return True
+- If tie or if there is no winner yet, return False
 
 #### Example 1:
 
 ```
 Input:
 move(0, 0) // X turn
-move(1, 0) // O trun 
+move(1, 0) // O trun
 move(1, 1) // X turn
 move(2, 0) // O turn
 move(2, 2) // X turn and win
@@ -40,7 +40,6 @@ Output:
 x player wins!
 x player wins!
 ```
-
 
 ### Code
 
