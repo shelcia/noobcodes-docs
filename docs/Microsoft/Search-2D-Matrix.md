@@ -1,11 +1,13 @@
 ---
-sidebar_position: 7
+sidebar_position: 12
 tags: [Microsoft]
 ---
 
-# Write an efficient algorithm that searches for a value target in an m x n integer matrix matrix. This matrix has the following properties:
+# Search 2D Matrix
 
 ### Problem Statement
+
+Write an efficient algorithm that searches for a value target in an m x n integer matrix matrix. This matrix has the following properties:
 
 Integers in each row are sorted in ascending from left to right.
 Integers in each column are sorted in ascending from top to bottom

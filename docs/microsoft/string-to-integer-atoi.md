@@ -1,5 +1,5 @@
 ---
-sidebar_position: 8
+sidebar_position: 13
 tags: [microsoft]
 ---
 
@@ -21,8 +21,8 @@ Return the integer as the final result.
 
 **Note**:
 
-* Only the space character `' '` is considered a whitespace character.
-* **Do not ignore** any characters other than the leading whitespace or the rest of the string after the digits.
+- Only the space character `' '` is considered a whitespace character.
+- **Do not ignore** any characters other than the leading whitespace or the rest of the string after the digits.
 
 #### Example 1:
 
@@ -87,10 +87,10 @@ class Solution(object):
         sign = 1
         if ls[0] in ['-', '+']:
             if ls[0] == '-':
-                sign = -1 
+                sign = -1
             ls = ls[1:]
-                    
-        
+
+
         res, i = 0, 0
         while i < len(ls) and ls[i].isdigit() :
             res = res*10 + ord(ls[i]) - ord('0')

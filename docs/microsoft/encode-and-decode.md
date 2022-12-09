@@ -1,12 +1,13 @@
 ---
-sidebar_position: 7
+sidebar_position: 4
 tags: [microsoft]
 ---
 
 # Encode and Decode TinyURL
 
 ### Problem Statement
-> Note: This is a companion problem to the [System Design](https://leetcode.com/discuss/interview-question/system-design/) problem: [Design TinyURL](https://leetcode.com/discuss/interview-question/124658/Design-a-URL-Shortener-(-TinyURL-)-System/).
+
+> Note: This is a companion problem to the [System Design](https://leetcode.com/discuss/interview-question/system-design/) problem: [Design TinyURL](<https://leetcode.com/discuss/interview-question/124658/Design-a-URL-Shortener-(-TinyURL-)-System/>).
 
 TinyURL is a URL shortening service where you enter a URL such as `https://leetcode.com/problems/design-tinyurl` and it returns a short URL such as `http://tinyurl.com/4e9iAk`. Design a class to encode a URL and decode a tiny URL.
 
@@ -19,6 +20,7 @@ Implement the `Solution` class:
 - `String decode(String shortUrl)` Returns the original long URL for the given `shortUrl`. It is guaranteed that the given `shortUrl` was encoded by the same object.
 
 #### Example 1:
+
 ```
 Input: url = "https://leetcode.com/problems/design-tinyurl"
 Output: "https://leetcode.com/problems/design-tinyurl"
@@ -30,10 +32,12 @@ string ans = obj.decode(tiny); // returns the original url after deconding it.
 ```
 
 #### Constraints:
+
 - 1 <= url.length <= 10<sup>4</sup>
 - `url` is guranteed to be a valid URL.
 
 ### Code
+
 ```jsx title="Python Code"
 class Codec:
     codeDB, urlDB = defaultdict(), defaultdict()
@@ -42,7 +46,7 @@ class Codec:
     def getCode(self) -> str:
         code = ''.join(random.choice(self.chars) for i in range(6))
         return "http://tinyurl.com/" + code
- 
+
     def encode(self, longUrl: str) -> str:
         if longUrl in self.urlDB: return self.urlDB[longUrl]
         code = self.getCode()
@@ -61,13 +65,13 @@ class Solution {
 public:
     unordered_map<string, string> codeDB, urlDB;
     const string chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
-    
+
     string getCode() {
         string code = "";
         for (int i = 0; i < 6; i++) code += chars[rand() % 62];
         return "http://tinyurl.com/" + code;
     }
-    
+
     string encode(string longUrl) {
         if (urlDB.find(longUrl) != urlDB.end()) return urlDB[longUrl];
         string code = getCode();

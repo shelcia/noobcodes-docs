@@ -1,5 +1,5 @@
 ---
-sidebar_position: 11
+sidebar_position: 6
 tags: [microsoft]
 ---
 
@@ -25,10 +25,9 @@ room2: (5,10),(15,20)
 ```
 Input: intervals = [(2,7)]
 Output: 1
-Explanation: 
+Explanation:
 Only need one meeting room
 ```
-
 
 ### Code
 
