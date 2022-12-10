@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 18
 tags: [microsoft]
 ---
 
@@ -9,7 +9,7 @@ tags: [microsoft]
 
 You are given an array of integers nums, there is a sliding window of size k which is moving from the very left of the array to the very right. You can only see the k numbers in the window. Each time the sliding window moves right by one position.
 
-Return the max sliding window.
+Return the **max sliding window**.
 
 #### Example 1:
 
@@ -20,14 +20,15 @@ Return the max sliding window.
 ![image](https://user-images.githubusercontent.com/77881638/206825216-e29475fd-bc59-4c58-903d-b56e057e32b1.png)
 
 
-Constraints:
+##### Constraints:
 
-- 1 <= nums.length <= 105
-- 104 <= nums[i] <= 104
-- 1 <= k <= nums.length
+- `1 <= nums.length <= 105`
+- `104 <= nums[i] <= 104`
+- `1 <= k <= nums.length`
  
  
- ### Code
+### Code
+
 ```jsx title="JAVA Code"
 class Solution {
     public int[] maxSlidingWindow(int[] arr, int k) {
@@ -65,7 +66,7 @@ class Solution {
             // do the same thing we did in first for loop
             /*
              * if the current element is greater than the last of the deq the remove the
-             * unnecessary element and after while loop over add the index at last of                  * deq.
+             * unnecessary element and after while loop over add the index at last of * deq.
              */
             while(!deq.isEmpty() && arr[i] >= arr[deq.peekLast()]){
                 deq.removeLast();
