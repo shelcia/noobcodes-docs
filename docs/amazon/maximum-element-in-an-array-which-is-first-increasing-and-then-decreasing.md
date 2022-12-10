@@ -27,7 +27,7 @@ Output: 120
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 def findMax(arr, low, high):
     # Base Case: Only one element is present in arr[low..high]*/
     if low == high:

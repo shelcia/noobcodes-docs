@@ -36,7 +36,7 @@ Explanation: You will always arrive at index 3 no matter what. Its maximum jump 
 
 ### Code
 
-```jsx title="Python3 Code"
+```python title="Python3 Code"
 
 class Solution:
     def canJump(self, nums: List[int]) -> bool:

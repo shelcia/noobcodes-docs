@@ -33,7 +33,7 @@ Output: "doG gniD"
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 class Solution:
     def reverseWords(self, s: str) -> str:
 

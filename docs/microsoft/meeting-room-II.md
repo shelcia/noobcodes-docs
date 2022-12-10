@@ -31,7 +31,7 @@ Only need one meeting room
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 class Solution:
     def minMeetingRooms(self, intervals: List[List[int]]) -> int:
         size = len(intervals)

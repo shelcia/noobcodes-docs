@@ -49,7 +49,7 @@ Output: [[0,3],[5,0]]
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 class Solution(object):
     def getSkyline(self, buildings):
         """

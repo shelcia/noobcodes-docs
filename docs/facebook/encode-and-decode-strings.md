@@ -30,7 +30,7 @@ One possible encode method is: "we:;say:;:::;yes"
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 class Solution:
     """
     @param: strs: a list of strings

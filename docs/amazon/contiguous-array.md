@@ -19,7 +19,7 @@ _Time Complexity - O(n)_
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 def findContiguous(arr):
     max_so_far = 0
     max_current = 0

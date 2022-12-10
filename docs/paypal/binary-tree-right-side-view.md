@@ -37,7 +37,7 @@ The number of nodes in the tree is in the range [0, 100].
 
 ### Code
 
-```jsx title="Python3 Code"
+```python title="Python3 Code"
 
     class Solution:
 

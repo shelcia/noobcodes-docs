@@ -11,7 +11,7 @@ Array Rotation
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 # ROTATION OF ARRAYS
 
 def rotateArrayStep(arr, rotations):
@@ -32,6 +32,6 @@ if __name__ == "__main__":
 
 ### Output
 
-```jsx title="output"
-[3, 4, 5, 6, 7, 8, 1, 2];
+```log title="output"
+[3, 4, 5, 6, 7, 8, 1, 2]
 ```

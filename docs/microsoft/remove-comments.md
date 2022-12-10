@@ -75,7 +75,7 @@ Explanation: The original source string is "a/*comment\nline\nmore_comment*/b", 
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 class Solution:
     def removeComments(self, source: List[str]) -> List[str]:
         res = []
@@ -106,7 +106,7 @@ class Solution:
 
 ```
 
-```jsx title="C++"
+```cpp title="C++"
 class Solution {
 public:
     vector<string> removeComments(vector<string>& source) {

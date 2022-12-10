@@ -47,7 +47,7 @@ Explanation: ".*" means "zero or more (*) of any character (.)".
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 class Solution:
     def isMatch(self, s: str, p: str) -> bool:
         memory = {}
@@ -90,7 +90,7 @@ class Solution:
 
 ```
 
-```jsx title="C++"
+```cpp title="C++"
 class Solution {
 public:
     bool isMatch(string str, string pat) {

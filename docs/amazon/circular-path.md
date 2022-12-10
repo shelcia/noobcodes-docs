@@ -24,7 +24,7 @@ Output should be “start = 1” (index of 2nd petrol pump).
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 class Solution:
     def twoSum(self, nums, target: int):
 

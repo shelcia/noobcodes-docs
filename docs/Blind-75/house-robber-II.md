@@ -42,7 +42,7 @@ Output: 3
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 class Solution:
     def rob(self, nums: List[int]) -> int:
         if not nums: return 0

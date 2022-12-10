@@ -11,7 +11,7 @@ Reverse LinkedList
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 # REVERSE LINKED LIST
 
 class linkedListNode:
@@ -84,7 +84,7 @@ if __name__ == '__main__':
 
 ### Output
 
-```jsx title="output"
+```log title="output"
 1 -> 2 -> 3 -> 4 -> 5 -> None
 5 -> 4 -> 3 -> 2 -> 1 -> None
 ```

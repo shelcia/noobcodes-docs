@@ -35,7 +35,7 @@ First window is {4, 4}, count of distinct numbers is 1
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 def CountDistinctI(nums, k):
 
     l, r = 0, 0

@@ -10,7 +10,7 @@ Binary Tree Introduction
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 # BINARY TREE INTRODUCTION
 
 
@@ -75,7 +75,7 @@ if __name__ == '__main__':
 
 ### Output
 
-```jsx title="output"
+```log title="output"
 ["1", "2", "4", "5", "3", "6"][("4", "2", "5", "1", "6", "3")][
   ("4", "5", "2", "6", "3", "1")
 ];

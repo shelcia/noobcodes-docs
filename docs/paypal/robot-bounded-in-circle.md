@@ -68,7 +68,7 @@ Based on that, we return true.
 
 ### Code
 
-```jsx title="Python3 Code"
+```python title="Python3 Code"
 
 
 class Solution:

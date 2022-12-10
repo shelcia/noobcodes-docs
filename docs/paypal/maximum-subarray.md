@@ -39,7 +39,7 @@ Output: 23
 
 ### Code
 
-```jsx title="Python3 Code"
+```python title="Python3 Code"
 
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:

@@ -42,7 +42,7 @@ Every number and running calculation will fit in a signed 32-bit integer.
 
 ### Code
 
-```jsx title="Python3 Code"
+```python title="Python3 Code"
 
     def calculate(self, s):
         for ch in ['+', '-', '(', ')']:

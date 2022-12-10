@@ -77,7 +77,7 @@ left child, then the right child must be empty.
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 
 class Node:
 

@@ -10,7 +10,7 @@ Binary Tree Insertion
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 # BINARY TREE INSERTIONS
 
 class binaryTreeNode:
@@ -77,6 +77,6 @@ if __name__ == "__main__":
 
 ### Output
 
-```jsx title="output"
+```log title="output"
 ["1", "11", "5", "6", "7"];
 ```

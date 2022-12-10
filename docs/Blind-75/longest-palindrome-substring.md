@@ -31,7 +31,7 @@ Output: "bb"
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         longest = ''

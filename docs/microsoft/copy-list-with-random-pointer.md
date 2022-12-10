@@ -56,7 +56,7 @@ Output: [[3,null],[3,0],[3,null]]
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 """
 # Definition for a Node.
 class Node:

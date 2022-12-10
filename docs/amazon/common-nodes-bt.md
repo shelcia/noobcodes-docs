@@ -12,7 +12,7 @@ In other words, find intersection of two BSTs.
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 
 class Node:
     def __init__(self, key):

@@ -45,7 +45,7 @@ All the strings of wordDict are unique.
 
 ### Code
 
-```jsx title="Python3 Code"
+```python title="Python3 Code"
 
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> bool:

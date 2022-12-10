@@ -10,7 +10,7 @@ Remove Duplicates from Sorted LinkedList
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 # REMOVE DUPLICATES FROM SORTED ARRAY
 
 class linkedListNode:
@@ -90,7 +90,7 @@ if __name__ == '__main__':
 
 ### Output
 
-```jsx title="output"
+```log title="output"
 56 -> 44 -> 44 -> 23 -> 11 -> 11 -> 11 -> None
 56 -> 44 -> 23 -> 11 -> None
 ```

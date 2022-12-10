@@ -36,7 +36,7 @@ Total amount you can rob = 2 + 9 + 1 = 12.
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 class Solution:
     def rob(self, nums: List[int]) -> int:
         rob1, rob2 = 0, 0

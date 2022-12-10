@@ -62,7 +62,7 @@ words[i].length <= maxWidth
 
 ### Code
 
-```jsx title="Python3 Code"
+```python title="Python3 Code"
 class Solution:
     def fullJustify(self, words: List[str], maxWidth: int) -> List[str]:
         res = []

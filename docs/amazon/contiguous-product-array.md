@@ -37,7 +37,7 @@ The product of any prefix or suffix of nums is guaranteed to fit in a 32-bit int
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 def contiguousProductArray(nums):
 
     max_so_far = max(nums)

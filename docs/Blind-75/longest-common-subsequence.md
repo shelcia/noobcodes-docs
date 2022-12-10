@@ -45,7 +45,7 @@ text1 and text2 consist of only lowercase English characters.
 
 ### Code
 
-```jsx title="Python3 Code"
+```python title="Python3 Code"
 
 class Solution:
     def longestCommonSubsequence(self, text1: str, text2: str) -> int:

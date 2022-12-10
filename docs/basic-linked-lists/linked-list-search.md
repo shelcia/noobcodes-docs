@@ -10,7 +10,7 @@ Linked List Search
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 # SEARCH ELEMENT ITERATIVE AND RECURSIVE
 
 
@@ -85,7 +85,7 @@ if __name__ == '__main__':
 
 ### Output
 
-```jsx title="output"
+```log title="output"
 The list is empty
 9 ->7 ->5 ->3 ->None
 position: 3

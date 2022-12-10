@@ -37,7 +37,7 @@ Output: [[2,2,2,2]]
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 class Solution:
     def fourSum(self, nums: List[int], target: int) -> List[List[int]]:
         nums.sort()
@@ -61,7 +61,7 @@ class Solution:
 
 ```
 
-```jsx title="C++"
+```cpp title="C++"
 class Solution {
 public:
     vector<vector<int>> fourSum(vector<int>& nums, int target) {

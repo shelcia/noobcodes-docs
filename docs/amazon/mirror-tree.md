@@ -14,7 +14,7 @@ mirror of each other, else false.
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 class Node:
 
     def __init__(self, value, left=None, right=None):

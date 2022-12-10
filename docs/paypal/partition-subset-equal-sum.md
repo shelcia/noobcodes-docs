@@ -34,7 +34,7 @@ Explanation: The array cannot be partitioned into equal sum subsets.
 
 ### Code
 
-```jsx title="Python3 Code"
+```python title="Python3 Code"
 
 class Solution:
     def isSubSet(self, nums, n, dp, total):

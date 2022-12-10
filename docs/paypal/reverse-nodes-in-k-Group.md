@@ -37,7 +37,7 @@ The number of nodes in the list is n.
 
 ### Code
 
-```jsx title="Python3 Code"
+```python title="Python3 Code"
 
     class Solution:
     def reverseKGroup(self, head: ListNode, k: int) -> ListNode:

@@ -19,14 +19,12 @@ Return the **max sliding window**.
 
 ![image](https://user-images.githubusercontent.com/77881638/206825216-e29475fd-bc59-4c58-903d-b56e057e32b1.png)
 
-
 ##### Constraints:
 
 - `1 <= nums.length <= 105`
 - `104 <= nums[i] <= 104`
 - `1 <= k <= nums.length`
- 
- 
+
 ### Code
 
 ```jsx title="JAVA Code"
@@ -40,7 +38,7 @@ class Solution {
         int i = 0;
          // for first window from 0 to k-1.
         for(; i < k ; i++){
-            
+
             while(!deq.isEmpty() && arr[i] >= arr[deq.peekLast()]){
                 deq.removeLast();
             }
@@ -48,7 +46,7 @@ class Solution {
         }
         int h = 0;
         for(; i < n ; i++){
-            
+
             /* first add the head of the dequeue in ans
             * The element at the front of the,
             * queue is the largest element of
@@ -57,12 +55,12 @@ class Solution {
             ans[h] = arr[deq.peekFirst()];
             //don't forget to h++ :)
             h++;
-            
+
             // remove unnecessary elements which are not part of the window.
             while(!deq.isEmpty() && deq.peek() <= i-k){
                 deq.removeFirst();
             }
-            
+
             // do the same thing we did in first for loop
             /*
              * if the current element is greater than the last of the deq the remove the
@@ -71,13 +69,13 @@ class Solution {
             while(!deq.isEmpty() && arr[i] >= arr[deq.peekLast()]){
                 deq.removeLast();
             }
-            deq.addLast(i);    
+            deq.addLast(i);
         }
         // the last window is remaining to add so add it.
         ans[h] = arr[deq.peekFirst()];
-        
+
         // return the answer.
         return ans;
     }
 }
- ```
+```

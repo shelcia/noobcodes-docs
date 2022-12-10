@@ -11,7 +11,7 @@ Linked List Deletion at given Position.
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 # DELETE AT MIDDLE AND GIVEN POSITION
   # FAST RUNNER AND SLOW RUNNER FOR MIDDLE DELETION
 
@@ -110,7 +110,7 @@ Linked List Deletion at given Position.
 
 ### Output
 
-```jsx title="output"
+```log title="output"
 4 ->None
 4 ->5 ->None
 4 ->5 ->9 ->None

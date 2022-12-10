@@ -31,7 +31,7 @@ So the maximum width of the tree is 3.
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 
 class Node:
 

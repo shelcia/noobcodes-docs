@@ -22,7 +22,7 @@ Append the even node list at the end of odd node list.
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 class Node:
 
     # Constructor to initialize the node object

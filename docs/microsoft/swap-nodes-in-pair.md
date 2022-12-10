@@ -39,7 +39,7 @@ Output: [1]
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, val=0, next=None):

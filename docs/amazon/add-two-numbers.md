@@ -16,7 +16,7 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 
 
 class ListNode:

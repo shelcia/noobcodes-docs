@@ -38,7 +38,7 @@ The product of any prefix or suffix of nums is guaranteed to fit in a 32-bit int
 
 ### Code
 
-```jsx title="Python3 Code"
+```python title="Python3 Code"
 
 class Solution:
     def maxProduct(self, nums: List[int]) -> int:

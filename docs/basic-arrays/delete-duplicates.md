@@ -10,7 +10,7 @@ Delete Duplicate
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 # DELETE DUPLICATES
 
 def deleteDuplicates(array):
@@ -34,6 +34,6 @@ if __name__ == "__main__":
 
 ### Output
 
-```jsx title="output"
-[1, 2, 3, 4, 5, 62, 32];
+```log title="output"
+[1, 2, 3, 4, 5, 62, 32]
 ```

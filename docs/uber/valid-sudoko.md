@@ -10,7 +10,7 @@ Given a Sudoku Board configuration, check whether it is valid or not.
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 def notInRow(arr, row):
     st = set()
 

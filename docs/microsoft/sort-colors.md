@@ -37,7 +37,7 @@ nums[i] is either 0, 1, or 2.
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 class Solution:
     def sortColors(self, nums: List[int]) -> None:
         """

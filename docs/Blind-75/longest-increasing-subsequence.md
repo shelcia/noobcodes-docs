@@ -38,7 +38,7 @@ Output: 1
 
 ### Code
 
-```jsx title="Python3 Code"
+```python title="Python3 Code"
 
 class Solution:
     def lengthOfLIS(self, A):

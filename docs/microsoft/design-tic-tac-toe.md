@@ -43,7 +43,7 @@ x player wins!
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 public class TicTacToe {
 
     public TicTacToe(int n) {

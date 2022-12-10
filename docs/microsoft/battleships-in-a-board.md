@@ -36,7 +36,7 @@ Output: 0
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 class Solution:
     def countBattleships(self, board: List[List[str]]) -> int:
         m = len(board)

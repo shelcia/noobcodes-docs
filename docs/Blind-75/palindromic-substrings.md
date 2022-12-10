@@ -38,7 +38,7 @@ s consists of lowercase English letters.
 
 ### Code
 
-```jsx title="Python3 Code"
+```python title="Python3 Code"
 
 class Solution:
     def countSubstrings(self, s: str) -> int:

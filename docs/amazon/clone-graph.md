@@ -12,7 +12,7 @@ We need to clone the graph.
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 
 class Node:
     def __init__(self, val=0, neighbors=None):

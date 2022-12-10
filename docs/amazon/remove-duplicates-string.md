@@ -11,7 +11,7 @@ Remove duplicates from a given string
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 def removeDuplicates(string):
 
     # arr = list(string)

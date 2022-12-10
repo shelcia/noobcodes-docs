@@ -24,7 +24,7 @@ Output: false
 
 ### Code - Approach 1
 
-```jsx title="Python Code"
+```python title="Python Code"
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         s=list(s)
@@ -41,7 +41,7 @@ class Solution:
 
 ### Code - Approach 2 (Hashmap)
 
-```jsx title="Python Code"
+```python title="Python Code"
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         if len(s)!=len(t):

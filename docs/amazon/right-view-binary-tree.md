@@ -14,7 +14,7 @@ Given a Binary Tree, print Right view of it.
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 class Node:
     # A constructor to create a new Binary tree Node
     def __init__(self, value, left=None, right=None):

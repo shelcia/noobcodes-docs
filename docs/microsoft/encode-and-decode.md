@@ -38,7 +38,7 @@ string ans = obj.decode(tiny); // returns the original url after deconding it.
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 class Codec:
     codeDB, urlDB = defaultdict(), defaultdict()
     chars = string.ascii_letters + string.digits
@@ -60,7 +60,7 @@ class Codec:
 
 ```
 
-```jsx title="C++"
+```cpp title="C++"
 class Solution {
 public:
     unordered_map<string, string> codeDB, urlDB;

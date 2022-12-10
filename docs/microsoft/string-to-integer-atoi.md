@@ -79,7 +79,7 @@ Since 4193 is in the range [-2^31, 2^31 - 1], the final result is 4193.
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 class Solution(object):
     def myAtoi(self, s: str):
         ls = list(s.strip())

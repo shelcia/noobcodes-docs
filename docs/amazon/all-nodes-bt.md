@@ -45,7 +45,7 @@ Each node's value is between [-10^5, 10^5].
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 class newNode:
     def __init__(self, val):
         self.val = val

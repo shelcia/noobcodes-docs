@@ -11,7 +11,7 @@ Swap nodes Pairwise
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 # SWAP PAIRWISE ELEMENTS
 
 class linkedListNode:
@@ -97,7 +97,7 @@ if __name__ == '__main__':
 
 ### Output
 
-```jsx title="output"
+```log title="output"
 1 -> None
 1 -> None
 6 -> 5 -> 4 -> 3 -> 2 -> 1 -> None

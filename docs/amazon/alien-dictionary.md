@@ -40,7 +40,7 @@ All characters in words[i] and order are English lowercase letters.
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 class Solution:
     def isAlienSorted(self, words: List[str], order: str) -> bool:
         order_map = {}

@@ -12,7 +12,7 @@ The diameter of a tree (sometimes called the width) is the number of nodes on th
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 class Node:
 
     # Constructor to create a new node

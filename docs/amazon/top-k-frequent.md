@@ -39,7 +39,7 @@ k is in the range [1, The number of unique words[i]]
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 from collections import Counter
 import heapq
 

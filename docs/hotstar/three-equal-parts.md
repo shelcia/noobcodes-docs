@@ -11,10 +11,10 @@ You are given an array `arr` which consists of only zeros and ones, divide the a
 
 If it is possible, return any `[i, j]` with `i + 1 < j`, such that:
 
-* `arr[0], arr[1], ..., arr[i]` is the first part,
-* `arr[i + 1], arr[i + 2], ..., arr[j - 1]` is the second part, and
-* `arr[j], arr[j + 1], ..., arr[arr.length - 1]` is the third part.
-* All three parts have equal binary values.
+- `arr[0], arr[1], ..., arr[i]` is the first part,
+- `arr[i + 1], arr[i + 2], ..., arr[j - 1]` is the second part, and
+- `arr[j], arr[j + 1], ..., arr[arr.length - 1]` is the third part.
+- All three parts have equal binary values.
 
 If it is not possible, return `[-1, -1]`.
 
@@ -26,12 +26,14 @@ Note that the entire part is used when considering what binary value it represen
 Input: arr = [1,0,1,0,1]
 Output: [0,3]
 ```
+
 #### Example 2:
 
 ```
 Input: arr = [1,1,0,1,1]
 Output: [-1,-1]
 ```
+
 #### Example 3:
 
 ```
@@ -41,12 +43,12 @@ Output: [0,2]
 
 #### Constraints:
 
-* 3 <= arr.length <= 3 * 10<sup>4</sup>
-* `arr[i]` is `0` or `1`
+- 3 <= arr.length <= 3 \* 10<sup>4</sup>
+- `arr[i]` is `0` or `1`
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 class Solution:
   def threeEqualParts(self, A: List[int]) -> List[int]:
     ones = sum(a == 1 for a in A)

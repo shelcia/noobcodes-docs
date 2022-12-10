@@ -41,7 +41,7 @@ Output: ["a","b","c"]
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 class Solution(object):
     def subsetsWithDup(self, nums):
         """
@@ -61,7 +61,7 @@ class Solution(object):
 
 ```
 
-```jsx title="C++"
+```cpp title="C++"
 class Solution {
 public:
     string curr;

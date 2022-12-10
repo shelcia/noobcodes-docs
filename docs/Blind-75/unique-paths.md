@@ -40,7 +40,7 @@ Explanation: From the top-left corner, there are a total of 3 ways to reach the 
 
 ### Code
 
-```jsx title="Python3 Code"
+```python title="Python3 Code"
 
 class Solution:
     def uniquePaths(self, m: int, n: int) -> int:

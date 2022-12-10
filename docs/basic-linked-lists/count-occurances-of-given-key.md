@@ -10,7 +10,7 @@ Count Occurances of given key
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 # COUNT OCCURANCES OF GIVEN INTEGER IN LINKED LIST
 
 class linkedListNode:
@@ -84,7 +84,7 @@ if __name__ == '__main__':
 
 ### Output
 
-```jsx title="output"
+```log title="output"
 4 -> 2 -> 5 -> 5 -> 4 -> 5 -> None
 Count for 5 3
 Count for 4 2

@@ -13,7 +13,7 @@ such that they add up to target.
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 class Solution:
     def twoSum(self, nums, target: int):
 

@@ -35,7 +35,7 @@ n == matrix[i].length
 
 ### Code
 
-```jsx title="Python3 Code"
+```python title="Python3 Code"
 
 
 class Solution:

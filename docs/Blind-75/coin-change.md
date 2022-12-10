@@ -43,7 +43,7 @@ Output: 0
 
 ### Code
 
-```jsx title="Python3 Code"
+```python title="Python3 Code"
 
 from collections import deque
 

@@ -20,6 +20,7 @@ Explanation: There are two ways to climb to the top.
 1. 1 step + 1 step
 2. 2 steps
 ```
+
 #### Example 2:
 
 ```
@@ -33,11 +34,11 @@ Explanation: There are three ways to climb to the top.
 
 #### Constraints:
 
-* `1 <= n <= 45`
+- `1 <= n <= 45`
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 class Solution:
     def climbStairs(self, n: int) -> int:
         one, two = 1, 1

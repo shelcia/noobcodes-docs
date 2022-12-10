@@ -14,7 +14,7 @@ Find these repeating numbers in O(n) and using only constant memory space.
 
 ### Code
 
-```jsx title="Approach 1 - we will create hash map (Python Code)"
+```python title="Approach 1 - we will create hash map (Python Code)"
 def duplicateArray(arr):
     hashmap = []
 
@@ -25,7 +25,7 @@ def duplicateArray(arr):
             hashmap.append(arr[i])
 ```
 
-```jsx title="Approach 2 - O(1) space complexity O(n) time complexity (Python Code)"
+```python title="Approach 2 - O(1) space complexity O(n) time complexity (Python Code)"
 def duplicateArray(arr):
     print('length', len(arr), 'arr', arr)
     for i in range(len(arr)):

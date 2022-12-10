@@ -12,7 +12,7 @@ Write a function rotate(ar[], d, n) that rotates arr[] of size n by d elements.
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 def rotateLeftArray(arr, k):
     n = len(arr)
     if k > n:

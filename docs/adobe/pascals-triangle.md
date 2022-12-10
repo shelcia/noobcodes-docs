@@ -11,7 +11,7 @@ Given an integer numRows, return the first numRows of Pascal's triangle.
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 
 class Solution:
     def generate(self, numRows: int) -> List[List[int]]:
