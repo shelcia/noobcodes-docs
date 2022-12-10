@@ -21,6 +21,8 @@ The linked list is represented in the input/output as a list of `n` nodes. Each 
 - `random_index`: the index of the node (range from `0` to `n-1`) that the `random` pointer points to, or `null` if it does not point to any node.
   Your code will only be given the `head` of the original linked list.
 
+[LeetCode link](https://leetcode.com/problems/copy-list-with-random-pointer/)
+
 #### Example 1:
 
 ![alt text](https://assets.leetcode.com/uploads/2019/12/18/e1.png)
@@ -48,42 +50,60 @@ Input: head = [[3,null],[3,0],[3,null]]
 Output: [[3,null],[3,0],[3,null]]
 ```
 
+#### Example 3:
+
+```
+Input: head = []
+Output: []
+
+The given linked list is empty (null pointer), so return null.
+```
+
 #### Constraints:
 
 - `0 <= n <= 1000`
 - -10<sup>4</sup> <= Node.val <= 10<sup>4</sup>
 - `Node.random` is `null` or is pointing to some node in the linked list.
 
+### Implementation
+
+We will be using two passes method, where in the first pass we make copy of the nodes and store it in hashmap. In second pass we link them. We use two passes as this cannot be done in single pass because there might be a case where we have to link the node which isn't created yet while copying.
+
+- **Space Complexity**: `O(n)`
+- **Time Complexity**: `O(n)`
+
 ### Code
 
 ```python title="Python Code"
 """
 # Definition for a Node.
-class Node:
-    def __init__(self, x: int, next: 'Node' = None, random: 'Node' = None):
-        self.val = int(x)
-        self.next = next
-        self.random = random
+class linkedListNode:
+    def __init__(self, value: int, nextNode: 'linkedListNode' = None, random: 'linkedListNode' = None):
+        self.value = value
+        self.nextNode = nextNode
 """
 class Solution:
-    def copyRandomList(self, head: 'Node') -> 'Node':
-        if not head:
-            return None
+    def copyRandomList(self, head: 'linkedListNode'):
+        if head is None:
+            return head
 
-        mapping = {}
+        # when the element has to point null
+        hashmap = {None: None}
 
-        current = head
+        curr = head
+        # copy the nodes to hashmap
+        while curr != None:
+            newNode = linkedListNode(curr.value + '@')
+            hashmap[curr] = newNode
+            curr = curr.nextNode
 
-        while current != None:
-            mapping[current] = Node(current.val)
-            current= current.next
+        curr = head
+        # link the nodes
+        while curr != None:
+            newNode = hashmap[curr]
+            newNode.nextNode = hashmap[curr.nextNode]
+            newNode.random = hashmap[curr.random]
+            curr = curr.nextNode
 
-        for node in mapping:
-            if node.next:
-                mapping[node].next = mapping[node.next]
-            if node.random:
-                mapping[node].random = mapping[node.random]
-
-
-        return mapping[head]
+        return hashmap[head]
 ```

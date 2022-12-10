@@ -25,6 +25,6 @@ Solutions are available in python 3 and few in Java.
 
 [LeetCode-Questions-CompanyWise-master.zip](https://github.com/shelcia/noobcodes-docs/files/10148119/LeetCode-Questions-CompanyWise-master.zip)
 
-I don't remember where I had taken this. Please do let me know if it `yours or someone you know`, so I can add credit here.
+Source: [xizhengszhang/Leetcode_company_frequency](https://github.com/xizhengszhang/Leetcode_company_frequency)
 
 :::

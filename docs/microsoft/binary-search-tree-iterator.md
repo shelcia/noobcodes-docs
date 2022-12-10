@@ -27,9 +27,9 @@ You may assume that `next()` calls will always be valid. That is, there will be 
 - The number of nodes in the tree is in the range `[1, 105]`.
 - `0 <= Node.val <= 106`
 - At most `105` calls will be made to hasNext, and next.
- 
- 
- ### Code
+
+### Code
+
 ```jsx title="JAVA Code"
 /**
  * Definition for a binary tree node.
@@ -51,13 +51,13 @@ class BSTIterator {
     public BSTIterator(TreeNode root) {
         pushAll(root);
     }
-    
+
     public int next() {
         TreeNode tempNode = st.pop();
         pushAll(tempNode.right);
-        return tempNode.val; 
+        return tempNode.val;
     }
-    
+
     public boolean hasNext() {
         return !st.isEmpty();
     }
@@ -73,4 +73,4 @@ class BSTIterator {
  * int param_1 = obj.next();
  * boolean param_2 = obj.hasNext();
  */
- ```
+```

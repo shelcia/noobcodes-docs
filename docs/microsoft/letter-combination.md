@@ -41,13 +41,18 @@ Output: ["a","b","c"]
 - `0 <= digits.length <= 4`
 - `digits[i]` is a digit in the range `['2', '9']`.
 
+### Implementation
+
+At first, We will create a table of number mapping to characters possible on the mobile.
+We will be running a depth first function recursively. For every iteration, when the concated string length reaches the length of the input string we append it to the answer.
+
 ### Code
 
 #### Python
 
 ```python title="Python Code"
 # lookup table
-L = {'2': "abc", '3': "def", '4': "ghi", '5': "jkl",
+table = {'2': "abc", '3': "def", '4': "ghi", '5': "jkl",
      '6': "mno", '7': "pqrs", '8': "tuv", '9': "wxyz"}
 
 ans = []
@@ -64,7 +69,7 @@ class Solution:
             if pos == length:
                 ans.append(st)
             else:
-                letters = L[string[pos]]
+                letters = table[string[pos]]
                 for letter in letters:
                     dfs(pos + 1, st + letter)
         dfs(0, "")
