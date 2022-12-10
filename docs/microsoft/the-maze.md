@@ -16,6 +16,7 @@ The maze is represented by a binary 2D array. 1 means the wall and 0 means the e
 
 #### Example 1:
 
+```
 Input:
 map = 
 [
@@ -27,11 +28,15 @@ map =
 ]
 start = [0,4]
 end = [3,2]
+```
+```
 Output:
 false
+```
 
 #### Example 2:
 
+```
 Input:
 map = 
 [[0,0,1,0,0],
@@ -42,11 +47,15 @@ map =
 ]
 start = [0,4]
 end = [4,4]
+```
+
+```
 Output:
 true
-
+```
  
  ### Code
+ 
 ```jsx title="Python Code"
 from typing import (
     List,
