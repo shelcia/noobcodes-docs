@@ -11,6 +11,8 @@ Given a string containing digits from `2-9` inclusive, return all possible lette
 
 A mapping of digits to letters (just like on the telephone buttons) is given below. Note that 1 does not map to any letters.
 
+[LeetCode link](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
+
 ![alt text](https://assets.leetcode.com/uploads/2022/03/15/1200px-telephone-keypad2svg.png)
 
 #### Example 1:
@@ -41,47 +43,66 @@ Output: ["a","b","c"]
 
 ### Code
 
-```python title="Python Code"
-class Solution(object):
-    def subsetsWithDup(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: List[List[int]]
-        """
-        res = []
-        nums.sort()
-        self.dfs(nums, [], res)
-        return res
-    def dfs(self, nums, path, res):
-        res.append(path)
-        for i in range(len(nums)):
-            if i > 0 and nums[i] == nums[i-1]:
-                continue
-            self.dfs(nums[i+1:], path + [nums[i]], res)
+#### Python
 
+```python title="Python Code"
+# lookup table
+L = {'2': "abc", '3': "def", '4': "ghi", '5': "jkl",
+     '6': "mno", '7': "pqrs", '8': "tuv", '9': "wxyz"}
+
+ans = []
+
+class Solution:
+    def letterCombinations(self, string: str):
+        length, ans = len(string), []
+        # empty string return empty array
+        if string == "":
+            return []
+
+        # implement depth-first search on lookup table
+        def dfs(pos: int, st: str):
+            if pos == length:
+                ans.append(st)
+            else:
+                letters = L[string[pos]]
+                for letter in letters:
+                    dfs(pos + 1, st + letter)
+        dfs(0, "")
+        return ans
+
+
+if __name__ == "__main__":
+    node = Solution()
+    print(node.letterCombinations("23"))
 ```
 
+```log title="Output"
+['ad', 'ae', 'af', 'bd', 'be', 'bf', 'cd', 'ce', 'cf']
+```
+
+#### C++
+
 ```cpp title="C++"
+unordered_map<char, string> L({{'2',"abc"},{'3',"def"},{'4',"ghi"},
+    {'5',"jkl"},{'6',"mno"},{'7',"pqrs"},{'8',"tuv"},{'9',"wxyz"}});
+
 class Solution {
 public:
-    string curr;
-    vector<string> ans;
-    unordered_map<int,string> mp;
-    void helper(string& digits, int index){
-        if(index == digits.length()) {ans.push_back(curr); return;}
-        string chrs = mp[digits[index]-48];
-        for(char c : chrs){
-            curr.push_back(c);
-            helper(digits, index+1);
-            curr.pop_back();
-        }
-    }
-    vector<string> letterCombinations(string digits) {
-        if(digits.length() == 0) return ans;
-        mp[2] = "abc"; mp[3] = "def"; mp[4] = "ghi"; mp[5] = "jkl";
-        mp[6] = "mno"; mp[7] = "pqrs"; mp[8] = "tuv"; mp[9] = "wxyz";
-        helper(digits, 0);
+    vector<string> letterCombinations(string D) {
+        int len = D.size();
+        vector<string> ans;
+        if (!len) return ans;
+        bfs(0, len, "", ans, D);
         return ans;
+    }
+
+    void bfs(int pos, int &len, string str, vector<string> &ans, string &D) {
+        if (pos == len) ans.push_back(str);
+        else {
+            string letters = L[D[pos]];
+            for (int i = 0; i < letters.size(); i++)
+                bfs(pos+1, len, str+letters[i], ans, D);
+        }
     }
 };
 
