@@ -27,7 +27,7 @@ Explanation：index("makes") - index("coding") = 1
 
 ### Code
 
-```jsx title="Python3 Code"
+```python title="Python3 Code"
 from typing import (
     List,
 )
@@ -49,7 +49,7 @@ class Solution:
 
 ```
 
-```jsx title="C++"
+```cpp title="C++"
 class Solution {
 public:
     int shortestDistance(vector<string> &words, string &word1, string &word2) {
