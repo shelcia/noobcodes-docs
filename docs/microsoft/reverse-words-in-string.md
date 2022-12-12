@@ -43,6 +43,8 @@ Explanation: You need to reduce multiple spaces between two words to a single sp
 - `s` contains English letters (upper-case and lower-case), digits, and spaces `' '`.
 - There is **at least one** word in `s`.
 
+[Leetcode Link](https://leetcode.com/problems/reverse-words-in-a-string)
+
 ### Code
 
 ```jsx title="Python"
