@@ -50,6 +50,8 @@ Output: []
 - `root` is a valid binary search tree.
 - -10<sup>5</sup> <= key <= 10<sup>5</sup>
 
+[Leetcode Link](https://leetcode.com/problems/delete-node-in-a-bst/)
+
 ### Code
 
 ```jsx title="Python"
