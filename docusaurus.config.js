@@ -21,7 +21,7 @@ module.exports = {
       {
         name: "keywords",
         content:
-          "interview, preparation, python, java, data structures, algorithm, amazon, atlassian",
+          "interview, preparation, python, java, data structures, algorithm, amazon, atlassian, meta, facebook",
       },
     ],
     prism: {
@@ -99,6 +99,10 @@ module.exports = {
     [
       "@docusaurus/preset-classic",
       {
+        googleAnalytics: {
+          trackingID: "G-E02ZGV8TT4",
+          anonymizeIP: true,
+        },
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl: "https://github.com/shelcia/noobcodes-docs/edit/master",
