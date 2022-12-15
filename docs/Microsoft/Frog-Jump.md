@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 tags: [microsoft]
 ---
 
@@ -13,9 +13,15 @@ Given a list of stones' positions (in units) in sorted ascending order, determin
 
 If the frog's last jump was k units, its next jump must be either k - 1, k, or k + 1 units. The frog can only jump in the forward direction.
 
+[leetcode link](https://leetcode.com/problems/frog-jump/description/)
+
 ### Code
 
 ```jsx title="Java Code"
+
+
+class Solution {
+    
 
 
 public boolean canCross(int[] stones) {
@@ -35,5 +41,6 @@ public boolean canCross(int[] stones) {
     for(boolean b : dp[dp.length - 1])
         if(b) return true;
     return false;
+}
 }
 ```
