@@ -20,6 +20,9 @@ The skyline should be represented as a list of "key points" sorted by their x-co
 
 Note: There must be no consecutive horizontal lines of equal height in the output skyline. For instance, `[...,[2 3],[4 5],[7 5],[11 5],[12 7],...]` is not acceptable; the three lines of height 5 should be merged into one in the final output as such: `[...,[2 3],[4 5],[12 7],...]`
 
+[Leetcode Link](https://leetcode.com/problems/the-skyline-problem/)
+
+
 #### Example 1:
 ![img](https://assets.leetcode.com/uploads/2020/12/01/merged.jpg)
 
