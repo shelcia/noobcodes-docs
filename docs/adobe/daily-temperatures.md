@@ -55,7 +55,7 @@ class Solution:
         return ans
 ```
 
-```java title="Java Code"
+```jsx title="Java Code"
 class Solution {
     public int[] dailyTemperatures(int[] temperatures) {
         final int m = temperatures.length;
