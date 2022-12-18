@@ -62,7 +62,7 @@ class Solution:
         return s[I:J]
 ```
 
-```java title="Java Code"
+```jsx title="Java Code"
 class Solution {
     public String minWindow(String S, String T) {
         if(S==null||S.isEmpty()||T==null||T.isEmpty()) return "";
