@@ -95,7 +95,7 @@ class Solution:
         )
 ```
 
-```java title="Java Code"
+```jsx title="Java Code"
 public class Solution {
     public int strongPasswordChecker(String s) {
         
