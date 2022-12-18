@@ -88,7 +88,7 @@ class Solution(object):
         return sky[1:]
 ```
 
-```java title="Java Code"
+```jsx title="Java Code"
 class Solution {
     public List<List<Integer>> getSkyline(int[][] buildings) {
         List<List<Integer>> list = new ArrayList<>();
