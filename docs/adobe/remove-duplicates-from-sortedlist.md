@@ -22,8 +22,8 @@ Output: [1,2,5]
 
 #### Constraints:
 
-- The number of nodes in the list is in the range [0, 300].
-- -100 <= Node.val <= 100
+- The number of nodes in the list is in the range `[0, 300]`.
+- `-100 <= Node.val <= 100`
 - The list is guaranteed to be sorted in ascending order.
 
 ### Code
