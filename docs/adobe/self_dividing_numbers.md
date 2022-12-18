@@ -53,7 +53,7 @@ def selfDividingNumbers(self, left: int, right: int) -> List[int]:
         return True
 ```
 
-```java title="Java Code"
+```jsx title="Java Code"
 class Solution {
     public List<Integer> selfDividingNumbers(int left, int right) {
      List<Integer>res=new ArrayList();
