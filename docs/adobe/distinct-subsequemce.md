@@ -48,7 +48,7 @@ class Solution:
         return dp[-1][-1]
 ```
 
-```java title="Java Code"
+```jsx title="Java Code"
 
 public int numDistinct(String S, String T) {
     // array creation
