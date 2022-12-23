@@ -37,13 +37,13 @@ Explanation:
 
 #### Challenge
 
-O(h), where h is the height of the BST.
+`O(h)`, where h is the height of the BST.
 
 [Leetcode Link](https://leetcode.com/problems/inorder-successor-in-bst)
 
 ### Code
 
-```jsx title="Python"
+```python title="Python"
 def inorderSuccessor(self, root, p):
         # write your code here
         if not root:
@@ -56,7 +56,7 @@ def inorderSuccessor(self, root, p):
 
 ```
 
-```jsx title="C++"
+```cpp title="C++"
 class Solution {
 public:
 
