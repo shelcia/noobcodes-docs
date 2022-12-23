@@ -7,7 +7,7 @@ tags: [adobe]
 
 ### Problem Statement
 
-Given an integer array nums and an integer k, return true if there are two distinct indices i and j in the array such that nums[i] == nums[j] and abs(i - j) <= k.
+Given an integer array nums and an integer k, return true if there are two distinct indices i and j in the array such that `nums[i] == nums[j]` and `abs(i - j) <= k`.
 
 [LeetCode link](https://leetcode.com/problems/contains-duplicate-ii/)
 
@@ -34,13 +34,13 @@ Output: false
 
 #### Constraints:
 
-- 1 <= nums.length <= 105
-- -109 <= nums[i] <= 109
-- 0 <= k <= 105
+- `1 <= nums.length <= 105`
+- `-109 <= nums[i] <= 109`
+- `0 <= k <= 105`
 
 ### Code
 
-```python title="Java Code"
+```jsx title="Java Code"
 class Solution {
     private static class Node implements Comparable<Node> {
         private int value, index;
