@@ -7,10 +7,10 @@ tags: [adobe]
 
 ### Problem Statement
 
-Given a set of distinct positive integers nums, return the largest subset answer such that every pair (answer[i], answer[j]) of elements in this subset satisfies:
+Given a set of distinct positive integers nums, return the largest subset answer such that every pair (`answer[i]`, `answer[j]`) of elements in this subset satisfies:
 
-- answer[i] % answer[j] == 0, or
-- answer[j] % answer[i] == 0
+- `answer[i] % answer[j] == 0`, or
+- `answer[j] % answer[i] == 0`
   If there are multiple solutions, return any of them..
 
 [LeetCode link](https://leetcode.com/problems/largest-divisible-subset/)
@@ -32,13 +32,13 @@ Output: [1,2,4,8]
 
 #### Constraints:
 
-- 1 <= nums.length <= 1000
-- 1 <= nums[i] <= 2 \* 109
+- `1 <= nums.length <= 1000`
+- `1 <= nums[i] <= 2 \* 109`
 - All the integers in nums are unique
 
 ### Code
 
-```python title="Java Code"
+```jsx title="Java Code"
 public class Solution {
     List<Integer> answer;
     public List<Integer> largestDivisibleSubset(int[] nums) {
