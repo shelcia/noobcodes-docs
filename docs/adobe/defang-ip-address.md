@@ -9,7 +9,7 @@ tags: [adobe]
 
 Given a valid (IPv4) IP address, return a defanged version of that IP address.
 
-A defanged IP address replaces every period "." with "[.]".
+A defanged IP address replaces every period `"."` with `"[.]"`.
 
 [LeetCode link](https://leetcode.com/problems/defanging-an-ip-address/)
 
@@ -33,7 +33,7 @@ Output: "255[.]100[.]50[.]0"
 
 ### Code
 
-```python title="Java Code"
+```jsx title="Java Code"
 class Solution {
     public String defangIPaddr(String address) {
         return address.replace(".", "[.]");
