@@ -10,7 +10,7 @@ Print Middle Element
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 # PRINT MIDDLE ELEMENT USING DOUBLE POINTER METHOD
 
 class linkedListNode:
@@ -80,7 +80,7 @@ if __name__ == '__main__':
 
 ### Output
 
-```jsx title="output"
+```log title="output"
 1 ->2 ->3 ->4 ->5 ->None
 3
 3

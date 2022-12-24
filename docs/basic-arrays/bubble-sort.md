@@ -7,10 +7,11 @@ sidebar_position: 4
 ### Problem Statement
 
 Sort a linked list using Bubble Sort
+[LeetCode link](https://leetcode.com/problems/sort-list/)
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 # BUBBLE SORT
 def bubbleSort(array):
     for index in range(0, len(array)):
@@ -29,6 +30,6 @@ if __name__ == "__main__":
 
 ### Output
 
-```jsx title="output"
-[0, 3, 12, 45, 67, 78, 90];
+```log title="output"
+[0, 3, 12, 45, 67, 78, 90]
 ```

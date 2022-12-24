@@ -1,6 +1,6 @@
 ---
-sidebar_position: 2
-tags: [amazon]
+sidebar_position: 3
+tags: [amazon, binary tree]
 ---
 
 # All Nodes in Two Binary Search Trees to be Printed
@@ -12,6 +12,7 @@ Print All Nodes in Two Binary Search Trees
 Given two binary search trees root1 and root2.
 
 Return a list containing all the integers from both trees sorted in ascending order.
+[LeetCode link](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/)
 
 #### Example 1:
 
@@ -44,7 +45,7 @@ Each node's value is between [-10^5, 10^5].
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 class newNode:
     def __init__(self, val):
         self.val = val

@@ -10,7 +10,7 @@ Linked List Find Length
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 class linkedListNode:
 def __init__(self, value, nextNode=None):
     self.value = value
@@ -73,7 +73,7 @@ print(node.findLenRecCount())
 
 ### Output
 
-```jsx title="output"
+```log title="output"
 9 ->7 ->5 ->3 ->None
 4
 4

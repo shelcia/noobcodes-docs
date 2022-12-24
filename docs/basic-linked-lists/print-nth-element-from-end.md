@@ -10,7 +10,7 @@ Print Nth element from end
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 # Program for n’th node from the end of a Linked List
 
 
@@ -112,7 +112,7 @@ if __name__ == '__main__':
 
 ### Output
 
-```jsx title="output"
+```log title="output"
 5 ->4 ->3 ->2 ->1 ->None
 5
 1

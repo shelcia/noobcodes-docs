@@ -10,7 +10,7 @@ Find the Contiguous Subarray
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 def findContiguous(arr):
     max_sum = arr[0]
     start_ptr = 0
@@ -39,7 +39,7 @@ if __name__ == '__main__':
 
 ### Output
 
-```jsx title="output"
+```log title="output"
 Maximum Sum: 7
 Contiguous Array [-2, -3, 4, -1, -2, 1, 5]
 ```

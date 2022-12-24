@@ -10,7 +10,7 @@ Detecting Loop
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 # DETECT LOOP
 
 
@@ -87,7 +87,7 @@ if __name__ == '__main__':
 
 ### Output
 
-```jsx title="output"
+```log title="output"
 4 -> 2 -> 5 -> 5 -> 4 -> 5 -> None
 False
 True

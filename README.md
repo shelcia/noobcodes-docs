@@ -1,5 +1,7 @@
+![noobcodes-docs](https://socialify.git.ci/shelcia/noobcodes-docs/image?description=1&forks=1&issues=1&language=1&logo=https%3A%2F%2Fik.imagekit.io%2Fshelcia%2Flogos%2Fnoobcodes-logo.png%3Fik-sdk-version%3Djavascript-1.4.3%26updatedAt%3D1670310608135&name=1&owner=1&pattern=Circuit%20Board&pulls=1&stargazers=1&theme=Dark)
 
 ## 📌 Introduction
+
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
 ## ⭐ How to get started?
@@ -29,6 +31,7 @@ You can refer to the following articles on the basics of Git and Github and also
 [LeetCode-Questions-CompanyWise-master.zip](https://github.com/shelcia/noobcodes-docs/files/10148119/LeetCode-Questions-CompanyWise-master.zip)
 
 ## ⭐ Issues:
+
 For major changes, you are welcome to open an issue to discuss what you would like to change. Enhancements will be appreciated.
 
 ## Installation
@@ -51,7 +54,7 @@ This command starts a local development server and opens up a browser window. Mo
 yarn build
 ```
 
-##  💼  Code of Conduct
+## 💼 Code of Conduct
 
 We want to facilitate a healthy and constructive community behavior by adopting and enforcing our code of conduct.
 Please adhere toward our [Code-of-Conduct](code-of-conduct.md).

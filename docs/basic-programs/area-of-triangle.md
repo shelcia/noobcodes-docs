@@ -11,7 +11,7 @@ Find area of Triangle
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 
 N = list(map(int, input().split(' ')[:2]))
 

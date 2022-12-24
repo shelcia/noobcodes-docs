@@ -1,13 +1,13 @@
 ---
-sidebar_position: 1
+sidebar_position: 15
 tags: [Microsoft]
 ---
 
-# Write an efficient algorithm that searches for a value target in an m x n integer matrix matrix. This matrix has the following properties:
-
-
+# Search 2D Matrix
 
 ### Problem Statement
+
+Write an efficient algorithm that searches for a value target in an m x n integer matrix matrix. This matrix has the following properties:
 
 Integers in each row are sorted in ascending from left to right.
 Integers in each column are sorted in ascending from top to bottom
@@ -29,25 +29,23 @@ Output: false
 
 ```jsx title="Java Code"
 
-
-
 class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
         if(matrix== null || matrix.length<1 || matrix[0].length<1)  return false;
            int i=0;
-        int j=matrix[0].length-1;
-        while(i<matrix.length  && j>=0){
-            if(matrix[i][j]==target){
+        int j = matrix[0].length - 1;
 
-            return true;
+        while(i < matrix.length && j>=0) {
+
+            if(matrix[i][j]==target) {
+                return true;
             }
             else if(matrix[i][j]>target) j--;
-            else{
+            else {
                 i++;
             }
         }
-        
-   return false;     
+        return false;
     }
 }
 ```

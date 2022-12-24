@@ -1,6 +1,6 @@
 ---
-sidebar_position: 4
-tags: [amazon]
+sidebar_position: 5
+tags: [amazon, binary tree]
 ---
 
 # Bottom View of a Binary Tree
@@ -39,7 +39,7 @@ For the above tree the output should be 5, 10, 4, 14, 25.
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 class Node:
 
     def __init__(self, key):

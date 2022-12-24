@@ -10,7 +10,7 @@ Move last element to first in LinkedList
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 # LAST TO FIRST ELEMENT IN LINKEDLIST
 
 class linkedListNode:
@@ -87,7 +87,7 @@ if __name__ == '__main__':
 
 ### Output
 
-```jsx title="output"
+```log title="output"
 1 -> 2 -> 3 -> 4 -> 5 -> None
 5 -> 1 -> 2 -> 3 -> 4 -> None
 ```

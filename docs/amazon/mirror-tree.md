@@ -1,5 +1,5 @@
 ---
-sidebar_position: 16
+sidebar_position: 17
 tags: [amazon, binary tree]
 ---
 
@@ -14,7 +14,7 @@ mirror of each other, else false.
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 class Node:
 
     def __init__(self, value, left=None, right=None):

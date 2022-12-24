@@ -10,7 +10,7 @@ Finding Length of Loop
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 # FIND LENGTH OF THE LOOP
 # USING FLOYDS ALGORITHM
 
@@ -104,7 +104,7 @@ if __name__ == '__main__':
 
 ### Output
 
-```jsx title="output"
+```log title="output"
 loop length 0
 5 ->4 ->3 ->2 ->1 ->None
 5 ->4 ->3 ->2 ->1 ->loop has been detected

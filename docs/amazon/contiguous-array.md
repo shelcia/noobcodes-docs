@@ -1,13 +1,14 @@
 ---
-sidebar_position: 9
-tags: [amazon]
+sidebar_position: 10
+tags: [amazon, array]
 ---
 
 # Contiguous Array
 
 ### Problem Statement
 
-Find the first circular tour that visits all petrol pumps
+Find the first circular tour that visits all petrol pumps.
+[LeetCode link](https://leetcode.com/problems/contiguous-array/)
 
 Write an efficient program to find the sum of contiguous subarray
 within a one-dimensional array of numbers that has the largest sum.
@@ -18,7 +19,7 @@ _Time Complexity - O(n)_
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 def findContiguous(arr):
     max_so_far = 0
     max_current = 0

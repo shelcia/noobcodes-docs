@@ -6,11 +6,12 @@ sidebar_position: 4
 
 ### Problem Statement
 
-Linked List Deletion at given Position
+Linked List Deletion at given Position.
+[LeetCode link](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/)
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 # DELETE AT MIDDLE AND GIVEN POSITION
   # FAST RUNNER AND SLOW RUNNER FOR MIDDLE DELETION
 
@@ -109,7 +110,7 @@ Linked List Deletion at given Position
 
 ### Output
 
-```jsx title="output"
+```log title="output"
 4 ->None
 4 ->5 ->None
 4 ->5 ->9 ->None

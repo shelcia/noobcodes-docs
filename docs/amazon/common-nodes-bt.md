@@ -1,6 +1,6 @@
 ---
-sidebar_position: 7
-tags: [amazon]
+sidebar_position: 8
+tags: [amazon, binary tree]
 ---
 
 # Print Common Nodes in Two Binary Search Trees
@@ -12,7 +12,7 @@ In other words, find intersection of two BSTs.
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 
 class Node:
     def __init__(self, key):
