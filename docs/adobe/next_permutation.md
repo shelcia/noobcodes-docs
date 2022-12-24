@@ -39,7 +39,7 @@ Input: nums = [3,2,1]
 Output: [1,2,3]
 ```
 
-#### Example 2:
+#### Example 3:
 
 ```
 Input: nums = [1,1,5]
