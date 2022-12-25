@@ -1,9 +1,5 @@
 ---
-<<<<<<< HEAD:docs/Microsoft/Search-2D-Matrix.md
-sidebar_position: 3
-=======
 sidebar_position: 15
->>>>>>> 3b2262fe2b8903fc1a39c51eaa6b102a5ad4701e:docs/microsoft/Search-2D-Matrix.md
 tags: [Microsoft]
 ---
 
