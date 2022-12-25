@@ -38,7 +38,7 @@ Output: 4
 
 ### Code
 
-```jsx title="Python"
+```python title="Python"
 def largestRectangleArea(self, height):
     height.append(0)
     stack = [-1]
@@ -54,7 +54,7 @@ def largestRectangleArea(self, height):
 
 ```
 
-```jsx title="C++"
+```cpp title="C++"
 class Solution {
 public:
     int largestRectangleArea(vector<int>& heights) {
