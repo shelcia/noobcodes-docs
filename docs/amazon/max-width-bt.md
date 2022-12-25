@@ -1,6 +1,6 @@
 ---
-sidebar_position: 14
-tags: [amazon]
+sidebar_position: 15
+tags: [amazon, binary tree]
 ---
 
 # Maximum width of a binary tree
@@ -27,9 +27,11 @@ width of level 3 is 3
 width of level 4 is 2.
 So the maximum width of the tree is 3.
 
+[LeetCode link](https://leetcode.com/problems/maximum-width-of-binary-tree/)
+
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 
 class Node:
 

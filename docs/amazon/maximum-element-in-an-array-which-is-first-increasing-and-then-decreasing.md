@@ -1,6 +1,6 @@
 ---
-sidebar_position: 15
-tags: [amazon]
+sidebar_position: 16
+tags: [amazon, array]
 ---
 
 # Find the maximum element in an array which is first increasing and then decreasing
@@ -27,7 +27,7 @@ Output: 120
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 def findMax(arr, low, high):
     # Base Case: Only one element is present in arr[low..high]*/
     if low == high:

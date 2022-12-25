@@ -1,6 +1,6 @@
 ---
-sidebar_position: 13
-tags: [amazon]
+sidebar_position: 14
+tags: [amazon, array]
 ---
 
 # Dupliates in a Array
@@ -9,11 +9,12 @@ tags: [amazon]
 
 Given an array of n elements that contains elements from 0 to n-1,
 with any of these numbers appearing any number of times.
-Find these repeating numbers in O(n) and using only constant memory space..
+Find these repeating numbers in O(n) and using only constant memory space.
+[LeetCode link](https://leetcode.com/problems/find-all-duplicates-in-an-array/)
 
 ### Code
 
-```jsx title="Approach 1 - we will create hash map (Python Code)"
+```python title="Approach 1 - we will create hash map (Python Code)"
 def duplicateArray(arr):
     hashmap = []
 
@@ -24,7 +25,7 @@ def duplicateArray(arr):
             hashmap.append(arr[i])
 ```
 
-```jsx title="Approach 2 - O(1) space complexity O(n) time complexity (Python Code)"
+```python title="Approach 2 - O(1) space complexity O(n) time complexity (Python Code)"
 def duplicateArray(arr):
     print('length', len(arr), 'arr', arr)
     for i in range(len(arr)):

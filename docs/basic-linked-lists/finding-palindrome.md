@@ -7,10 +7,11 @@ sidebar_position: 12
 ### Problem Statement
 
 Finding Palindrome
+[LeetCode link](https://leetcode.com/problems/palindrome-linked-list/)
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 # 1. METHOD 1 - REVERSE THE LINKEDLIST AND CHECK IF THE ARE EQUAL
 # 2. FIND THE MIDDLE ELEMENT AND CHECK IF FIRST HALF EQUALS SECOND HALF
 
@@ -139,7 +140,7 @@ if __name__ == '__main__':
 
 ### Output
 
-```jsx title="output"
+```log title="output"
 1 -> 2 -> 3 -> 2 -> 1 -> None
 First Method Is it Palindrome True
 Second Method Is it Palindrome False

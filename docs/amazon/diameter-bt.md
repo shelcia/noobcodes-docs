@@ -1,6 +1,6 @@
 ---
-sidebar_position: 12
-tags: [amazon]
+sidebar_position: 13
+tags: [amazon, binary tree]
 ---
 
 # Diameter of a Binary Tree
@@ -8,10 +8,11 @@ tags: [amazon]
 ### Problem Statement
 
 The diameter of a tree (sometimes called the width) is the number of nodes on the longest path between two end nodes. The diagram below shows two trees each with diameter nine, the leaves that form the ends of the longest path are shaded (note that there is more than one path in each tree of length nine, but no path longer than nine nodes).
+[LeetCode link](https://leetcode.com/problems/diameter-of-binary-tree/)
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 class Node:
 
     # Constructor to create a new node

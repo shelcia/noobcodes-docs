@@ -7,10 +7,11 @@ sidebar_position: 16
 ### Problem Statement
 
 Swap nodes Pairwise
+[LeetCode link](https://leetcode.com/problems/swap-nodes-in-pairs/)
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 # SWAP PAIRWISE ELEMENTS
 
 class linkedListNode:
@@ -96,7 +97,7 @@ if __name__ == '__main__':
 
 ### Output
 
-```jsx title="output"
+```log title="output"
 1 -> None
 1 -> None
 6 -> 5 -> 4 -> 3 -> 2 -> 1 -> None

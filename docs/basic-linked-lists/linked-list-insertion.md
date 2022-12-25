@@ -10,7 +10,7 @@ Linked List Insertion
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 # INSERTION OF NODE AT END , BEGGINING AND AT GIVEN POS VALUE
 
 class linkedListNode:
@@ -88,7 +88,7 @@ if __name__ == '__main__':
 
 ### Output
 
-```jsx title="output"
+```log title="output"
 3 ->None
 3 ->5 ->None
 3 ->5 ->9 ->None

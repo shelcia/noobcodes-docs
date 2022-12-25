@@ -10,7 +10,7 @@ Finding Minimum and Maximum in Array
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 Array = [32, 14, 12, 98, 24, 56, 76, 34]
 max = Array[0]
 min = Array[0]
@@ -29,7 +29,7 @@ print(min, max)
 
 ### Output
 
-```jsx title="output"
+```log title="output"
 index 3 4
 12 98
 ```

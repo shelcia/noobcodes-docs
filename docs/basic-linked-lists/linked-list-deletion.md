@@ -7,10 +7,11 @@ sidebar_position: 3
 ### Problem Statement
 
 Linked List Deletion
+[LeetCode link](https://leetcode.com/problems/delete-node-in-a-linked-list/)
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 # DELETING LINKEDLIST AT END BEGINNING, MIDDLE AND AT GIVEN POSITION VALUE
 
 class linkedListNode:
@@ -100,7 +101,7 @@ if __name__ == '__main__':
 
 ### Output
 
-```jsx title="output"
+```log title="output"
 3 ->None
 3 ->5 ->None
 3 ->5 ->7 ->None

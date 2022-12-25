@@ -10,7 +10,7 @@ Remove Duplicates in LinkedList
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 # REMOVE DUPLICATES
 
 class linkedListNode:
@@ -94,7 +94,7 @@ if __name__ == '__main__':
 
 ### Output
 
-```jsx title="output"
+```log title="output"
 1 -> 2 -> 3 -> 1 -> 2 -> 1 -> 2 -> 3 -> 1 -> None
 1 -> 2 -> 3 -> None
 ```
