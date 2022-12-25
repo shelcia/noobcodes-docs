@@ -31,7 +31,7 @@ Output: "One Million Two Hundred Thirty Four Thousand Five Hundred Sixty Seven"
 
 ### Code
 
-```jsx title="Python"
+```python title="Python"
 def numberToWords(self, num):
     to19 = 'One Two Three Four Five Six Seven Eight Nine Ten Eleven Twelve ' \
            'Thirteen Fourteen Fifteen Sixteen Seventeen Eighteen Nineteen'.split()
@@ -49,7 +49,7 @@ def numberToWords(self, num):
     return ' '.join(words(num)) or 'Zero'
 ```
 
-```jsx title="C++"
+```cpp title="C++"
 class Solution {
 public:
     vector<pair<int, string>> nums ={{1000000000, "Billion"}, {1000000, "Million"}, 
