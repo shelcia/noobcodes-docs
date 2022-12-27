@@ -32,6 +32,7 @@ Explanation: The longest substring is "ababb", as 'a' is repeated 2 times and 'b
 - 1 <= s.length <= 10<sup>4</sup>
 - s consists of only lowercase English letters.
 - 1 <= k <= 10<sup>5</sup>
+
 ### Code
 
 ```python title="Python Code"
@@ -50,6 +51,5 @@ class Solution:
         else:
             return len(s)
         return max(sub1, sub2)
-    
-```
 
+```
