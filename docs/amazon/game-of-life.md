@@ -52,7 +52,7 @@ Output: [[1,1],[1,1]]
 
 ### Code
 
-```jsx title="Python"
+```python title="Python Code"
 class Solution:
     def gameOfLife(self, b: List[List[int]]) -> None:
         """
@@ -94,7 +94,7 @@ class Solution:
                 elif b[i][j] == -1: b[i][j] = 0
 ```
 
-```jsx title="C++"
+```cpp title="C++ Code"
 class Solution {
 public:
     void gameOfLife(vector<vector<int>>& board) {

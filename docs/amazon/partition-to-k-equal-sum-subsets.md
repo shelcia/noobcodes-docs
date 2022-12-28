@@ -34,7 +34,7 @@ Output: false
 
 ### Code
 
-```jsx title="Python"
+```python title="Python Code"
 class Solution(object):
     def canPartitionKSubsets(self, nums, k):
         """

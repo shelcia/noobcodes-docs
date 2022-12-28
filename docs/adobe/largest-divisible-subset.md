@@ -20,8 +20,11 @@ Given a set of distinct positive integers nums, return the largest subset answer
 ```
 Input: nums = [1,2,3]
 Output: [1,2]
-Explanation: [1,3] is also accepted.
 ```
+
+##### Explanation:
+
+`[1,3]` is also accepted.
 
 #### Example 2:
 
@@ -34,7 +37,7 @@ Output: [1,2,4,8]
 
 - `1 <= nums.length <= 1000`
 - `1 <= nums[i] <= 2 \* 109`
-- All the integers in nums are unique
+- All the integers in **nums are unique**
 
 ### Code
 

@@ -48,7 +48,7 @@ stockSpanner.next(85);  // return 6
 
 ### Code
 
-```jsx title="Python"
+```python title="Python Code"
 class StockSpanner:
 
     def __init__(self):

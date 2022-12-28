@@ -17,9 +17,15 @@ Given the root of a binary tree, return the maximum path sum of any non-empty pa
 
 #### Examples:
 
+```
 Input: root = [1,2,3]
 Output: 6
-Explanation: The optimal path is 2 -> 1 -> 3 with a path sum of 2 + 1 + 3 = 6.
+```
+
+##### Explanation:
+
+The optimal path is `2 -> 1 -> 3`
+with a path `sum of 2 + 1 + 3 = 6`.
 
 ### Code
 

@@ -11,7 +11,7 @@ Given an input string `s`, reverse the order of the **words**.
 
 A **word** is defined as a sequence of non-space characters. The **words** in `s` will be separated by at least one space.
 
-Return *a string of the words in reverse order concatenated by a single space*.
+Return _a string of the words in reverse order concatenated by a single space_.
 
 **Note** that `s` may contain leading or trailing spaces or multiple spaces between two words. The returned string should only have a single space separating the words. Do not include any extra spaces.
 
@@ -39,6 +39,7 @@ Explanation: You need to reduce multiple spaces between two words to a single sp
 ```
 
 #### Constraints:
+
 - 1 <= s.length <= 10<sup>4</sup>
 - `s` contains English letters (upper-case and lower-case), digits, and spaces `' '`.
 - There is **at least one** word in `s`.
@@ -47,25 +48,25 @@ Explanation: You need to reduce multiple spaces between two words to a single sp
 
 ### Code
 
-```jsx title="Python"
+```python title="Python Code"
 class Solution:
     def reverseWords(self, s: str) -> str:
         return " ".join(s.split()[::-1])
 
 ```
 
-```jsx title="C++"
-class Solution 
+```cpp title="C++ Code"
+class Solution
 {
 public:
-    string reverseWords(string s) 
+    string reverseWords(string s)
     {
         stringstream ss(s);
         string rev, w;
-        
+
         ss >> rev;
         while (ss >> w) rev = w + " " + rev;
-        
+
         return rev.substr(0, rev.length());
     }
 };

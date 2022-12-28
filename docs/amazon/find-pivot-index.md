@@ -55,7 +55,7 @@ Right sum = nums[1] + nums[2] = 1 + -1 = 0
 
 ### Code
 
-```jsx title="Python"
+```python title="Python Code"
 class Solution(object):
     def pivotIndex(self, nums):
         """

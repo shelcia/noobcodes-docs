@@ -18,23 +18,26 @@ You may assume all buildings are perfect rectangles grounded on an absolutely fl
 
 The skyline should be represented as a list of "key points" sorted by their x-coordinate in the form `[[x1,y1],[x2,y2],...]`. Each key point is the left endpoint of some horizontal segment in the skyline except the last point in the list, which always has a y-coordinate 0 and is used to mark the skyline's termination where the rightmost building ends. Any ground between the leftmost and rightmost buildings should be part of the skyline's contour.
 
-Note: There must be no consecutive horizontal lines of equal height in the output skyline. For instance, `[...,[2 3],[4 5],[7 5],[11 5],[12 7],...]` is not acceptable; the three lines of height 5 should be merged into one in the final output as such: `[...,[2 3],[4 5],[12 7],...]`
+**Note:** There must be no consecutive horizontal lines of equal height in the output skyline. For instance, `[...,[2 3],[4 5],[7 5],[11 5],[12 7],...]` is not acceptable; the three lines of height 5 should be merged into one in the final output as such: `[...,[2 3],[4 5],[12 7],...]`
 
 [Leetcode Link](https://leetcode.com/problems/the-skyline-problem/)
 
-
 #### Example 1:
+
 ![img](https://assets.leetcode.com/uploads/2020/12/01/merged.jpg)
 
 ```
 Input: buildings = [[2,9,10],[3,7,15],[5,12,12],[15,20,10],[19,24,8]]
 Output: [[2,10],[3,15],[7,12],[12,0],[15,10],[20,8],[24,0]]
-Explanation:
-Figure A shows the buildings of the input.
-Figure B shows the skyline formed by those buildings. The red points in figure B represent the key points in the output list.
 ```
 
+##### Explanation:
+
+- `Figure A` shows the buildings of the input.
+- `Figure B` shows the skyline formed by those buildings. The red points in `figure B` represent the key points in the output list.
+
 #### Example 2:
+
 ```
 Input: buildings = [[0,2,3],[2,5,3]]
 Output: [[0,3],[5,0]]
@@ -61,26 +64,26 @@ class Solution(object):
                 sky.append([pos, hei])
 
         sky = [[-1,0]]
-        
+
         # possible corner positions
         position = set([b[0] for b in buildings] + [b[1] for b in buildings])
-        
+
         # live buildings
         live = []
-        
+
         i = 0
-            
+
         for t in sorted(position):
-            
+
             # add the new buildings whose left side is lefter than position t
             while i < len(buildings) and buildings[i][0] <= t:
                 heappush(live, (-buildings[i][2], buildings[i][1]))
                 i += 1
-                
+
             # remove the past buildings whose right side is lefter than position t
             while live and live[0][1] <= t:
                 heappop(live)
-            
+
             # pick the highest existing building at this moment
             h = -live[0][0] if live else 0
             addsky(t, h)
@@ -92,7 +95,7 @@ class Solution(object):
 class Solution {
     public List<List<Integer>> getSkyline(int[][] buildings) {
         List<List<Integer>> list = new ArrayList<>();
-        
+
         List<int[]> lines = new ArrayList<>();
         for (int[] building: buildings) {
             lines.add(new int[] {building[0], building[2]});
@@ -120,4 +123,3 @@ class Solution {
     }
 }
 ```
-

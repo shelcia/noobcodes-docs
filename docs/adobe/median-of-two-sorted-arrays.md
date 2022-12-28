@@ -15,21 +15,25 @@ The overall run time complexity should be `O(log (m+n))`.
 
 #### Example 1:
 
-
 ```
 Input: nums1 = [1,3], nums2 = [2]
 Output: 2.00000
-Explanation: merged array = [1,2,3] and median is 2.
 ```
+
+##### Explanation:
+
+`merged array = [1,2,3]` and median is **2**.
 
 #### Example 2:
 
 ```
 Input: nums1 = [1,2], nums2 = [3,4]
 Output: 2.50000
-Explanation: merged array = [1,2,3,4] and median is (2 + 3) / 2 = 2.5.
 ```
 
+##### Explanation:
+
+`merged array = [1,2,3,4]` and median is **(2 + 3) / 2 = 2.5**.
 
 #### Constraints:
 
@@ -38,7 +42,7 @@ Explanation: merged array = [1,2,3,4] and median is (2 + 3) / 2 = 2.5.
 - `0 <= m <= 1000`
 - `0 <= n <= 1000`
 - `1 <= m + n <= 2000`
-- -10<sup>6</sup> <= nums1[i], nums2[i] <= 10<sup>6</sup>
+- -10<sup>6</sup> `<=` `nums1[i]`, `nums2[i]` `<=` 10<sup>6</sup>
 
 ### Code
 
@@ -50,8 +54,8 @@ class Solution:
         if l % 2 == 1:
             return self.kth(A, B, l // 2)
         else:
-            return (self.kth(A, B, l // 2) + self.kth(A, B, l // 2 - 1)) / 2.   
-    
+            return (self.kth(A, B, l // 2) + self.kth(A, B, l // 2 - 1)) / 2.
+
     def kth(self, a, b, k):
         if not a:
             return b[k]
@@ -59,8 +63,8 @@ class Solution:
             return a[k]
         ia, ib = len(a) // 2 , len(b) // 2
         ma, mb = a[ia], b[ib]
-        
-        # when k is bigger than the sum of a and b's median indices 
+
+        # when k is bigger than the sum of a and b's median indices
         if ia + ib < k:
             # if a's median is bigger than b's, b's first half doesn't include k
             if ma > mb:
@@ -75,4 +79,3 @@ class Solution:
             else:
                 return self.kth(a, b[:ib], k)
 ```
-

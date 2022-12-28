@@ -38,7 +38,7 @@ Total amount you can rob = 2 + 9 + 1 = 12.
 
 ### Code
 
-```jsx title="Python"
+```python title="Python Code"
 class Solution(object):
         def rob(self, nums):
             """

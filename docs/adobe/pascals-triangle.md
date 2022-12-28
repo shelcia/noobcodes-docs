@@ -7,7 +7,7 @@ tags: [adobe]
 
 ### Problem Statement
 
-Given an integer numRows, return the first numRows of Pascal's triangle.
+Given an integer numRows, return the first `numRows` of Pascal's triangle.
 
 ### Code
 

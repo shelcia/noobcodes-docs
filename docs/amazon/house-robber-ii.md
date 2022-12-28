@@ -44,7 +44,7 @@ Output: 3
 
 ### Code
 
-```jsx title="Python"
+```python title="Python Code"
 class Solution(object):
     def rob(self, nums):
         """

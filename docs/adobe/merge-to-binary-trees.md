@@ -33,12 +33,11 @@ Input: root1 = [1], root2 = [1,2]
 Output: [2,2]
 ```
 
-
-
 #### Constraints:
 
 - The number of nodes in both trees is in the range `[0, 2000]`.
-- -10<sup>4</sup> <= Node.val <= 10<sup>4</sup>
+- -10<sup>4</sup> <= `Node.val` <= 10<sup>4</sup>
+
 ### Code
 
 ```python title="Python Code"
@@ -56,6 +55,5 @@ class Solution:
         ans.left = self.mergeTrees(t1 and t1.left, t2 and t2.left)
         ans.right = self.mergeTrees(t1 and t1.right, t2 and t2.right)
         return ans
-    
-```
 
+```

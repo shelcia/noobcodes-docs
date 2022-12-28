@@ -55,7 +55,7 @@ Output: []
 
 ### Code
 
-```jsx title="Python"
+```python title="Python Code"
 class Solution(object):
     def deleteNode(self, root, key):
         if not root: return None
@@ -80,7 +80,7 @@ class Solution(object):
 
 ```
 
-```jsx title="C++"
+```cpp title="C++ Code"
 class Solution {
 public:
     TreeNode* deleteNode(TreeNode* root, int key) {

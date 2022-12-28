@@ -38,7 +38,7 @@ Output: [["Q"]]
 
 ### Code
 
-```jsx title="Python"
+```python title="Python Code"
 class Solution(object):
     def solveNQueens(self, n):
         """

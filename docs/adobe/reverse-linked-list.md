@@ -1,6 +1,6 @@
 ---
 sidebar_position: 3
-tags: [adobe, linked-list]
+tags: [adobe, linkedlist]
 ---
 
 # Reversed Linked List

@@ -7,13 +7,12 @@ tags: [adobe]
 
 ### Problem Statement
 
-Given an integer array `nums`, find the 
+Given an integer array `nums`, find the
 subarray which has the largest sum and return its sum.
 
 [Leetcode Link](https://leetcode.com/problems/maximum-subarray/)
 
 #### Example 1:
-
 
 ```
 Input: nums = [-2,1,-3,4,-1,2,1,-5,4]
@@ -37,8 +36,8 @@ Output: 23
 
 #### Constraints:
 
-- 1 <= nums.length <= 10<sup>5</sup>
-- -10<sup>4</sup> <= nums[i] <= 10<sup>4</sup>
+- `1` `<=` `nums.length` `<=` 10<sup>5</sup>
+- -10<sup>4</sup> `<=` `nums[i]` `<=` 10<sup>4</sup>
 
 ### Code
 
@@ -59,4 +58,3 @@ class Solution:
 
         return maxSum
 ```
-

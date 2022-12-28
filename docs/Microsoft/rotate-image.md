@@ -37,9 +37,9 @@ Output: [[15,13,2,5],[14,3,4,1],[12,6,8,9],[16,7,10,11]]
 
 [LeetCode Link](https://leetcode.com/problems/rotate-image)
 
-### Code 
+### Code
 
-```jsx title="Python"
+```python title="Python Code"
 class Solution(object):
     def rotate(self, matrix):
         """

@@ -15,7 +15,6 @@ Assume the environment does not allow you to store 64-bit integers (signed or un
 
 #### Example 1:
 
-
 ```
 Input: x = 123
 Output: 321
@@ -47,6 +46,5 @@ class Solution:
     def reverse(self, x: int) -> int:
         rev = int(str(abs(x))[::-1])
         return (-rev if x < 0 else rev) if rev.bit_length() < 32 else 0
-        
-```
 
+```

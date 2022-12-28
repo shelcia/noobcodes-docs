@@ -45,7 +45,7 @@ Explanation: The starting pixel is already colored 0, so no changes are made to 
 
 ### Code
 
-```jsx title="Python"
+```python title="Python Code"
 class Solution(object):
     def floodFill(self, image, sr, sc, newColor):
         if image[sr][sc] == newColor:

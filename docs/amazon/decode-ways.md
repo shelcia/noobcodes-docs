@@ -60,7 +60,7 @@ Explanation: "06" cannot be mapped to "F" because of the leading zero ("6" is di
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 class Solution:
     # @param s, a string
     # @return an integer

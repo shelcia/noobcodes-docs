@@ -51,7 +51,7 @@ Output: []
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 
 class Solution(object):
     def sort(self, candidates):

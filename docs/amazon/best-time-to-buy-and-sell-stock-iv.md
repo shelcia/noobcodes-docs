@@ -7,7 +7,7 @@ tags: [amazon]
 
 ### Problem Statement
 
-You are given an integer array prices where prices[i] is the price of a given stock on the ith day, and an integer k.
+You are given an integer array prices where `prices[i]` is the price of a given stock on the ith day, and an integer k.
 
 Find the maximum profit you can achieve. You may complete at most k transactions.
 
@@ -33,9 +33,9 @@ Explanation: Buy on day 2 (price = 2) and sell on day 3 (price = 6), profit = 6-
 
 #### Constraints:
 
-- 1 <= k <= 100
-- 1 <= prices.length <= 1000
-- 0 <= prices[i] <= 1000
+- `1 <= k <= 100`
+- `1 <= prices.length <= 1000`
+- `0 <= prices[i] <= 1000`
 
 ### Code
 

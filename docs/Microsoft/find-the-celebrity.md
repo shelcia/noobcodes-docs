@@ -19,7 +19,7 @@ You are given a helper function `bool knows(a, b)` which tells you whether A kno
 
 ```
 Input:
-2 // next n * (n - 1) lines 
+2 // next n * (n - 1) lines
 0 knows 1
 1 does not know 0
 Output: 1
@@ -31,7 +31,7 @@ Everyone knows 1,and 1 knows no one.
 
 ```
 Input:
-3 // next n * (n - 1) lines 
+3 // next n * (n - 1) lines
 0 does not know 1
 0 does not know 2
 1 knows 0
@@ -49,7 +49,7 @@ Everyone knows 0,and 0 knows no one.
 
 ### Code
 
-```jsx title="Python"
+```python title="Python Code"
 class Solution:
     # @param {int} n a party with n people
     # @return {int} the celebrity's label or -1
@@ -59,7 +59,7 @@ class Solution:
         for i in range(n):
             for j in range(n):
                 if i == j:
-                    knows[i][j] = 0 
+                    knows[i][j] = 0
                 else:
                     knows[i][j] = 1 if Celebrity.knows(i,j) else -1
         print(knows)

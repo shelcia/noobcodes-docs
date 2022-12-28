@@ -38,7 +38,7 @@ Explanation: Maximum amount of money the thief can rob = 4 + 5 = 9.
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 class Solution(object):
     def rob(self, root):
         """

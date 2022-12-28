@@ -55,7 +55,8 @@ class Solution:
             if countS[ch]!=countT.get(ch,0):
                 return False
         return True
-```
 
-        # the get function prevents Python from throwing a KeyError when a key
-        is not present in the map, it returns 0 instead
+
+    # the get function prevents Python from throwing a KeyError when a key
+    # is not present in the map, it returns 0 instead
+```

@@ -46,7 +46,7 @@ Output: 0
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 class Solution(object):
         def combinationSum4(self, nums, target):
         """

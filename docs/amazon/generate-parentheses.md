@@ -31,7 +31,7 @@ Output: ["()"]
 
 ### Code
 
-```jsx title="Python"
+```python title="Python Code"
 class Solution(object):
     def generateParenthesis(self, n):
         def generate(p, left, right):

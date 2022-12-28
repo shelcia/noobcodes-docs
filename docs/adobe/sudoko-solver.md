@@ -9,12 +9,12 @@ tags: [adobe]
 
 Write a program to solve a Sudoku puzzle by filling the empty cells.
 
-A sudoku solution must satisfy all of the following rules:
+_A sudoku solution must satisfy all of the following rules:_
 
-Each of the digits `1-9` must occur exactly once in each row.
-Each of the digits `1-9` must occur exactly once in each column.
-Each of the digits `1-9` must occur exactly once in each of the 9 `3x3` sub-boxes of the grid.
-The `'.'` character indicates empty cells.
+- Each of the digits `1-9` must occur exactly once in each row.
+- Each of the digits `1-9` must occur exactly once in each column.
+- Each of the digits `1-9` must occur exactly once in each of the 9 `3x3` sub-boxes of the grid.
+- The `'.'` character indicates empty cells.
 
 [Leetcode Link](https://leetcode.com/problems/sudoku-solver/)
 
@@ -22,9 +22,8 @@ The `'.'` character indicates empty cells.
 
 ```
 Input: board = [["5","3",".",".","7",".",".",".","."],["6",".",".","1","9","5",".",".","."],[".","9","8",".",".",".",".","6","."],["8",".",".",".","6",".",".",".","3"],["4",".",".","8",".","3",".",".","1"],["7",".",".",".","2",".",".",".","6"],[".","6",".",".",".",".","2","8","."],[".",".",".","4","1","9",".",".","5"],[".",".",".",".","8",".",".","7","9"]]
+
 Output: [["5","3","4","6","7","8","9","1","2"],["6","7","2","1","9","5","3","4","8"],["1","9","8","3","4","2","5","6","7"],["8","5","9","7","6","1","4","2","3"],["4","2","6","8","5","3","7","9","1"],["7","1","3","9","2","4","8","5","6"],["9","6","1","5","3","7","2","8","4"],["2","8","7","4","1","9","6","3","5"],["3","4","5","2","8","6","1","7","9"]]
-
-
 ```
 
 #### Constraints:
@@ -32,7 +31,7 @@ Output: [["5","3","4","6","7","8","9","1","2"],["6","7","2","1","9","5","3","4",
 - `board.length == 9`
 - `board[i].length == 9`
 - `board[i][j]` is a digit or `'.'`.
-- It is guaranteed that the input board has only one solution.
+- It is **guaranteed** that the input board has only **one** solution.
 
 ### Code
 
@@ -45,7 +44,7 @@ class Solution:
         """
         assert(self.backtrack(board, 0, 0))
         return
-                    
+
     def backtrack(self, board: List[List[str]], r: int, c: int) -> bool:
         # Go to next empty space
         while board[r][c] != '.':
@@ -60,7 +59,7 @@ class Solution:
                     return True
         board[r][c] = '.'
         return False
-    
+
     def isValidSudokuMove(self, board: List[List[str]], r: int, c: int, cand: int) -> bool:
         # Check row
         if any(board[r][j] == cand for j in range(9)): return False
@@ -71,4 +70,3 @@ class Solution:
         if any(board[i][j] == cand for i in range(br, br+3) for j in range(bc, bc+3)): return False
         return True
 ```
-

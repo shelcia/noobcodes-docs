@@ -33,9 +33,9 @@ Output: [[2,2,2,2]]
 
 #### Constraints:
 
-- 1 <= nums.length <= 200
-- -1e9 <= nums[i] <= 1e9
-- -1e9 <= target <= 1e9
+- `1 <= nums.length <= 200`
+- -1e<sup>9</sup> `<=` `nums[i]` `<=` 1e<sup>9</sup>
+- -1e<sup>9</sup> `<=` target <= 1e<sup>9</sup>
 
 ### Code
 

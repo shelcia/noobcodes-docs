@@ -1,24 +1,23 @@
 ---
 sidebar_position: 1
-tags: [amazon]
+tags: [amazon, linkedlist]
 ---
 
 # Add Two Numbers
 
 ### Problem Statement
 
-You are given two non-empty linked lists representing two non-negative integers.
-The digits are stored in reverse order, and each of their nodes contains a single digit.
-Add the two numbers and return the sum as a linked list.
+- You are given **two non-empty linked lists** representing two **non-negative integers**.
+- The digits are stored in reverse order, and each of their nodes contains a **single digit**.
+- Add the two numbers and return the **sum** as a linked list.
 
-You may assume the two numbers do not contain any leading zero, except the number 0 itself.
+You may assume the two numbers do not contain any leading zero, except the number **0** itself.
+
 [LeetCode link](https://leetcode.com/problems/add-two-numbers/)
 
 ### Code
 
 ```python title="Python Code"
-
-
 class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val

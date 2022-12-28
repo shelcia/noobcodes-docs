@@ -15,8 +15,8 @@ Given the `head` of a sorted linked list, delete all nodes that have duplicate n
 ![Image of Yaktocat](https://assets.leetcode.com/uploads/2021/01/04/linkedlist1.jpg)
 
 ```
-
 Input: head = [1,2,3,3,4,4,5]
+
 Output: [1,2,5]
 ```
 

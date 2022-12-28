@@ -48,14 +48,14 @@ Explanation: You need to reduce multiple spaces between two words to a single sp
 
 ### Code
 
-```jsx title="Python"
+```python title="Python Code"
 class Solution:
     def reverseWords(self, s: str) -> str:
         return " ".join(s.split()[::-1])
 
 ```
 
-```jsx title="C++"
+```cpp title="C++ Code"
 class Solution
 {
 public:

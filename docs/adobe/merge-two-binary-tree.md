@@ -31,8 +31,8 @@ Output: [2,2]
 
 #### Constraints:
 
-- The number of nodes in both trees is in the range [0, 2000].
-- -1e4 <= Node.val <= 1e4
+- The number of nodes in both trees is in the range `[0, 2000]`.
+- -1e<sup>4</sup> `<=` `Node.val` `<=` 1e<sup>4</sup>
 
 ### Code
 

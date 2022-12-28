@@ -18,8 +18,11 @@ Two sequences are considered different if at least one element differs from each
 ```
 Input: n = 2, rollMax = [1,1,2,2,2,3]
 Output: 34
-Explanation: There will be 2 rolls of die, if there are no constraints on the die, there are 6 * 6 = 36 possible combinations. In this case, looking at rollMax array, the numbers 1 and 2 appear at most once consecutively, therefore sequences (1,1) and (2,2) cannot occur, so the final answer is 36-2 = 34.
 ```
+
+##### Explanation:
+
+There will be **2 rolls** of die, if there are no constraints on the die, there are `6 * 6 = 36` possible combinations. In this case, looking at `rollMax array`, the numbers 1 and **2** appear at most once consecutively, therefore sequences `(1,1)` and `(2,2)` cannot occur, so the final answer is `36-2 = 34`.
 
 #### Example 2:
 

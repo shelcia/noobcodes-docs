@@ -29,7 +29,7 @@ Output: []
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 
 class TrieNode:
     def __init__(self, val):

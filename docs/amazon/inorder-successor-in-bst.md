@@ -45,14 +45,13 @@ Explanation:
 
 ```python title="Python"
 def inorderSuccessor(self, root, p):
-        # write your code here
-        if not root:
-            return None
-        if root.val > p.val:
-            return self.inorderSuccessor(root.left, p) or root
-        if root.val <= p.val:
-            return self.inorderSuccessor(root.right, p)
-
+    # write your code here
+    if not root:
+        return None
+    if root.val > p.val:
+        return self.inorderSuccessor(root.left, p) or root
+    if root.val <= p.val:
+        return self.inorderSuccessor(root.right, p)
 
 ```
 

@@ -3,11 +3,11 @@ sidebar_position: 9
 tags: [microsoft]
 ---
 
-# Rectangle Area 
+# Rectangle Area
 
 ### Problem Statement
 
-Given the coordinates of two **rectilinear** rectangles in a 2D plane, return *the total area covered by the two rectangles*.
+Given the coordinates of two **rectilinear** rectangles in a 2D plane, return _the total area covered by the two rectangles_.
 
 The first rectangle is defined by its **bottom-left** corner `(ax1, ay1)` and its **top-right** corner `(ax2, ay2)`.
 
@@ -40,7 +40,7 @@ Output: 16
 
 ### Code
 
-```jsx title="Python"
+```python title="Python Code"
 class Solution:
     def computeArea(self, ax1: int, ay1: int, ax2: int, ay2: int, bx1: int, by1: int, bx2: int, by2: int) -> int:
         areaOf1stRectangle = (ax2 - ax1) * (ay2 - ay1);
@@ -54,11 +54,11 @@ class Solution:
 
 ```
 
-```jsx title="C++"
+```cpp title="C++ Code"
 class Solution {
 public:
     int computeArea(int ax1, int ay1, int ax2, int ay2, int bx1, int by1, int bx2, int by2) {
-        
+
         int areaOf1stRectangle = (ax2 - ax1) * (ay2 - ay1);
         int areaOf2ndRectangle = (bx2 - bx1) * (by2 - by1);
 
@@ -66,7 +66,7 @@ public:
         int yOverlap = min(ay2, by2) - max(ay1, by1);
         int areaOverlap = (xOverlap > 0 && yOverlap > 0) ? xOverlap * yOverlap : 0;
 
-        return (areaOf1stRectangle + areaOf2ndRectangle - areaOverlap);    
+        return (areaOf1stRectangle + areaOf2ndRectangle - areaOverlap);
     }
 };
 ```

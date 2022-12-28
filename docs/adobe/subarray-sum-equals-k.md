@@ -1,6 +1,6 @@
 ---
 sidebar_position: 24
-tags: [adobe]
+tags: [adobe, array, subarray]
 ---
 
 # Subarray Sum Equals K
