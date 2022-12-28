@@ -23,10 +23,10 @@ The answer is guaranteed to fit into a signed 32-bit integer.
 Input: amount = 5, coins = [1,2,5]
 Output: 4
 Explanation: there are four ways to make up the amount:
-5=5
-5=2+2+1
-5=2+1+1+1
-5=1+1+1+1+1
+        5=5
+        5=2+2+1
+        5=2+1+1+1
+        5=1+1+1+1+1
 ```
 
 #### Example 2:
@@ -46,14 +46,14 @@ Output: 1
 
 ### Constraints:
 
-- 1 <= coins.length <= 300
-- 1 <= coins[i] <= 5000
+- `1 <= coins.length <= 300`
+- `1 <= coins[i] <= 5000`
 - All the values of coins are unique.
-- 0 <= amount <= 5000
+- `0 <= amount <= 5000`
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 
 class Solution(object):
         def change(self, amount, coins):
