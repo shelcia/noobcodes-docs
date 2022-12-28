@@ -37,13 +37,13 @@ For major changes, you are welcome to open an issue to discuss what you would li
 ## Installation
 
 ```console
-yarn install
+npm install or yarn install
 ```
 
 ## Local Development
 
 ```console
-yarn start
+npm start or yarn start
 ```
 
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
@@ -51,7 +51,7 @@ This command starts a local development server and opens up a browser window. Mo
 ## Build
 
 ```console
-yarn build
+npm build or yarn build
 ```
 
 ## 💼 Code of Conduct
