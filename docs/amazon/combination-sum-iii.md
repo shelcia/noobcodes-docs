@@ -49,12 +49,12 @@ Using 4 different numbers in the range [1,9], the smallest sum we can get is 1+2
 
 ### Constraints:
 
-- 2 <= k <= 9
-- 1 <= n <= 60
+- `2 <= k <= 9`
+- `1 <= n <= 60`
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 
 class Solution(object):
     def combinationSum3(self, k, n):
