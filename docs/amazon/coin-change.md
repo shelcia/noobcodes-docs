@@ -39,13 +39,13 @@ Output: 0
 
 ### Constraints:
 
-- 1 <= coins.length <= 12
-- 1 <= coins[i] <= 2<sup>31</sup> - 1
+- `1 <= coins.length <= 12`
+- `1 <= coins[i] <= 2<sup>31</sup> - 1`
 - 0 <= amount <= 10<sup>4</sup>
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 
 class Solution(object):
     def coinChange(self, coins, amount):
