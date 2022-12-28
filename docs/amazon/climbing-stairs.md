@@ -36,11 +36,11 @@ Explanation: There are three ways to climb to the top.
 
 ### Constraints:
 
-- 1 <= n <= 45
+`- 1 <= n <= 45`
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 
 class Solution(object):
     def climbStairs(self, n):
