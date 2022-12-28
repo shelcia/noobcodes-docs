@@ -30,7 +30,7 @@ Output: false
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 
 class Solution:
     def searchMatrix(self, matrix, target):
