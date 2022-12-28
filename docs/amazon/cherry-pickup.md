@@ -42,16 +42,16 @@ Output: 0
 
 ### Constraints:
 
-- n == grid.length
-- n == grid[i].length
-- 1 <= n <= 50
-- grid[i][j] is -1, 0, or 1.
-- grid[0][0] != -1
-- grid[n - 1][n - 1] != -1
+- `n == grid.length`
+- `n == grid[i].length`
+- `1 <= n <= 50`
+- `grid[i][j] is -1, 0, or 1`
+- `grid[0][0] != -1`
+- `grid[n - 1][n - 1] != -1`
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 
 class Solution(object):
     def cherryPickup(self, grid):
