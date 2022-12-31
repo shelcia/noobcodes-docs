@@ -7,10 +7,11 @@ sidebar_position: 18
 ### Problem Statement
 
 Linked List Rotation
+[LeetCode link](https://leetcode.com/problems/rotate-list/)
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 class linkedListNode:
     def __init__(self, value, nextNode=None):
         self.value = value
@@ -79,7 +80,7 @@ if __name__ == '__main__':
 
 ### Output
 
-```jsx title="output"
+```log title="output"
 6 ->5 ->4 ->3 ->2 ->1 ->None
 2 ->1 ->6 ->5 ->4 ->3 ->None
 2 ->1 ->6 ->5 ->4 ->3 ->None

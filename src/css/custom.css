@@ -7,24 +7,16 @@
 
 /* You can override the default Infima variables here. */
 
-/* @import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
 
 :root {
-  /* --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: rgb(33, 175, 144);
-  --ifm-color-primary-darker: rgb(31, 165, 136);
-  --ifm-color-primary-darkest: rgb(26, 136, 112);
-  --ifm-color-primary-light: rgb(70, 203, 174);
-  --ifm-color-primary-lighter: rgb(102, 212, 189);
-  --ifm-color-primary-lightest: rgb(146, 224, 208); */
-  --ifm-color-primary: #25a5c2;
-  --ifm-color-primary-dark: rgb(33, 137, 175);
-  --ifm-color-primary-darker: rgb(31, 152, 165);
-  --ifm-color-primary-darkest: rgb(26, 125, 136);
-  --ifm-color-primary-light: rgb(70, 194, 203);
-  --ifm-color-primary-lighter: rgb(102, 195, 212);
-  --ifm-color-primary-lightest: rgb(146, 212, 224);
+  --ifm-color-primary: #2ac7ea;
+  --ifm-color-primary-dark: #16bde2;
+  --ifm-color-primary-darker: #15b2d6;
+  --ifm-color-primary-darkest: #1193b0;
+  --ifm-color-primary-light: #43ceec;
+  --ifm-color-primary-lighter: #50d1ee;
+  --ifm-color-primary-lightest: #64d6f0;
   --ifm-code-font-size: 95%;
 }
 
@@ -38,7 +30,45 @@
 html[data-theme="dark"] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
-/* 
+
+html[data-theme="dark"] {
+  background-color: #0a141c;
+}
+
+html[data-theme="dark"] #__docusaurus {
+  --ifm-navbar-background-color: #0a141cb5;
+}
+
+html[data-theme="dark"] .footer {
+  border-top: 1px solid var(--ifm-color-emphasis-300);
+  background-color: #0a141c !important;
+}
+
+html[data-theme="light"] #__docusaurus {
+  --ifm-navbar-background-color: rgba(255, 255, 255, 0.85);
+}
+
+html[data-theme="light"] .footer {
+  border-top: 1px solid var(--ifm-color-emphasis-300);
+  background-color: var(--ifm-background-surface-color) !important;
+}
+
+html[data-theme="light"] .footer .footer__title {
+  color: var(--ifm-color-emphasis-1000);
+}
+
+html[data-theme="light"] .footer .footer__link-item {
+  color: var(--ifm-color-emphasis-800);
+}
+
+html[data-theme="light"] .footer .footer__link-item:hover {
+  color: var(--ifm-color-primary-dark);
+}
+
+html[data-theme="light"] .footer .footer__copyright {
+  color: var(--ifm-color-emphasis-900);
+}
+
 h1,
 h2,
 h3,
@@ -50,13 +80,23 @@ p,
 b,
 span,
 li,
-ul {
-  font-family: "Ubuntu", sans-serif;
+ul,
+div {
+  font-family: "Inter", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 code,
 pre,
 kbd,
-.codeBlockLines_3Jct {
-  font-family: "Inconsolata", monospace;
-} */
+.codeBlockLines_3Jct,
+.prism-code {
+  font-family: "JetBrains Mono", "Courier New", Courier, monospace;
+}
+
+code,
+pre,
+kbd,
+.codeBlockLines_3Jct,
+.prism-code span {
+  font-family: "JetBrains Mono", "Courier New", Courier, monospace;
+}

@@ -10,7 +10,7 @@ Linked List Intro
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 # CREATING LINKED LIST
 # 1.VALUE
 # 2.NEXT NODE
@@ -52,6 +52,6 @@ if __name__ == '__main__':
 
 ### Output
 
-```jsx title="output"
+```log title="output"
 2 ->11 ->1999 ->None
 ```

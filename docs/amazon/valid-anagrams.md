@@ -1,5 +1,5 @@
 ---
-sidebar_position: 24
+sidebar_position: 27
 tags: [amazon]
 ---
 
@@ -10,7 +10,8 @@ tags: [amazon]
 Given two strings s and t, return true if t is an anagram of s, and false otherwise.
 
 An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
- 
+[LeetCode link](https://leetcode.com/problems/valid-anagram/)
+
 #### Example 1:
 
 Input: s = "anagram", t = "nagaram"
@@ -23,7 +24,7 @@ Output: false
 
 ### Code - Approach 1
 
-```jsx title="Python Code"
+```python title="Python Code"
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         s=list(s)
@@ -40,7 +41,7 @@ class Solution:
 
 ### Code - Approach 2 (Hashmap)
 
-```jsx title="Python Code"
+```python title="Python Code"
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         if len(s)!=len(t):
@@ -48,12 +49,14 @@ class Solution:
         countS,countT={},{}
 
         for i in range(len(s)):
-            countS[s[i]]=1+countS.get(s[i],0) 
+            countS[s[i]]=1+countS.get(s[i],0)
             countT[t[i]]=1+countT.get(t[i],0)
         for ch in countS:
             if countS[ch]!=countT.get(ch,0):
                 return False
-        return True      
+        return True
+
+
+    # the get function prevents Python from throwing a KeyError when a key
+    # is not present in the map, it returns 0 instead
 ```
-        # the get function prevents Python from throwing a KeyError when a key 
-        is not present in the map, it returns 0 instead

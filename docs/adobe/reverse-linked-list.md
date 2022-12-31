@@ -1,5 +1,6 @@
 ---
-sidebar_position: 1
+sidebar_position: 3
+tags: [adobe, linkedlist]
 ---
 
 # Reversed Linked List
@@ -7,10 +8,11 @@ sidebar_position: 1
 ### Problem Statement
 
 Given a Linked List, print reverse if it.
+[LeetCode link](https://leetcode.com/problems/reverse-linked-list/)
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 class linkedListNode:
 
     def __init__(self, value, nextNode=None):

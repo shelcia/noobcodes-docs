@@ -1,6 +1,6 @@
 ---
-sidebar_position: 22
-tags: [amazon]
+sidebar_position: 25
+tags: [amazon, trie]
 ---
 
 # Trie - Introduction
@@ -8,6 +8,7 @@ tags: [amazon]
 ## Problem Statement
 
 A trie (pronounced as "try") or prefix tree is a tree data structure used to efficiently store and retrieve keys in a dataset of strings. There are various applications of this data structure,such as autocomplete and spellchecker.
+[LeetCode link](https://leetcode.com/problems/implement-trie-prefix-tree/)
 
 ![Image of Yaktocat](https://ik.imagekit.io/shelcia/Noobcodes/Trie_-_Intro__1_-removebg-preview_Uu2NejEd8.png?updatedAt=1626933058613)
 
@@ -21,7 +22,7 @@ A trie (pronounced as "try") or prefix tree is a tree data structure used to eff
 
 ## Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 class TrieNode:
 
     def __init__(self):

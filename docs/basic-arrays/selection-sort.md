@@ -10,7 +10,7 @@ Sort a linked list using Selection Sort.
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 # SELECTION SORT
 
 # FIND THE MINIMUM IN [0,...N] THEN [1,...N] AND SO ON AND SWAP
@@ -32,6 +32,6 @@ if __name__ == "__main__":
 
 ### Output
 
-```jsx title="output"
-[0, 3, 12, 45, 67, 78, 90];
+```log title="output"
+[0, 3, 12, 45, 67, 78, 90]
 ```

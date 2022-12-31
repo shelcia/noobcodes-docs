@@ -1,5 +1,5 @@
 ---
-sidebar_position: 17
+sidebar_position: 18
 tags: [amazon]
 ---
 
@@ -31,7 +31,7 @@ Space Complexity -> O(1)
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 def NoOfZeroesI(arr):
 
     count = 0

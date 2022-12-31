@@ -10,7 +10,7 @@ Sort a linked list using insertion sort.
 
 ### Code
 
-```jsx title="Python Code"
+```python title="Python Code"
 # INSERTION SORT
 
 # COMPARE THE PREDECESSOR WITH KEY, IF LESS SWAP WITH THE ELEMENT AND SO ON
@@ -38,6 +38,6 @@ if __name__ == "__main__":
 
 ### Output
 
-```jsx title="output"
-[0, 3, 12, 45, 67, 78, 90];
+```log title="output"
+[0, 3, 12, 45, 67, 78, 90]
 ```
