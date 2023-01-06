@@ -3,13 +3,11 @@ sidebar_position: 812
 tags: [Goldman Sachs]
 ---
 
-#  Pow(x, n)
+# Pow(x, n)
 
 ### Problem Statement
 
 Implement `pow(x, n)`, which calculates `x` raised to the power `n (i.e., xn)`.
-
-
 
 [Leetcode Link](https://leetcode.com/problems/powx-n/)
 
@@ -22,12 +20,14 @@ Output: 1024.00000
 ```
 
 #### Example 2:
+
 ```
 Input: x = 2.10000, n = 3
 Output: 9.26100
 ```
 
 #### Constraints:
+
 ```
 -100.0 < x < 100.0
 -231 <= n <= 231-1
@@ -50,7 +50,7 @@ class Solution {
         }
         // for handling the -ve powers
         if(n<0){
-            // stored in a bigger data type 
+            // stored in a bigger data type
             long a = n;
             long y = -a;
             return 1/func(x, y);
@@ -71,4 +71,3 @@ class Solution {
     }
 }
 ```
-

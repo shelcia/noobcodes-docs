@@ -3,7 +3,7 @@ sidebar_position: 810
 tags: [Goldman Sachs]
 ---
 
-#  Coin Change
+# Coin Change
 
 ### Problem Statement
 
@@ -13,31 +13,29 @@ Return the fewest number of coins that you need to make up that amount. If that 
 
 You may assume that you have an `infinite` number of each kind of coin.
 
-
-
-
 [Leetcode Link](https://leetcode.com/problems/coin-change/)
 
 #### Example 1:
 
 ```
-
 Input: coins = [1,2,5], amount = 11
 Output: 3
 Explanation: 11 = 5 + 5 + 1
 ```
 
 #### Example 2:
+
 ```
 Input: coins = [2], amount = 3
 Output: -1
 ```
 
 #### Constraints:
+
 ```
-1 <= coins.length <= 12
-1 <= coins[i] <= 231 - 1
-0 <= amount <= 104
+`1 <= coins.length <= 12`
+`1 <= coins[i] <= 231 - 1`
+`0 <= amount <= 104`
 ```
 
 ### Code
@@ -52,7 +50,7 @@ class Solution {
             int min = Integer.MAX_VALUE;
             for(int coin:coins){
                if(i-coin>=0 && dp[i-coin] != -1)
-                   min = dp[i-coin] < min ? dp[i-coin] :min; 
+                   min = dp[i-coin] < min ? dp[i-coin] :min;
             }
             // Set dp[i] to -1 if i (current amount) can not be reach by  coins array
             dp[i] = min== Integer.MAX_VALUE ? -1 : 1+min;
@@ -61,4 +59,3 @@ class Solution {
     }
 }
 ```
-

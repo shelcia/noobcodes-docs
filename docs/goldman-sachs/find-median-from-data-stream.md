@@ -17,8 +17,6 @@ Implement the `MedianFinder` class:
 `void addNum(int num)` adds the integer num from the data stream to the data structure.
 double `findMedian()` returns the median of all elements so far. Answers within` 10-5` of the actual answer will be accepted.
 
-
-
 [Leetcode Link](https://leetcode.com/problems/find-median-from-data-stream/)
 
 #### Example 1:
@@ -41,6 +39,7 @@ medianFinder.findMedian(); // return 2.0
 ```
 
 #### Constraints:
+
 ```
 -105 <= num <= 105
 There will be at least one element in the data structure before calling findMedian.
@@ -74,4 +73,3 @@ public void addNum(int num) {
     even = !even;
 }
 ```
-

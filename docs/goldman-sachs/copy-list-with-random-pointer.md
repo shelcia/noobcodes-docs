@@ -24,25 +24,29 @@ Your code will only be given the head of the original linked list.
 [Leetcode Link](https://leetcode.com/problems/copy-list-with-random-pointer/)
 
 #### Example 1:
+
 ![Alt text](https://assets.leetcode.com/uploads/2019/12/18/e1.png)
+
 ```
 
 Input: head = [[7,null],[13,0],[11,4],[10,2],[1,0]]
 Output: [[7,null],[13,0],[11,4],[10,2],[1,0]]
 ```
+
 ![Alt text](https://assets.leetcode.com/uploads/2019/12/18/e2.png)
+
 #### Example 2:
+
 ```
 Input: head = [[1,1],[2,1]]
 Output: [[1,1],[2,1]]
 ```
 
 #### Constraints:
-```
-0 <= n <= 1000
--104 <= Node.val <= 104
-Node.random is null or is pointing to some node in the linked list.
-```
+
+- `0 <= n <= 1000`
+- `-104 <= Node.val <= 104`
+- Node.random is `null` or is pointing to some node in the linked list.
 
 ### Code
 
@@ -65,10 +69,9 @@ public class Solution {
         map.put(head, newHead);
         newHead.next = copyRandomList(head.next, map);
         newHead.random = copyRandomList(head.random, map);
-        
+
         return newHead;
-        
+
     }
 }
 ```
-

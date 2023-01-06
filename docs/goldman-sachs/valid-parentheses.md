@@ -15,8 +15,6 @@ An input string is valid if:
 - Open brackets must be closed in the correct order.
 - Every close bracket has a corresponding open bracket of the same type.
 
-
-
 [Leetcode Link](https://leetcode.com/problems/valid-parentheses/)
 
 #### Example 1:
@@ -27,16 +25,16 @@ Output: true
 ```
 
 #### Example 2:
+
 ```
 Input: s = "()[]{}"
 Output: true
 ```
 
 #### Constraints:
-```
-1 <= s.length <= 104
-s consists of parentheses only '()[]{}'.
-```
+
+- `1 <= s.length <= 104`
+- `s` consists of parentheses only `'()[]{}'`.
 
 ### Code
 
@@ -58,4 +56,3 @@ public boolean isValid(String s) {
 	return stack.isEmpty();
 }
 ```
-
