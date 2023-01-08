@@ -51,8 +51,6 @@ Output: [[1,1],[2,1]]
 ### Code
 
 ```java title="java Code"
-
-
 public class Solution {
     public RandomListNode copyRandomList(RandomListNode head) {
         Map<RandomListNode, RandomListNode> map = new HashMap<RandomListNode, RandomListNode>();

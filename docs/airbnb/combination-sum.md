@@ -13,7 +13,7 @@ The same number may be chosen from candidates an unlimited number of times. Two 
 frequency
 of at least one of the chosen numbers is different.
 
-The test cases are generated such that the number of unique combinations that sum up to target is less than 150 combinations for the given input.
+The test cases are generated such that the number of unique combinations that sum up to target is less than `150` combinations for the given input.
 
 [LeetCode link](https://leetcode.com/problems/combination-sum)
 
@@ -42,12 +42,12 @@ Input: candidates = [2], target = 1
 Output: []
 ```
 
-### Constraints:
+#### Constraints:
 
-- 1 <= candidates.length <= 30
-- 2 <= candidates[i] <= 40
+- `1 <= candidates.length <= 30`
+- `2 <= candidates[i] <= 40`
 - All elements of candidates are distinct.
-- 1 <= target <= 40
+- `1 <= target <= 40`
 
 ### Code
 

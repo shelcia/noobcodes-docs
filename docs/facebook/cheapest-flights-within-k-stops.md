@@ -60,7 +60,7 @@ Output: 500
 The graph is shown above.
 The optimal path with no stops from city `0 to 2` is marked in red and has cost **500**.
 
-### Constraints:
+#### Constraints:
 
 - `1 <= n <= 100`
 - `0 <= flights.length <= (n \* (n - 1) / 2)`

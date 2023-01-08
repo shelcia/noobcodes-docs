@@ -23,6 +23,7 @@ A happy number is a number defined by the following process:
 ```
 Input: n = 19
 Output: true
+
 Explanation:
 12 + 92 = 82
 82 + 22 = 68

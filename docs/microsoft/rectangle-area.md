@@ -13,6 +13,8 @@ The first rectangle is defined by its **bottom-left** corner `(ax1, ay1)` and it
 
 The second rectangle is defined by its **bottom-left** corner `(bx1, by1)` and its **top-right** corner `(bx2, by2)`.
 
+[Leetcode link](https://leetcode.com/problems/rectangle-area/)
+
 #### Example 1:
 
 ![alt text](https://assets.leetcode.com/uploads/2021/05/08/rectangle-plane.png)
@@ -31,10 +33,10 @@ Output: 16
 
 #### Constraints:
 
-- -10<sup>4</sup> <= ax1 <= ax2 <= 10<sup>4</sup>
-- -10<sup>4</sup> <= ay1 <= ay2 <= 10<sup>4</sup>
-- -10<sup>4</sup> <= bx1 <= bx2 <= 10<sup>4</sup>
-- -10<sup>4</sup> <= by1 <= by2 <= 10<sup>4</sup>
+- `-10`<sup>4</sup> `<= ax1 <= ax2 <= 10`<sup>4</sup>
+- `-10`<sup>4</sup> `<= ay1 <= ay2 <= 10`<sup>4</sup>
+- `-10`<sup>4</sup> `<= bx1 <= bx2 <= 10`<sup>4</sup>
+- `-10`<sup>4</sup> `<= by1 <= by2 <= 10`<sup>4</sup>
 
 [Leetcode Link](https://leetcode.com/problems/rectangle-area)
 

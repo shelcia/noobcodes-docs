@@ -7,12 +7,12 @@ tags: [uber]
 
 ### Problem Statement
 
-Given an integer n, return a string array answer (1-indexed) where:
+Given an integer `n`, return a string array answer (**1-indexed**) where:
 
-- answer[i] == "FizzBuzz" if i is divisible by 3 and 5.
-- answer[i] == "Fizz" if i is divisible by 3.
-- answer[i] == "Buzz" if i is divisible by 5.
-- answer[i] == i (as a string) if none of the above conditions are true.
+- `answer[i] == "FizzBuzz"` if `i` is divisible by `3` and `5`.
+- `answer[i] == "Fizz"` if `i` is divisible by `3`.
+- `answer[i] == "Buzz"` if `i` is divisible by `5`.
+- `answer[i] == i` (as a string) if none of the above conditions are `true`.
 
 [Leetcode link](https://leetcode.com/problems/fizz-buzz/)
 
@@ -39,12 +39,11 @@ Output: ["1","2","Fizz","4","Buzz","Fizz","7","8","Fizz","Buzz","11","Fizz","13"
 
 #### Constraints:
 
-- 1 <= n <= 10<sup>4</sup>
+- `1 <= n <= 10`<sup>4</sup>
 
 ### Code
 
 ```python title="Python Code"
-
 class Solution(object):
     def fizzBuzz(self, n):
         i = 1

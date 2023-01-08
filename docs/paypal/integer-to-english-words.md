@@ -32,7 +32,7 @@ Output: "One Million Two Hundred Thirty Four Thousand Five Hundred Sixty Seven"
 
 #### Constraints:
 
-- 0 <= num <= 2<sup>31</sup> - 1
+- `0 <= num <= 2`<sup>31</sup> `- 1`
 
 [Leetcode Link](https://leetcode.com/problems/integer-to-english-words/)
 

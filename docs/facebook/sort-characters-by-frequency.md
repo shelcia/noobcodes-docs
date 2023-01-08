@@ -7,9 +7,9 @@ tags: [facebook]
 
 ### Problem Statement
 
-Given a string s, sort it in decreasing order based on the frequency of the characters. The frequency of a character is the number of times it appears in the string.
+Given a string `s`, sort it in **decreasing order** based on the **frequency** of the characters. The frequency of a character is the number of times it appears in the string.
 
-Return the sorted string. If there are multiple answers, return any of them.
+Return the _sorted_ string. If there are multiple answers, return _any of them_.
 
 [Leetcode Link](https://leetcode.com/problems/sort-characters-by-frequency)
 
@@ -42,8 +42,8 @@ Note that 'A' and 'a' are treated as two different characters.
 
 #### Constraints:
 
-- 1 <= s.length <= 5 \* 10<sup>5</sup>
-- s consists of uppercase and lowercase English letters and digits.
+- `1` `<=` `s.length` `<=` `5` \* `10`<sup>5</sup>
+- `s` consists of uppercase and lowercase English letters and digits.
 
 ### Code
 

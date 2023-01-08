@@ -7,9 +7,9 @@ tags: [amazon]
 
 ### Problem Statement
 
-Given an array of distinct integers nums and a target integer target, return the number of possible combinations that add up to target.
+Given an array of distinct integers `nums` and a `target` integer `target`, return the number of possible combinations that add up to `target`.
 
-The test cases are generated so that the answer can fit in a 32-bit integer.
+The test cases are generated so that the answer can fit in a **32-bit integer**.
 
 [LeetCode link](https://leetcode.com/problems/combination-sum-iv)
 
@@ -37,12 +37,12 @@ Input: nums = [9], target = 3
 Output: 0
 ```
 
-### Constraints:
+#### Constraints:
 
-- 1 <= nums.length <= 200
-- 1 <= nums[i] <= 1000
-- All the elements of nums are unique.
-- 1 <= target <= 1000
+- `1 <= nums.length <= 200`
+- `1 <= nums[i] <= 1000`
+- All the elements of `nums` are **unique**.
+- `1 <= target <= 1000`
 
 ### Code
 

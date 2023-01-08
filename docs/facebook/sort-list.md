@@ -35,7 +35,7 @@ Output: []
 #### Constraints:
 
 - The number of nodes in the list is in the range [0, 5 * 10<sup>4</sup>].
-- -10<sup>5</sup> <= Node.val <= 10<sup>5</sup>
+- `-10`<sup>5</sup> `<=` `Node.val` `<=` `10`<sup>5</sup>
 
 ### Code
 

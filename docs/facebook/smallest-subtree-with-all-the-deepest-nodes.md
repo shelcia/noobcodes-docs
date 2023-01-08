@@ -45,8 +45,8 @@ Explanation: The deepest node in the tree is 2, the valid subtrees are the subtr
 
 #### Constraints:
 
-- The number of nodes in the tree will be in the range [1, 500].
-- 0 <= Node.val <= 500
+- The number of nodes in the tree will be in the range `[1, 500]`.
+- `0 <= Node.val <= 500`
 - The values of the nodes in the tree are unique.
 
 ### Code

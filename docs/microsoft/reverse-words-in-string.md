@@ -15,6 +15,8 @@ Return _a string of the words in reverse order concatenated by a single space_.
 
 **Note** that `s` may contain leading or trailing spaces or multiple spaces between two words. The returned string should only have a single space separating the words. Do not include any extra spaces.
 
+[Leetcode link](https://leetcode.com/problems/reverse-words-in-a-string/)
+
 #### Example 1:
 
 ```
@@ -40,7 +42,7 @@ Explanation: You need to reduce multiple spaces between two words to a single sp
 
 #### Constraints:
 
-- 1 <= s.length <= 10<sup>4</sup>
+- `1 <= s.length <= 10`<sup>4</sup>
 - `s` contains English letters (upper-case and lower-case), digits, and spaces `' '`.
 - There is **at least one** word in `s`.
 

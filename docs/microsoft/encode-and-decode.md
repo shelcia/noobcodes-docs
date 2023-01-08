@@ -19,6 +19,8 @@ Implement the `Solution` class:
 - `String encode(String longUrl)` Returns a tiny URL for the given `longUrl`.
 - `String decode(String shortUrl)` Returns the original long URL for the given `shortUrl`. It is guaranteed that the given `shortUrl` was encoded by the same object.
 
+[Leetcode link](https://leetcode.com/problems/encode-and-decode-tinyurl/)
+
 #### Example 1:
 
 ```
@@ -33,7 +35,7 @@ string ans = obj.decode(tiny); // returns the original url after deconding it.
 
 #### Constraints:
 
-- 1 <= url.length <= 10<sup>4</sup>
+- `1 <= url.length <= 10`<sup>4</sup>
 - `url` is guranteed to be a valid URL.
 
 ### Code

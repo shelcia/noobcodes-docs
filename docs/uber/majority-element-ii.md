@@ -7,7 +7,7 @@ tags: [uber]
 
 ### Problem Statement
 
-Given an integer array of size n, find all elements that appear more than ⌊ n/3 ⌋ times.
+Given an integer array of size `n`, find all elements that appear more than `⌊ n/3 ⌋` times.
 
 [Leetcode Link](https://leetcode.com/problems/majority-element-ii/)
 
@@ -34,8 +34,8 @@ Output: [1,2]
 
 #### Constraints:
 
-- 1 <= nums.length <= 5 \* 10<sup>4</sup>
-- -10<sup>9</sup> <= nums[i] <= 10<sup>9</sup>
+- `1 <= nums.length <= 5 * 10`<sup>4</sup>
+- `-10`<sup>9</sup> `<= nums[i] <= 10`<sup>9</sup>
 
 ### Code
 

@@ -44,10 +44,10 @@ Output: [[0,3],[5,0]]
 
 #### Constraints:
 
-- 1 <= buildings.length <= 10<sup>4</sup>
-  0 <= left<sub>i</sub> < right<sub>i</sub> <= 2<sup>31</sup> - 1
-  1 <= height<sub>i</sub> <= 2<sup>31</sup> - 1
-  buildings is sorted by left<sub>i</sub> in non-decreasing order.
+- `1` `<=` `buildings.length` `<=` `10`<sup>4</sup>
+- `0` `<=` left<sub>i</sub> `<` right<sub>i</sub> `<=` `2`<sup>31</sup> `-1`
+- `1` `<=` height<sub>i</sub> `<=` `2`<sup>31</sup> `-1`
+- buildings is sorted by left<sub>i</sub> in **non-decreasing order**.
 
 ### Code
 

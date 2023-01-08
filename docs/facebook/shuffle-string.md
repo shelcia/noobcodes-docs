@@ -7,13 +7,15 @@ tags: [facebook]
 
 ### Problem Statement
 
-You are given a string s and an integer array indices of the same length. The string s will be shuffled such that the character at the ith position moves to indices[i] in the shuffled string.
+You are given a string `s` and an integer array `indices` of the same length. The string `s` will be shuffled such that the character at the i<sup>th</sup> position moves to `indices[i]` in the shuffled string.
 
-Return the shuffled string.
+_Return the shuffled string._
 
 [Leetcode Link](https://leetcode.com/problems/shuffle-string)
 
 #### Example 1:
+
+![ex1](https://assets.leetcode.com/uploads/2020/07/09/q1.jpg)
 
 ```
 Input: s = "codeleet", indices = [4,5,6,7,0,2,1,3]
@@ -31,11 +33,11 @@ Explanation: After shuffling, each character remains in its position.
 
 #### Constraints:
 
-- s.length == indices.length == n
-- 1 <= n <= 100
-- s consists of only lowercase English letters.
-- 0 <= indices[i] < n
-- All values of indices are unique.
+- `s.length == indices.length == n`
+- `1 <= n <= 100`
+- `s` consists of only lowercase English letters.
+- `0 <= indices[i] < n`
+- All values of `indices` are **unique**.
 
 ### Code
 

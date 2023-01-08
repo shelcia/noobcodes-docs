@@ -9,9 +9,9 @@ tags: [facebook]
 
 You are given a sorted array consisting of only integers where every element appears exactly twice, except for one element which appears exactly once.
 
-Return the single element that appears only once.
+Return _the single element that appears only once._
 
-Your solution must run in O(log n) time and O(1) space.
+Your solution must run in `O(log n)` time and `O(1)` space.
 
 [Leetcode Link](https://leetcode.com/problems/single-element-in-a-sorted-array)
 
@@ -31,8 +31,8 @@ Output: 10
 
 #### Constraints:
 
-- 1 <= nums.length <= 10<sup>5</sup>
-- 0 <= nums[i] <= 10<sup>5</sup>
+- `1` `<=` `nums.length` `<=` `10`<sup>5</sup>
+- `0` `<=` `nums[i]` `<=` `10`<sup>5</sup>
 
 ### Code
 

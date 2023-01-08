@@ -7,9 +7,9 @@ tags: [uber]
 
 ### Problem Statement
 
-Given an array nums of size n, return the majority element.
+Given an array nums of size `n`, return the majority element.
 
-The majority element is the element that appears more than ⌊n / 2⌋ times. You may assume that the majority element always exists in the array.
+The majority element is the element that appears more than `⌊n / 2⌋` times. You may assume that the majority element always exists in the array.
 
 [Leetcode Link](https://leetcode.com/problems/majority-element/)
 
@@ -29,9 +29,9 @@ Output: 2
 
 #### Constraints:
 
-- n == nums.length
-- 1 <= n <= 5 \* 10<sup>4</sup>
-- -10<sup>9</sup> <= nums[i] <= 10<sup>9</sup>
+- `n == nums.length`
+- `1 <= n <= 5 * 10`<sup>4</sup>
+- `-10`<sup>9</sup> `<= nums[i] <= 10`<sup>9</sup>
 
 ### Code
 

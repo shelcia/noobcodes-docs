@@ -7,7 +7,7 @@ tags: [facebook]
 
 ### Problem Statement
 
-Given two binary strings **a** and **b**, return their sum as a binary string.
+Given two binary strings `a` and `b`, return _their sum as a binary string._
 
 [LeetCode link](https://leetcode.com/problems/add-binary)
 
@@ -25,10 +25,10 @@ Input: a = "1010", b = "1011"
 Output: "10101"
 ```
 
-### Constraints:
+#### Constraints:
 
-- <= a.length, b.length <= 10<sup>4</sup>
-- a and b consist only of '0' or '1' characters.
+- `1` `<=` `a.length, b.length` `<=` 10<sup>4</sup>
+- `a` and `b` consist only of `'0'` or `'1'` characters.
 - Each string does not contain leading zeros except for the zero itself.
 
 ### Code

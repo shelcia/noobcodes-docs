@@ -51,9 +51,9 @@ Output: "A"
 
 #### Constraints:
 
-- 1 <= s.length <= 1000
+- `1 <= s.length <= 1000`
 - `s` consists of English letters (lower-case and upper-case), `','` and `'.'`.
-- 1 <= numRows <= 1000
+- `1 <= numRows <= 1000`
 
 [Leetcode Link](https://leetcode.com/problems/zigzag-conversion/)
 
@@ -86,8 +86,8 @@ public:
             else if((crow+1) == numRows) dir = 2;
             // inc or dec row depending upon the turning pt direction
             if(dir == 1) crow++;
-            else crow--;        
-            
+            else crow--;
+
         }
 
         for(auto &str: out) ans += str;

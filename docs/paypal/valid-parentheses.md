@@ -7,7 +7,7 @@ tags: [paypal]
 
 ### Problem Statement
 
-Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+Given a string s containing just the characters `'(', ')'`, `'{', '}'`, `'['` and `']'`, determine if the input string is valid.
 
 An input string is valid if:
 
@@ -40,8 +40,8 @@ Output: false
 
 #### Constraints:
 
-- 1 <= s.length <= 10<sup>4</sup>
-- s consists of parentheses only '()[]{}'.
+- `1 <= s.length <= 10`<sup>4</sup>
+- `s` consists of parentheses only `'()[]{}'`.
 
 ### Code
 

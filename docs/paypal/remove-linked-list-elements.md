@@ -7,7 +7,7 @@ tags: [paypal]
 
 ### Problem Statement
 
-Given the `head` of a linked list and an integer `val`, remove all the nodes of the linked list that has `Node.val == val`, and *return the new head*.
+Given the `head` of a linked list and an integer `val`, remove all the nodes of the linked list that has `Node.val == val`, and _return the new head_.
 
 #### Example 1:
 
@@ -34,9 +34,9 @@ Output: []
 
 #### Constraints:
 
-- The number of nodes in the list is in the range [0, 10<sup>4</sup>].
-- 1 <= Node.val <= 50
-- 0 <= val <= 50
+- The number of nodes in the list is in the range [0, `10`<sup>4</sup>].
+- `1 <= Node.val <= 50`
+- `0 <= val <= 50`
 
 [Leetcode Link](https://leetcode.com/problems/remove-linked-list-elements/)
 
@@ -61,4 +61,3 @@ class Solution:
         return head
 
 ```
-

@@ -7,7 +7,7 @@ tags: [facebook]
 
 ### Problem Statement
 
-Given an integer array nums and an integer k, return the length of the shortest non-empty subarray of nums with a sum of at least k. If there is no such subarray, return -1.
+Given an integer array nums and an integer k, return the length of the shortest non-empty subarray of nums with a sum of at least k. If there is no such subarray, return `-1`.
 
 A subarray is a contiguous part of an array.
 
@@ -36,9 +36,9 @@ Output: 3
 
 #### Constraints:
 
-- 1 <= nums.length <= 10<sup>5</sup>
-- -10<sup>5</sup> <= nums[i] <= 10<sup>5</sup>
-- 1 <= k <= 10<sup>9</sup>
+- `1` `<=` `nums.length` `<=` `10`<sup>5</sup>
+- `-10`<sup>5</sup> `<=` `nums[i]` `<=` `10`<sup>5</sup>
+- `1` `<=` `k` `<=` `10`<sup>9</sup>
 
 ### Code
 

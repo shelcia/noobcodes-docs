@@ -7,7 +7,7 @@ tags: [facebook]
 
 ### Problem Statement
 
-Given an integer array nums where every element appears three times except for one, which appears exactly once. Find the single element and return it.
+Given an integer array `nums` where every element appears **three times** except for one, which appears **exactly once**. _Find the single element and return it._
 
 You must implement a solution with a linear runtime complexity and use only constant extra space.
 
@@ -29,9 +29,9 @@ Output: 99
 
 #### Constraints:
 
-- 1 <= nums.length <= 3 \* 10<sup>4</sup>
-- -2<sup>31</sup> <= nums[i] <= 2<sup>31</sup> - 1
-- Each element in nums appears exactly three times except for one element which appears once.
+- `1` `<=` `nums.length` `<=` `3` \* `10`<sup>4</sup>
+- `-2`<sup>31</sup> `<=` `nums[i]` `<=` `2`<sup>31</sup> `-1`
+- Each element in `nums` appears exactly **three times** except for one element which appears once.
 
 ### Code
 

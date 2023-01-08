@@ -30,11 +30,14 @@ Finally, implicit newline characters can be deleted by block comments. Please se
 
 After removing the comments from the source code, return _the source code in the same format_.
 
+[Leetcode link](https://leetcode.com/problems/remove-comments/)
+
 #### Example 1:
 
 ```
 Input: source = ["/*Test program */", "int main()", "{ ", "  // variable declaration ", "int a, b, c;", "/* This is a test", "   multiline  ", "   comment for ", "   testing */", "a = b + c;", "}"]
 Output: ["int main()","{ ","  ","int a, b, c;","a = b + c;","}"]
+
 Explanation: The line by line code is visualized as below:
 /*Test program */
 int main()
@@ -62,6 +65,7 @@ a = b + c;
 ```
 Input: source = ["a/*comment", "line", "more_comment*/b"]
 Output: ["ab"]
+
 Explanation: The original source string is "a/*comment\nline\nmore_comment*/b", where we have bolded the newline characters.  After deletion, the implicit newline characters are deleted, leaving the string "ab", which when delimited by newline characters becomes ["ab"].
 ```
 

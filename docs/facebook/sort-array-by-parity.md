@@ -7,9 +7,9 @@ tags: [facebook]
 
 ### Problem Statement
 
-Given an integer array nums, move all the even integers at the beginning of the array followed by all the odd integers.
+Given an integer array `nums`, move all the even integers at the beginning of the array followed by all the odd integers.
 
-Return any array that satisfies this condition.
+Return **_any array_** that satisfies this condition.
 
 [Leetcode Link](https://leetcode.com/problems/sort-array-by-parity)
 
@@ -30,8 +30,8 @@ Output: [0]
 
 #### Constraints:
 
-- 1 <= nums.length <= 5000
-- 0 <= nums[i] <= 5000
+- `1 <= nums.length <= 5000`
+- `0 <= nums[i] <= 5000`
 
 ### Code
 

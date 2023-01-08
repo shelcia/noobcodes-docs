@@ -24,10 +24,10 @@ The inputs to the judge are given as follows (your program is not given these in
 - `intersectVal` - The value of the node where the intersection occurs. This is **0** if there is no intersected node.
 - `listA` - The first linked list.
 - `listB` - The second linked list.
-- `skipA` - The number of nodes to skip ahead in listA (starting from the head) to get to the intersected node.
-- `skipB` - The number of nodes to skip ahead in listB (starting from the head) to get to the intersected node.
+- `skipA` - The number of nodes to skip ahead in `listA` (starting from the head) to get to the intersected node.
+- `skipB` - The number of nodes to skip ahead in `listB` (starting from the head) to get to the intersected node.
 
-The judge will then create the linked structure based on these inputs and pass the two heads, headA and headB to your program. If you correctly return the intersected node, then your solution will be accepted.
+The judge will then create the linked structure based on these inputs and pass the two heads, `headA` and `headB` to your program. If you correctly return the intersected node, then your solution will be accepted.
 
 [Leetcode Link](https://leetcode.com/problems/intersection-of-two-linked-lists/)
 
@@ -73,10 +73,10 @@ Output: No intersection
 
 #### Constraints:
 
-- The number of nodes of listA is in the m.
-- The number of nodes of listB is in the n.
-- `1` `<=` `m, n` `<=` 3 \* 10<sup>4</sup>
-- `1` <= `Node.val` `<=` 10<sup>5</sup>
+- The number of nodes of `listA` is in the `m`.
+- The number of nodes of `listB` is in the `n`.
+- `1` `<=` `m, n` `<=` `3` \* 10<sup>4</sup>
+- `1 <= Node.val <= 10`<sup>5</sup>
 - `0 <= skipA < m`
 - `0 <= skipB < n`
 - `intersectVal` is **0** if `listA` and `listB` do not intersect.

@@ -7,14 +7,15 @@ tags: [facebook]
 
 ### Problem Statement
 
-You are given a string s of lowercase English letters and an integer array shifts of the same length.
+You are given a string `s` of lowercase English letters and an integer array `shifts` of the same length.
 
-Call the shift() of a letter, the next letter in the alphabet, (wrapping around so that 'z' becomes 'a').
+Call the `shift()` of a letter, the next letter in the alphabet, (wrapping around so that `'z'` becomes `'a'`).
 
-For example, shift('a') = 'b', shift('t') = 'u', and shift('z') = 'a'.
-Now for each shifts[i] = x, we want to shift the first i + 1 letters of s, x times.
+- For example, `shift('a') = 'b'`, `shift('t') = 'u'`, and `shift('z') = 'a'`.
 
-Return the final string after all such shifts to s are applied.
+Now for each `shifts[i] = x`, we want to shift the first `i + 1` letters of `s`, `x` times.
+
+_Return the final string after all such shifts to s are applied._
 
 [Leetcode Link](https://leetcode.com/problems/shifting-letters)
 
@@ -38,10 +39,10 @@ Output: "gfd"
 
 #### Constraints:
 
-- 1 <= s.length <= 10<sup>5</sup>
-- s consists of lowercase English letters.
-- shifts.length == s.length
-- 0 <= shifts[i] <= 10<sup>9</sup>
+- `1` `<=` `s.length` `<=` 10<sup>5</sup>
+- `s` consists of lowercase English letters.
+- `shifts.length == s.length`
+- `0` `<=` `shifts[i]` `<=` `10`<sup>9</sup>
 
 ### Code
 

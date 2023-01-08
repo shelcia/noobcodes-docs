@@ -48,21 +48,21 @@ Explanation: You are given the third node with value 1, the linked list should b
 
 #### Constraints:
 
-- The number of the nodes in the given list is in the range [2, 1000].
-- -1000 <= Node.val <= 1000
+- The number of the nodes in the given list is in the range `[2, 1000]`.
+- `-1000 <= Node.val <= 1000`
 - The value of each node in the list is **unique**.
 - The node to be deleted is **in the list** and is **not a tail** node.
 
 [Leetcode Link](https://leetcode.com/problems/delete-node-in-a-linked-list/)
 
-### Code 
+### Code
 
 ```jsx title="Python"
 class Solution:
     def deleteNode(self, node):
         node.val = node.next.val
         node.next = node.next.next
-    
+
 ```
 
 ```jsx title="C++"

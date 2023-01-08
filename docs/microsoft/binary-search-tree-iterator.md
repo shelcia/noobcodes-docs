@@ -22,7 +22,7 @@ You may assume that `next()` calls will always be valid. That is, there will be 
 
 ![image](https://user-images.githubusercontent.com/77881638/206435367-4e5a0e7d-d6ee-49f4-a6c1-4bb935ffd122.png)
 
-##### Constraints:
+#### Constraints:
 
 - The number of nodes in the tree is in the range `[1, 105]`.
 - `0 <= Node.val <= 106`

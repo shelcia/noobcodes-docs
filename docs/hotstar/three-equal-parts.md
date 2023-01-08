@@ -43,7 +43,7 @@ Output: [0,2]
 
 #### Constraints:
 
-- 3 <= arr.length <= 3 \* 10<sup>4</sup>
+- `3 <= arr.length <= 3 * 10`<sup>4</sup>
 - `arr[i]` is `0` or `1`
 
 ### Code

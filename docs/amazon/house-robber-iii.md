@@ -31,10 +31,10 @@ Output: 9
 Explanation: Maximum amount of money the thief can rob = 4 + 5 = 9.
 ```
 
-### Constraints:
+#### Constraints:
 
 - The number of nodes in the tree is in the range [1, 10<sup>4</sup>].
-- 0 <= Node.val <= 10<sup>4</sup>
+- `0` `<=` `Node.val` `<=` 10<sup>4</sup>
 
 ### Code
 

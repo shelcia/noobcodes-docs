@@ -7,9 +7,9 @@ tags: [facebook]
 
 ### Problem Statement
 
-Given an integer array nums, reorder it such that nums[0] < nums[1] > nums[2] < nums[3]....
+Given an integer array nums, reorder it such that `nums[0] < nums[1] > nums[2] < nums[3]....`
 
-You may assume the input array always has a valid answer.
+You may assume the input `array` always has a **valid answer**.
 
 [Leetcode Link](https://leetcode.com/problems/wiggle-sort-ii/)
 
@@ -30,9 +30,9 @@ Output: [2,3,1,3,1,2]
 
 #### Constraints:
 
-- 1 <= nums.length <= 5 \* 10<sup>4</sup>
-- 0 <= nums[i] <= 5000
-- It is guaranteed that there will be an answer for the given input nums.
+- `1 <= nums.length <= 5` \* `10`<sup>4</sup>
+- `0 <= nums[i] <= 5000`
+- It is **guaranteed** that there will be an answer for the given input `nums`.
 
 ### Code
 
