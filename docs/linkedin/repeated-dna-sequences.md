@@ -1,6 +1,6 @@
 ---
 sidebar_position: 67
-tags: [LinkedIn]
+tags: [linkedin]
 ---
 
 # Repeated DNA Sequences
@@ -19,14 +19,14 @@ Given a string `s` that represents a **DNA sequence**, return all the **10-lette
 
 ### Code
 
-```jsx title="Python"
+```python title="Python"
 class Solution(object):
     def findRepeatedDnaSequences(self, s):
         n = len(s)
         cnt = defaultdict(int)
         for i in range(n - 9):
             cnt[s[i:i+10]] += 1
-        
+
         ans = []
         for key, value in cnt.items():
             if value >= 2: # Found a string that occurs more than once

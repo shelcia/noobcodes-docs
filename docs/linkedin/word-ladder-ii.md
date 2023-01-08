@@ -1,6 +1,6 @@
 ---
 sidebar_position: 94
-tags: [LinkedIn]
+tags: [linkedin]
 ---
 
 # Word Ladder II
@@ -19,7 +19,7 @@ Given two words, `beginWord` and `endWord`, and a dictionary `wordList`, return 
 
 ### Code
 
-```jsx title="Python"
+```python title="Python"
 	class Solution:
 		def findLadders(self, beginWord: str, endWord: str, wordList: List[str]) -> List[List[str]]:
 			d = defaultdict(list)

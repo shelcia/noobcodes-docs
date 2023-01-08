@@ -1,6 +1,6 @@
 ---
 sidebar_position: 34
-tags: [LinkedIn]
+tags: [linkedin]
 ---
 
 # Intersection of Two Arrays

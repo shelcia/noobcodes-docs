@@ -12,6 +12,7 @@ Given an integer array `nums`, return the length of the longest **strictly incre
 [Leetcode Link](https://leetcode.com/problems/longest-increasing-subsequence/)
 
 #### Example 1:
+
 ```
 Input: nums = [10,9,2,5,3,7,101,18]
 Output: 4
@@ -39,7 +40,7 @@ Output: 1
 
 ### Code
 
-```jsx title="Python"
+```python title="Python"
 def lengthOfLIS(self, nums):
     tails = [0] * len(nums)
     size = 0

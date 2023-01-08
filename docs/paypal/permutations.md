@@ -40,7 +40,7 @@ Output: [[1]]
 
 ### Code
 
-```jsx title="Python"
+```python title="Python"
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
 

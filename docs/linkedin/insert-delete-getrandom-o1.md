@@ -1,6 +1,6 @@
 ---
 sidebar_position: 29
-tags: [LinkedIn]
+tags: [linkedin]
 ---
 
 # Insert Delete GetRandom O(1)
@@ -41,12 +41,12 @@ randomizedSet.getRandom(); // Since 2 is the only number in the set, getRandom()
 #### Constraints:
 
 - -2<sup>31</sup> <= val <= 2<sup>31</sup> - 1
-- At most 2 * 10<sup>5</sup> calls will be made to insert, remove, and getRandom.
+- At most 2 \* 10<sup>5</sup> calls will be made to insert, remove, and getRandom.
 - There will be at least one element in the data structure when getRandom is called.
 
 ### Code
 
-```jsx title="Python"
+```python title="Python"
 class RandomizedSet:
 
     def __init__(self):
@@ -58,30 +58,30 @@ class RandomizedSet:
     def insert(self, val: int) -> bool:
         # Return False if val is already present as requested.
         if val in self.indices: return False
-        
+
         # Append val to the array.
         # Store its index in the hashmap
         self.arr.append(val)
         self.indices[val] = len(self.arr)-1
         return True
-    
+
     def remove(self, val: int) -> bool:
         # Return False if val is not present as requested.
         if val not in self.indices: return False
-        
+
         # Get the index of the val that needs to be removed.
         i = self.indices[val]
-        
+
         # Update the index of arr[-1] in the indices.
         self.indices[self.arr[-1]] = i
-        
+
         # Move the last element to the i th position.
         self.arr[i] = self.arr[-1]
-        
+
         # remove the last element, and remove the index of val
         self.indices.pop(val)
         self.arr.pop()
-        
+
         return True
 
     def getRandom(self) -> int:

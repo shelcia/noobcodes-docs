@@ -25,7 +25,7 @@ Output:[7,9,5]
 
 ### Code
 
-```jsx title="Python"
+```python title="Python"
 class Vector2D(object):
 
     # @param vec2d {List[List[int]]}
@@ -35,12 +35,12 @@ class Vector2D(object):
             ivec2d = vec2d.pop()
             while ivec2d:
                 self.array.append(ivec2d.pop())
-        
+
     # @return {int} a next element
     def next(self):
         if self.hasNext():
             return self.array.pop()
-        
+
 
     # @return {boolean} true if it has next element
     # or false
@@ -48,7 +48,7 @@ class Vector2D(object):
         if self.array:
             return True
         return False
-        
+
 
 # Your Vector2D object will be instantiated and called as such:
 # i, v = Vector2D(vec2d), []

@@ -3,7 +3,7 @@ sidebar_position: 3
 tags: [airbnb]
 ---
 
-#  Alien Dictionary
+# Alien Dictionary
 
 ### Problem Statement
 
@@ -42,7 +42,7 @@ So return "zx"
 
 ### Code
 
-```jsx title="Python"
+```python title="Python"
 from heapq import *
 class Solution:
     """
@@ -60,7 +60,7 @@ class Solution:
                 	in_degree[next] += 1
                     neighbors[pre].append(next)
                     break
-        
+
         # Topological Sort
         heap = [ch for ch in in_degree if in_degree[ch] == 0]
         heapify(heap)
@@ -73,7 +73,7 @@ class Solution:
                     in_degree[child] -= 1
                     if in_degree[child] == 0:
                         heappush(heap, child)
-        
+
         # order is invalid
         if len(order) != len(in_degree):
             return ""

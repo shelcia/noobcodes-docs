@@ -1,6 +1,6 @@
 ---
 sidebar_position: 5
-tags: [LinkedIn]
+tags: [linkedin]
 ---
 
 # Can Place Flowers
@@ -29,23 +29,22 @@ Output: false
 
 #### Constraints:
 
-- 1 <= flowerbed.length <= 2 * 10<sup>4</sup>
+- 1 <= flowerbed.length <= 2 \* 10<sup>4</sup>
 - flowerbed[i] is 0 or 1.
 - There are no two adjacent flowers in flowerbed.
 - 0 <= n <= flowerbed.length
 
-### Code 
+### Code
 
-```jsx title="Python"
+```python title="Python"
 class Solution(object):
     def canPlaceFlowers(self, flowerbed, n):
         zeros, ans = 1, 0  # Easier handling of prefixes, just initialize zeros to 1
         for f in flowerbed:
-            if f == 0: 
+            if f == 0:
                 zeros += 1
             else:
                 ans += (zeros - 1) // 2
                 zeros = 0
         return ans + zeros // 2 >= n  # Note that suffix zeros need not -1
 ```
-

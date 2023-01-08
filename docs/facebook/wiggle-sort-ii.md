@@ -36,7 +36,7 @@ Output: [2,3,1,3,1,2]
 
 ### Code
 
-```jsx title="Python"
+```python title="Python"
 def wiggleSort(self, nums):
     nums.sort()
     half = len(nums[::2])

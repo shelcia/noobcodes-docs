@@ -1,6 +1,6 @@
 ---
 sidebar_position: 7
-tags: [LinkedIn]
+tags: [linkedin]
 ---
 
 # Closest Binary Search Tree Value
@@ -39,7 +39,7 @@ Binary tree {3,2,4,1},  denote the following structure:
 
 ### Code
 
-```jsx title="Python"
+```python title="Python"
 """
 Definition of TreeNode:
 class TreeNode:

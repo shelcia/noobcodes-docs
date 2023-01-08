@@ -57,7 +57,7 @@ Explanation: You are given the third node with value 1, the linked list should b
 
 ### Code
 
-```jsx title="Python"
+```python title="Python"
 class Solution:
     def deleteNode(self, node):
         node.val = node.next.val

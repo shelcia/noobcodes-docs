@@ -1,6 +1,6 @@
 ---
 sidebar_position: 64
-tags: [LinkedIn]
+tags: [linkedin]
 ---
 
 # Profitable Schemes
@@ -17,7 +17,7 @@ Return the number of schemes that can be chosen. Since the answer may be very la
 
 ### Code
 
-```jsx title="Python"
+```python title="Python"
     def profitableSchemes(self, G, P, group, profit):
         dp = [[0] * (G + 1) for i in range(P + 1)]
         dp[0][0] = 1

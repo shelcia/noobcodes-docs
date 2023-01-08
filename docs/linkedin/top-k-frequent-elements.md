@@ -1,6 +1,6 @@
 ---
 sidebar_position: 85
-tags: [LinkedIn]
+tags: [linkedin]
 ---
 
 # Top K Frequent Elements
@@ -34,7 +34,7 @@ Output: [1]
 
 ### Code
 
-```jsx title="Python"
+```python title="Python"
 import heapq
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
@@ -43,23 +43,23 @@ class Solution:
         for i in nums:
             mp[i] = mp.get(i,0)+1
         # first of all I take count of each element using hash table.
-        
+
         l = []
         heapq.heapify(l)
-       
+
     # Now simply i created a maxheap
-        
+
         for i in mp:
             heapq.heappush(l,[-mp[i],i])
-        
+
         # Now in order to pop max element form heap we have to change it in maxheap and in heap i am pushing the value and key pair in form of list so that when we pop the heap then the appended list with max value will pop first
-        
+
         while k>0:
             z = heapq.heappop(l)
             an.append(z[1])
             k-=1
         return an
-        
-        
+
+
 
 ```

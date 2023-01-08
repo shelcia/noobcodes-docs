@@ -1,6 +1,6 @@
 ---
 sidebar_position: 4
-tags: [LinkedIn]
+tags: [linkedin]
 ---
 
 # Binary Tree Zigzag Level Order Traversal
@@ -41,13 +41,13 @@ Output: []
 
 ### Code
 
-```jsx title="Python"
+```python title="Python"
 class Solution:
     def zigzagLevelOrder(self, root):
         if not root: return []
         queue = deque([root])
         result, direction = [], 1
-        
+
         while queue:
             level = []
             for i in range(len(queue)):

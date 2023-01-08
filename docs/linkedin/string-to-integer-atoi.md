@@ -1,6 +1,6 @@
 ---
 sidebar_position: 81
-tags: [LinkedIn]
+tags: [linkedin]
 ---
 
 # String to Integer (atoi)
@@ -31,6 +31,7 @@ Return the integer as the final result.
 ```
 Input: s = "42"
 Output: 42
+
 Explanation: The underlined characters are what is read in, the caret is the current reader position.
 Step 1: "42" (no characters read because there is no leading whitespace)
          ^
@@ -47,6 +48,7 @@ Since 42 is in the range [-2^31, 2^31 - 1], the final result is 42.
 ```
 Input: s = "   -42"
 Output: -42
+
 Explanation:
 Step 1: "   -42" (leading whitespace is read and ignored)
             ^
@@ -63,6 +65,7 @@ Since -42 is in the range [-2^31, 2^31 - 1], the final result is -42.
 ```
 Input: s = "4193 with words"
 Output: 4193
+
 Explanation:
 Step 1: "4193 with words" (no characters read because there is no leading whitespace)
          ^

@@ -1,15 +1,14 @@
 ---
 sidebar_position: 87
-tags: [LinkedIn]
+tags: [linkedin]
 ---
-
 
 # Two Sum
 
 ### Problem Statement
 
-Given an array of integers nums and an integer target, return indices of the two numbers
-such that they add up to target.
+Given an array of integers `nums` and an integer `target`, return _indices of the two numbers such that they add up to `target`_.
+
 [LeetCode link](https://leetcode.com/problems/two-sum/)
 
 ### Code
@@ -24,4 +23,3 @@ class Solution:
                 return [num_set[target-num], num_index]
             num_set[num] = num_index
 ```
-

@@ -41,7 +41,7 @@ Explanation: 15 = 8 + 7 = 4 + 5 + 6 = 1 + 2 + 3 + 4 + 5
 
 ### Code
 
-```jsx title="Python"
+```python title="Python"
    def consecutiveNumbersSum(self, N):
         res = 1
         i = 3
@@ -72,4 +72,3 @@ Explanation: 15 = 8 + 7 = 4 + 5 + 6 = 1 + 2 + 3 + 4 + 5
         return N == 1 ? res : res * 2;
     }
 ```
-

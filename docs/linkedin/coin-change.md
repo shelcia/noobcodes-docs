@@ -1,6 +1,6 @@
 ---
 sidebar_position: 8
-tags: [LinkedIn]
+tags: [linkedin]
 ---
 
 # Coin Change

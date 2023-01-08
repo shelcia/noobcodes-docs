@@ -34,7 +34,7 @@ Output: [0]
 
 ### Code
 
-```jsx title="Python"
+```python title="Python"
 class Solution:
     def moveZeroes(self, nums: List[int]) -> None:
         """

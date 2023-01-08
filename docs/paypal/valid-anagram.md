@@ -27,14 +27,14 @@ Output: false
 
 #### Contraints:
 
-- 1 <= s.length, t.length <= 5 * 10<sup>4</sup>
+- 1 <= s.length, t.length <= 5 \* 10<sup>4</sup>
 - s and t consist of lowercase English letters.
 
 [Leetcode Link](https://leetcode.com/problems/valid-anagram/)
 
-### Code 
+### Code
 
-```jsx title="Python"
+```python title="Python"
 from collections import Counter
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:

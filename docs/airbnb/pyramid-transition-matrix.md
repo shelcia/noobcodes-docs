@@ -52,7 +52,7 @@ Starting from the bottom (level 4), there are multiple ways to build level 3, bu
 
 ### Code
 
-```jsx title="Python"
+```python title="Python"
 class Solution(object):
 
     def pyramidTransition(self, bottom, allowed):
@@ -66,4 +66,3 @@ class Solution(object):
             return False
         return pyramid(bottom)
 ```
-

@@ -58,10 +58,10 @@ Explanation: Since there are two words, you can guess both.
 
 ### Code
 
-```jsx title="Python"
+```python title="Python"
 class Solution(object):
     def findSecretWord(self, wordlist, master):
-		
+
         def pair_matches(a, b):         # count the number of matching characters
             return sum(c1 == c2 for c1, c2 in zip(a, b))
 
@@ -91,5 +91,5 @@ class Solution(object):
             if matches == 6:
                 return
 
-            candidates = [w for w in candidates if pair_matches(s, w) == matches] 
+            candidates = [w for w in candidates if pair_matches(s, w) == matches]
 ```

@@ -1,6 +1,6 @@
 ---
 sidebar_position: 54
-tags: [LinkedIn]
+tags: [linkedin]
 ---
 
 # Merge Sorted Array
@@ -45,7 +45,7 @@ Note that because m = 0, there are no elements in nums1. The 0 is only there to 
 
 ### Code
 
-```jsx title="Python"
+```python title="Python"
 class Solution:
     def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
         nums1[m:] = nums2[0:]

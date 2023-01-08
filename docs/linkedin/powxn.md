@@ -1,13 +1,13 @@
 ---
 sidebar_position: 61
-tags: [LinkedIn]
+tags: [linkedin]
 ---
 
 # Pow(x, n)
 
 ### Problem Statement
 
-Implement pow(x, n), which calculates x raised to the power n (i.e., x<sup>n</sup>).
+Implement `pow(x, n)`, which calculates `x` raised to the power `n` (i.e., `x`<sup>n</sup>).
 
 [Leetcode Link](https://leetcode.com/problems/powx-n)
 
@@ -35,10 +35,10 @@ Explanation: 2-2 = 1/22 = 1/4 = 0.25
 
 #### Constraints:
 
-- -100.0 < x < 100.0
-- -2<sup>31</sup> <= n <= 2<sup>31</sup>-1
-- n is an integer.
-- -10<sup>4</sup> <= x<sup>n</sup> <= 10<sup>4</sup>
+- `-100.0 < x < 100.0`
+- `-2`<sup>31</sup> `<= n <= 2`<sup>31</sup>`-1`
+- `n` is an integer.
+- `-10`<sup>4</sup> `<= x`<sup>n</sup> `<= 10`<sup>4</sup>
 
 ### Code
 

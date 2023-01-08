@@ -49,7 +49,7 @@ lRUCache.get(4);    // return 4
 
 ### Code
 
-```jsx title="Python"
+```python title="Python"
 class LRUCache:
     def __init__(self, capacity: int):
         self.capacity = capacity

@@ -1,6 +1,6 @@
 ---
 sidebar_position: 17
-tags: [LinkedIn]
+tags: [linkedin]
 ---
 
 # Exclusive Time of Functions
@@ -21,7 +21,7 @@ Return the **exclusive time** of each function in an array, where the value at t
 
 ### Code
 
-```jsx title="Python"
+```python title="Python"
 def exclusiveTime(self, N, logs):
     ans = [0] * N
     stack = []
@@ -33,7 +33,7 @@ def exclusiveTime(self, N, logs):
 
         if typ == 'start':
             if stack:
-                ans[stack[-1]] += time - prev_time 
+                ans[stack[-1]] += time - prev_time
             stack.append(fn)
             prev_time = time
         else:
@@ -42,4 +42,3 @@ def exclusiveTime(self, N, logs):
 
     return ans
 ```
-

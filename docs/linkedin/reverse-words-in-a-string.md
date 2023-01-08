@@ -1,6 +1,6 @@
 ---
 sidebar_position: 68
-tags: [LinkedIn]
+tags: [linkedin]
 ---
 
 # Reverse Words in a String
@@ -29,6 +29,7 @@ Output: "blue is sky the"
 ```
 Input: s = "  hello world  "
 Output: "world hello"
+
 Explanation: Your reversed string should not contain leading or trailing spaces.
 ```
 
@@ -37,12 +38,13 @@ Explanation: Your reversed string should not contain leading or trailing spaces.
 ```
 Input: s = "a good   example"
 Output: "example good a"
+
 Explanation: You need to reduce multiple spaces between two words to a single space in the reversed string.
 ```
 
 #### Constraints:
 
-- 1 <= s.length <= 10<sup>4</sup>
+- `1 <= s.length <= 10`<sup>4</sup>
 - `s` contains English letters (upper-case and lower-case), digits, and spaces `' '`.
 - There is **at least one** word in `s`.
 

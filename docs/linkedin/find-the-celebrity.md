@@ -1,6 +1,6 @@
 ---
 sidebar_position: 25
-tags: [LinkedIn]
+tags: [linkedin]
 ---
 
 # Find The Celebrity
@@ -23,6 +23,7 @@ Input:
 0 knows 1
 1 does not know 0
 Output: 1
+
 Explanation:
 Everyone knows 1,and 1 knows no one.
 ```
@@ -39,6 +40,7 @@ Input:
 2 knows 0
 2 knows 1
 Output: 0
+
 Explanation:
 Everyone knows 0,and 0 knows no one.
 0 does not know 1,and 1 knows 0.

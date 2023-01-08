@@ -1,6 +1,6 @@
 ---
 sidebar_position: 47
-tags: [LinkedIn]
+tags: [linkedin]
 ---
 
 # Max Area of Island
@@ -41,20 +41,20 @@ Output: 0
 
 ### Code
 
-```jsx title="Python"
+```python title="Python"
 
 class Solution:
     def maxAreaOfIsland(self, grid: List[List[int]]) -> int:
         #best case
         if not grid:
             return 0
-        
+
         #initialize values
         rows, cols = len(grid), len(grid[0])
         visited = set()
         curArea = 0
         maxArea = 0
-        
+
         #define bfs and return current island's area
         def bfs(r,c):
             queue = collections.deque()
@@ -69,19 +69,19 @@ class Solution:
                     [0,1],     #up
                     [0,-1]     #down
                 ]
-                #check all 4 directions 
+                #check all 4 directions
                 for dr, dc in directions:
                     r,c = row+dr,col+dc
                     if (
                         r in range(rows) and
-                        c in range(cols) and 
+                        c in range(cols) and
                         grid[r][c] == 1 and
                         (r,c) not in visited
                     ):
                         visited.add((r,c))
                         queue.append((r,c))
                         area += 1
-            return area                
+            return area
 
 
         #main logic

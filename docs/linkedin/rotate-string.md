@@ -1,6 +1,6 @@
 ---
 sidebar_position: 70
-tags: [LinkedIn]
+tags: [linkedin]
 ---
 
 # Rotate String
@@ -12,7 +12,7 @@ Given two strings s and goal, return true if and only if s can become goal after
 A shift on s consists of moving the leftmost character of s to the rightmost position.
 
 - For example, if `s = "abcde"`, then it will be `"bcdea"` after one shift.
- 
+
 [Leetcode Link](https://leetcode.com/problems/rotate-string/)
 
 #### Example 1:
@@ -36,13 +36,13 @@ Output: false
 
 ### Code
 
-```jsx title="Python"
+```python title="Python"
 class Solution:
     def rotateString(self, s: str, goal: str) -> bool:
         if s == goal:
             return True
 
-        s, goal = [*s], [*goal] 
+        s, goal = [*s], [*goal]
 
         # unpacking the strings (creates list)
         # ex: 'hello' -> ['h','e','l','l','o']

@@ -3,7 +3,7 @@ sidebar_position: 4
 tags: [airbnb]
 ---
 
-#  Sliding Puzzle
+# Sliding Puzzle
 
 ### Problem Statement
 
@@ -61,12 +61,12 @@ After move 5: [[1,2,3],[4,5,0]]
 
 ### Code
 
-```jsx title="Python"
+```python title="Python"
     def slidingPuzzle(self, board: List[List[int]]) -> int:
         s = ''.join(str(d) for row in board for d in row)
         dq, seen = collections.deque(), {s}
         dq.append((s, s.index('0')))
-        steps, height, width = 0, len(board), len(board[0]) 
+        steps, height, width = 0, len(board), len(board[0])
         while dq:
             for _ in range(len(dq)):
                 t, i= dq.popleft()
@@ -81,6 +81,6 @@ After move 5: [[1,2,3],[4,5,0]]
                         if s not in seen:
                             seen.add(s)
                             dq.append((s, r * width + c))
-            steps += 1              
+            steps += 1
         return -1
 ```

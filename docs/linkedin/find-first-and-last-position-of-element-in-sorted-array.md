@@ -1,6 +1,6 @@
 ---
 sidebar_position: 20
-tags: [LinkedIn]
+tags: [linkedin]
 ---
 
 # Find First and Last Position of Element in Sorted Array
@@ -45,14 +45,14 @@ Output: [-1,-1]
 
 ### Code
 
-```jsx title="Python"
+```python title="Python"
 class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]: # nums = [5,7,7,8,8,8,8,10], target = 8
         unique = sorted(tuple(set(nums))) # [5, 7, 8, 10]
         if target not in unique:
             return [-1,-1]
         first = nums.index(target) # 3
-        target_index = unique.index(target) # 2 
+        target_index = unique.index(target) # 2
         if target_index == len(unique)-1:
             return [first,len(nums)-1]
         last = nums.index(unique[target_index+1]) # 7

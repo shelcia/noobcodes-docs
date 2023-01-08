@@ -7,16 +7,17 @@ tags: [paypal]
 
 ### Problem Statement
 
-Given an array of integers `nums` and an integer `k`, return *the number of **unique** k-diff pairs in the array*.
+Given an array of integers `nums` and an integer `k`, return _the number of **unique** k-diff pairs in the array_.
 
 A **k-diff** pair is an integer pair `(nums[i], nums[j])`, where the following are true:
 
 - 0 <= i, j < nums.length
 - i != j
 - nums[i] - nums[j] == k
-**Notice** that `|val|` denotes the absolute value of `val`.
+  **Notice** that `|val|` denotes the absolute value of `val`.
 
 #### Example 1:
+
 ```
 Input: nums = [3,1,4,1,5], k = 2
 Output: 2
@@ -50,12 +51,12 @@ Explanation: There is one 0-diff pair in the array, (1, 1).
 
 ### Code
 
-```jsx title="Python"
+```python title="Python"
 class Solution:
     def findPairs(self, nums: List[int], k: int) -> int:
         cnt=0
         c=Counter(nums)
-        
+
         if k==0:
             for key,v in c.items():
                 if v>1:

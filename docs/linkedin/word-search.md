@@ -1,6 +1,6 @@
 ---
 sidebar_position: 96
-tags: [LinkedIn]
+tags: [linkedin]
 ---
 
 # Word Search

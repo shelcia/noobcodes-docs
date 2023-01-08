@@ -46,7 +46,7 @@ Output: [0]
 
 ### Code
 
-```jsx title="Python"
+```python title="Python"
 class Solution:
     def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
         cur = dummy = ListNode()

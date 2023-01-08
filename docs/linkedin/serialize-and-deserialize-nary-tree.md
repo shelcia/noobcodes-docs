@@ -1,6 +1,6 @@
 ---
 sidebar_position: 77
-tags: [LinkedIn]
+tags: [linkedin]
 ---
 
 # Serialize and Deserialize N-ary Tree
@@ -40,7 +40,7 @@ Explanation：
 
 ### Code
 
-```jsx title="Python"
+```python title="Python"
 """
 Definition for a directed graph node
 class DirectedGraphNode:
@@ -52,11 +52,11 @@ class DirectedGraphNode:
 
 class Solution:
     def __init__(self) :
-        self.pos = 1 
+        self.pos = 1
     def dfs(self,root) :
         ans = ""
         if root is None:
-            return ans 
+            return ans
         ans += "["
         ans += str(root.label)
         leng = len(root.neighbors)

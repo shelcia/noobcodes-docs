@@ -1,6 +1,6 @@
 ---
 sidebar_position: 83
-tags: [LinkedIn]
+tags: [linkedin]
 ---
 
 # Symmetric Tree
@@ -36,7 +36,7 @@ Output: false
 
 ### Code
 
-```jsx title="Python"
+```python title="Python"
 class Solution:
     def isSymmetric(self, root: Optional[TreeNode]) -> bool:
         left_stack = [root.left]

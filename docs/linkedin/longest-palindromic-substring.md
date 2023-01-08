@@ -1,6 +1,6 @@
 ---
 sidebar_position: 42
-tags: [LinkedIn]
+tags: [linkedin]
 ---
 
 # Longest Palindrome Substring

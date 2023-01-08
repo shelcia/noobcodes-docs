@@ -1,6 +1,6 @@
 ---
 sidebar_position: 40
-tags: [LinkedIn]
+tags: [linkedin]
 ---
 
 # Linked List Cycle

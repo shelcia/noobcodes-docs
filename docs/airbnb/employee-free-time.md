@@ -41,7 +41,7 @@ We discard any intervals that contain inf as they aren't finite.
 
 ### Code
 
-```jsx title="Python"
+```python title="Python"
 
 """
 Definition of Interval.
@@ -59,7 +59,7 @@ class Solution:
             for i in range(0, len(employee), 2):
                 heapq.heappush(heap, (employee[i], 0))
                 heapq.heappush(heap, (employee[i + 1], 1))
-        
+
         count, n = 0, len(heap)
         while n > 1:
             left = heapq.heappop(heap)
@@ -72,7 +72,7 @@ class Solution:
                 if count == 0:
                     result.append(Interval(left[0], right[0]))
             n = len(heap)
-        
+
         return result
 
 

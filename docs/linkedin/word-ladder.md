@@ -1,6 +1,6 @@
 ---
 sidebar_position: 95
-tags: [LinkedIn]
+tags: [linkedin]
 ---
 
 # Word Ladder
@@ -19,35 +19,35 @@ Given two words, `beginWord` and `endWord`, and a dictionary `wordList`, return 
 
 ### Code
 
-```jsx title="Python"
+```python title="Python"
 class Solution:
-    def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int:     
+    def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int:
         ns, neighbors = defaultdict(set), defaultdict(set)
-        
+
         for w in [beginWord, *wordList]:
             for i in range(len(w)):
                 ns[w[:i] + w[i+1:], i].add(w)
-                
+
         for w in [beginWord, *wordList]:
             for i in range(len(w)):
                 neighbors[w] |= ns[w[:i] + w[i+1:], i]
-            neighbors[w].discard(w)          
+            neighbors[w].discard(w)
 
         def dist(u):
             return sum(1 for c, d in zip(u, endWord) if c != d)
-                 
+
         q = [(1 + dist(beginWord), 1, beginWord)]
         visited = set([beginWord])
-        
-        while q:            
+
+        while q:
             _, d, w = heappop(q)
-            
+
             if w == endWord:
                 return d
-            
+
             for u in neighbors[w]:
                 if u not in visited:
                     visited.add(u)
-                    heappush(q, (d + 1 + dist(u), d + 1, u))                
+                    heappush(q, (d + 1 + dist(u), d + 1, u))
         return 0
 ```

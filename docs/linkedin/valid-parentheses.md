@@ -1,15 +1,15 @@
 ---
 sidebar_position: 89
-tags: [LinkedIn]
+tags: [linkedin]
 ---
 
 # Valid Parentheses
 
 ### Problem Statement
 
-Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+Given a string s containing just the characters `'(', ')'`, `'{', '}'`, `'['` and `']'`, determine if the input string is **valid**.
 
-An input string is valid if:
+An input string is **valid** if:
 
 1. Open brackets must be closed by the same type of brackets.
 2. Open brackets must be closed in the correct order.
@@ -20,7 +20,6 @@ An input string is valid if:
 ### Code
 
 ```jsx title="Java Code"
-
 class Solution {
     public boolean isValid(String s) {
         char [] arr = s.toCharArray();
@@ -44,6 +43,4 @@ class Solution {
 
     }
 }
-
-
 ```

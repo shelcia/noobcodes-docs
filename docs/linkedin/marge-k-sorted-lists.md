@@ -1,6 +1,6 @@
 ---
 sidebar_position: 46
-tags: [LinkedIn]
+tags: [linkedin]
 ---
 
 # Merge k Sorted Lists
@@ -34,7 +34,9 @@ merging them into one sorted list:
 Input: lists = []
 Output: []
 ```
+
 #### Example 3:
+
 ```
 Input: lists = [[]]
 Output: []
@@ -42,7 +44,7 @@ Output: []
 
 ### Code
 
-```jsx title="Python"
+```python title="Python"
 class Solution:
     def mergeKLists(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
         head = tmp = ListNode()

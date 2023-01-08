@@ -1,13 +1,13 @@
 ---
 sidebar_position: 91
-tags: [LinkedIn]
+tags: [linkedin]
 ---
 
 # Valid Triangle Number
 
 ### Problem Statement
 
-Given an integer array nums, return the number of triplets chosen from the array that can make triangles if we take them as side lengths of a triangle.
+Given an integer array `nums`, return the number of triplets chosen from the array that can make triangles if we take them as side lengths of a triangle.
 
 [Leetcode Link](https://leetcode.com/problems/valid-triangle-number/)
 
@@ -16,7 +16,8 @@ Given an integer array nums, return the number of triplets chosen from the array
 ```
 Input: nums = [2,2,3,4]
 Output: 3
-Explanation: Valid combinations are: 
+
+Explanation: Valid combinations are:
 2,3,4 (using the first 2)
 2,3,4 (using the second 2)
 2,2,3
@@ -36,7 +37,7 @@ Output: 4
 
 ### Code
 
-```jsx title="Python"
+```python title="Python"
 class Solution:
     def triangleNumber(self, nums: List[int]) -> int:
         nums.sort()

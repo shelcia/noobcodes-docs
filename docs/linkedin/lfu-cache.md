@@ -1,6 +1,6 @@
 ---
 sidebar_position: 38
-tags: [LinkedIn]
+tags: [linkedin]
 ---
 
 # LFU Cache
@@ -57,7 +57,7 @@ lfu.get(4);      // return 4
 - 0 <= capacity <= 10<sup>4</sup>
 - 0 <= key <= 10<sup>5</sup>
 - 0 <= value <= 10<sup>9</sup>
-- At most 2 * 10<sup>5</sup> calls will be made to `get` and `put`.
+- At most 2 \* 10<sup>5</sup> calls will be made to `get` and `put`.
 
 [Leetcode Link](https://leetcode.com/problems/lfu-cache/)
 
@@ -72,7 +72,7 @@ class Node:
         self.key = key
         self.val = val
         self.count = count
-    
+
 class LFUCache(object):
     def __init__(self, capacity):
         """
@@ -82,7 +82,7 @@ class LFUCache(object):
         self.key2node = {}
         self.count2node = defaultdict(OrderedDict)
         self.minCount = None
-        
+
     def get(self, key):
         """
         :type key: int
@@ -90,24 +90,24 @@ class LFUCache(object):
         """
         if key not in self.key2node:
             return -1
-        
+
         node = self.key2node[key]
         del self.count2node[node.count][key]
-        
+
         # clean memory
         if not self.count2node[node.count]:
             del self.count2node[node.count]
-        
+
         node.count += 1
         self.count2node[node.count][key] = node
-        
+
         # NOTICE check minCount!!!
         if not self.count2node[self.minCount]:
             self.minCount += 1
-            
-            
+
+
         return node.val
-        
+
     def put(self, key, value):
         """
         :type key: int
@@ -115,22 +115,21 @@ class LFUCache(object):
         :rtype: void
         """
         if not self.cap:
-            return 
-        
+            return
+
         if key in self.key2node:
             self.key2node[key].val = value
             self.get(key) # NOTICE, put makes count+1 too
             return
-        
+
         if len(self.key2node) == self.cap:
             # popitem(last=False) is FIFO, like queue
             # it return key and value!!!
-            k, n = self.count2node[self.minCount].popitem(last=False) 
-            del self.key2node[k] 
-        
+            k, n = self.count2node[self.minCount].popitem(last=False)
+            del self.key2node[k]
+
         self.count2node[1][key] = self.key2node[key] = Node(key, value, 1)
         self.minCount = 1
         return
 
 ```
-

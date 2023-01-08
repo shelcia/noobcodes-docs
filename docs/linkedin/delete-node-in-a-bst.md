@@ -1,6 +1,6 @@
 ---
 sidebar_position: 13
-tags: [LinkedIn]
+tags: [linkedin]
 ---
 
 # Delete Node in a BST

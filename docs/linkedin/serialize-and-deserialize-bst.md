@@ -1,6 +1,6 @@
 ---
 sidebar_position: 76
-tags: [LinkedIn]
+tags: [linkedin]
 ---
 
 # Serialize and Deserialize BST
@@ -31,8 +31,8 @@ Output: []
 
 #### Constraints:
 
-- The number of nodes in the tree is in the range [0, 10<sup>4</sup>].
-- 0 <= Node.val <= 10<sup>4</sup>
+- The number of nodes in the tree is in the range `[0, 10`<sup>4</sup>`]`.
+- `0 <= Node.val <= 10`<sup>4</sup>
 - The input tree is guaranteed to be a binary search tree.
 
 ### Code

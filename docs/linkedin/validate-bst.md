@@ -1,20 +1,20 @@
 ---
 sidebar_position: 92
-tags: [LinkedIn]
+tags: [linkedin]
 ---
 
 # Validate Binary Search Tree
 
 ### Problem Statement
 
-Given the root of a binary tree, determine if it is a valid binary search tree (BST).
+Given the `root` of a binary tree, determine if it is a **valid binary search tree (BST)**.
 
-A valid BST is defined as follows:
+A **valid BST** is defined as follows:
 
-- The left subtree of a node contains only nodes with keys less than the node's key.
-- The right subtree of a node contains only nodes with keys greater than the node's key.
-- Both the left and right subtrees must also be binary search trees.
- 
+- The `left subtree` of a node contains only nodes with keys less than the node's key.
+- The `right subtree` of a node contains only nodes with keys greater than the node's key.
+- Both the `left and right subtrees` must also be binary search trees.
+
 [Leetcode Link](https://leetcode.com/problems/validate-binary-search-tree/)
 
 #### Example 1:
@@ -33,21 +33,22 @@ Output: true
 ```
 Input: root = [5,1,4,null,null,3,6]
 Output: false
+
 Explanation: The root node's value is 5 but its right child's value is 4.
 ```
 
 ### Code
 
-```jsx title="Python"
+```python title="Python"
 class Solution:
     def isValidBST(self, root: Optional[TreeNode]) -> bool:
-        
+
         def helper(node, low, high):
             if not node:
                 return True
             if not (low < node.val < high):
                 return False
             return helper(node.left, low, node.val) and helper(node.right, node.val, high)
-        
+
         return helper(root, -inf, inf)
 ```

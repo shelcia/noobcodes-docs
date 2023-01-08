@@ -30,13 +30,13 @@ Output: [2,3,1,3,1,2]
 
 #### Constraints:
 
-- 1 <= nums.length <= 5 * 10<sup>4</sup>
+- 1 <= nums.length <= 5 \* 10<sup>4</sup>
 - 0 <= nums[i] <= 5000
 - It is guaranteed that there will be an answer for the given input nums.
 
-### Code 
+### Code
 
-```jsx title="Python"
+```python title="Python"
 def wiggleSort(self, nums):
     nums.sort()
     half = len(nums[::2])

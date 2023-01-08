@@ -42,7 +42,7 @@ Output: []
 
 ### Code
 
-```jsx title="Python"
+```python title="Python"
 class Solution:
     def removeElements(self, head: Optional[ListNode], val: int) -> Optional[ListNode]:
         temp = head

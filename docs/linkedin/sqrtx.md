@@ -1,17 +1,17 @@
 ---
 sidebar_position: 80
-tags: [LinkedIn]
+tags: [linkedin]
 ---
 
 # Sqrt(x)
 
 ### Problem Statement
 
-Given a non-negative integer x, return the square root of x rounded down to the nearest integer. The returned integer should be non-negative as well.
+Given a **non-negative** integer `x`, return _the square root of `x` rounded down to the nearest integer_. The returned integer should be **non-negative** as well.
 
 You must not use any built-in exponent function or operator.
 
-For example, do not use pow(x, 0.5) in c++ or x \*\* 0.5 in python.
+_For example, do not use `pow(x, 0.5)` in `c++` or `x ** 0.5` in `python`._
 
 [Leetcode link](https://leetcode.com/problems/sqrtx)
 
@@ -34,7 +34,7 @@ Explanation: The square root of 8 is 2.82842..., and since we round it down to t
 
 ### Constraints
 
-- 0 <= x <= 2<sup>31</sup> - 1
+- `0 <= x <= 2`<sup>31</sup> `-1`
 
 ### Code
 

@@ -1,6 +1,6 @@
 ---
 sidebar_position: 18
-tags: [LinkedIn]
+tags: [linkedin]
 ---
 
 # Expression Add Operators
@@ -45,7 +45,7 @@ Explanation: There are no expressions that can be created from "3456237490" to e
 
 ### Code
 
-```jsx title="Python"
+```python title="Python"
 class Solution:
     def addOperators(self, s: str, target: int) -> List[str]:
         def backtrack(i, path, resultSoFar, prevNum):
@@ -68,4 +68,3 @@ class Solution:
         backtrack(0, "", 0, 0)
         return ans
 ```
-

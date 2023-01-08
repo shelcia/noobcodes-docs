@@ -45,7 +45,7 @@ Explanation: The endWord "cog" is not in wordList, therefore there is no valid t
 
 ### Code
 
-```jsx title="Python"
+```python title="Python"
 class Solution:
     def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int:
         s=set(wordList)
@@ -63,5 +63,5 @@ class Solution:
                         s.remove(a[:j]+i+a[j+1:])
                         queue.append([a[:j]+i+a[j+1:],b+1])
         return 0
-        
+
 ```

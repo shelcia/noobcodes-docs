@@ -1,6 +1,6 @@
 ---
 sidebar_position: 30
-tags: [LinkedIn]
+tags: [linkedin]
 ---
 
 # Insert Interval
@@ -41,7 +41,7 @@ Explanation: Because the new interval [4,8] overlaps with [3,5],[6,7],[8,10].
 
 ### Code
 
-```jsx title="Python"
+```python title="Python"
 def insert(self, intervals, newInterval):
         """
         :type intervals: List[List[int]]

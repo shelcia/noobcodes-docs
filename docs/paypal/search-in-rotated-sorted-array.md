@@ -48,7 +48,7 @@ Output: -1
 
 ### Code
 
-```jsx title="Python"
+```python title="Python"
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         if not nums:

@@ -20,8 +20,8 @@ Here, "eventually fall" means that the droplet will eventually be at a lower lev
 
 You can assume there's infinitely high terrain on the two sides out of bounds of the array. Also, there could not be partial water being spread out evenly on more than 1 grid block - each unit of water has to be in exactly one block.
 
-**NOTE:** 
- 
+**NOTE:**
+
 - heights will have length in [1, 100][1,100] and contain integers in [0, 99][0,99].
 - V will be in range [0, 2000][0,2000].
 - K will be in range [0, heights.length - 1][0,heights.length−1].
@@ -45,7 +45,7 @@ Explanation:
   #   w   #
   ##  # ###
   #########
-   0123456    
+   0123456
 
   When moving left or right, the water can only move to the same level or a lower level.
   (By level, we mean the total height of the terrain plus any water in that column.)
@@ -56,7 +56,7 @@ Explanation:
   #       #
   ## w# ###
   #########
-   0123456    
+   0123456
    2122122
 
   Since moving left will not make it fall, it stays in place.  The next droplet falls:
@@ -65,7 +65,7 @@ Explanation:
   #   w   #
   ## w# ###
   #########
-   0123456  
+   0123456
 
   Since the new droplet moving left will eventually make it fall, it moves left.
   Notice that the droplet still preferred to move left,
@@ -75,13 +75,13 @@ Explanation:
   #  w    #
   ## w# ###
   #########
-   0123456  
+   0123456
 
   #       #
   #       #
   ##ww# ###
   #########
-   0123456  
+   0123456
    2222122
 
   After those steps, the third droplet falls.
@@ -92,13 +92,13 @@ Explanation:
   #   w   #
   ##ww# ###
   #########
-   0123456  
+   0123456
 
   #       #
   #       #
   ##ww#w###
   #########
-   0123456  
+   0123456
    2222222
 
   Finally, the fourth droplet falls.
@@ -109,15 +109,15 @@ Explanation:
   #   w   #
   ##ww#w###
   #########
-   0123456  
+   0123456
    2223222
 
   The final answer is [2,2,2,3,2,2,2]:
 
-      #    
-  ####### 
-  ####### 
-  0123456 
+      #
+  #######
+  #######
+  0123456
 ```
 
 #### Example 2:
@@ -138,7 +138,7 @@ Output: [4,4,4]
 
 ### Code
 
-```jsx title="Python"
+```python title="Python"
 class Solution:
     def pourWater(self, heights, V, K):
         def flow(start, stop, step, position):
@@ -149,6 +149,6 @@ class Solution:
                     break
             return position
         for v in range(V):
-            heights[flow(K - 1, -1, -1, flow(K + 1, len(heights), 1, K))] += 1    
+            heights[flow(K - 1, -1, -1, flow(K + 1, len(heights), 1, K))] += 1
         return heights
 ```

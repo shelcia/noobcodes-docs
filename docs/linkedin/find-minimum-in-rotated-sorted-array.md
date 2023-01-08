@@ -1,6 +1,6 @@
 ---
 sidebar_position: 23
-tags: [LinkedIn]
+tags: [linkedin]
 ---
 
 # Find Minimum in Rotated Sorted Array
@@ -41,7 +41,7 @@ Explanation: The original array was [0,1,2,4,5,6,7] and it was rotated 4 times.
 ```
 Input: nums = [11,13,15,17]
 Output: 11
-Explanation: The original array was [11,13,15,17] and it was rotated 4 times. 
+Explanation: The original array was [11,13,15,17] and it was rotated 4 times.
 ```
 
 #### Constraints:
@@ -52,9 +52,9 @@ Explanation: The original array was [11,13,15,17] and it was rotated 4 times.
 - All the integers of nums are unique.
 - nums is sorted and rotated between 1 and n times.
 
-### Code 
+### Code
 
-```jsx title="Python"
+```python title="Python"
 class Solution:
     def findMin(self, nums: List[int]) -> int:
         l=0

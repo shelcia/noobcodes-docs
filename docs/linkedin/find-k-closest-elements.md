@@ -1,6 +1,6 @@
 ---
 sidebar_position: 21
-tags: [LinkedIn]
+tags: [linkedin]
 ---
 
 # Find K Closest Elements
@@ -13,7 +13,7 @@ An integer `a` is closer to `x` than an integer `b` if:
 
 - `|a - x| < |b - x|`, or
 - `|a - x| == |b - x|` and a < b
- 
+
 [Leetcode Link](https://leetcode.com/problems/find-k-closest-elements/)
 
 #### Example 1:
@@ -39,7 +39,7 @@ Output: [1,2,3,4]
 
 ### Code
 
-```jsx title="Python"
+```python title="Python"
    def findClosestElements(self, A, k, x):
         left, right = 0, len(A) - k
         while left < right:

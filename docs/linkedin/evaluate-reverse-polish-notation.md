@@ -1,6 +1,6 @@
 ---
 sidebar_position: 16
-tags: [LinkedIn]
+tags: [linkedin]
 ---
 
 # Evaluate Reverse Polish Notation
@@ -13,7 +13,7 @@ Evaluate the expression. Return an integer that represents the value of the expr
 
 **Note** that:
 
-- The valid operators are '+', '-', '*', and '/'.
+- The valid operators are '+', '-', '\*', and '/'.
 - Each operand may be an integer or another expression.
 - The division between two integers always truncates toward zero.
 - There will not be any division by zero.
@@ -55,11 +55,11 @@ Explanation: ((10 * (6 / ((9 + 3) * -11))) + 17) + 5
 #### Constraints:
 
 - 1 <= tokens.length <= 10<sup>4</sup>
-- tokens[i] is either an operator: "+", "-", "*", or "/", or an integer in the range [-200, 200].
+- tokens[i] is either an operator: "+", "-", "\*", or "/", or an integer in the range [-200, 200].
 
 ### Code
 
-```jsx title="Python"
+```python title="Python"
 class Solution:
     def evalRPN(self, tokens: List[str]) -> int:
         def fun(st,n1,n2):

@@ -43,7 +43,7 @@ Output: -1
 
 ### Code
 
-```jsx title="Python"
+```python title="Python"
     def numBusesToDestination(self, routes, S, T):
         to_routes = collections.defaultdict(set)
         for i, route in enumerate(routes):

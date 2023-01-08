@@ -1,6 +1,6 @@
 ---
 sidebar_position: 33
-tags: [LinkedIn]
+tags: [linkedin]
 ---
 
 # Integer to English Words

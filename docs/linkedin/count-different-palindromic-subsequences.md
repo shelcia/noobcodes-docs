@@ -1,13 +1,13 @@
 ---
 sidebar_position: 11
-tags: [LinkedIn]
+tags: [linkedin]
 ---
 
 # Count Different Palindromic Subsequences
 
 ### Problem Statement
 
-Given a string s, return *the number of different non-empty palindromic subsequences* in s. Since the answer may be very large, return it modulo 10<sup>9</sup> + 7.
+Given a string s, return _the number of different non-empty palindromic subsequences_ in s. Since the answer may be very large, return it modulo 10<sup>9</sup> + 7.
 
 A subsequence of a string is obtained by deleting zero or more characters from the string.
 
@@ -41,25 +41,24 @@ Explanation: There are 3104860382 different non-empty palindromic subsequences, 
 
 ### Code
 
-```jsx title="Python"
-class Solution:        
-    def countPalindromicSubsequences(self, s: str) -> int:                                   
+```python title="Python"
+class Solution:
+    def countPalindromicSubsequences(self, s: str) -> int:
         mod = 10**9 + 7
-        
+
         @cache
         def dp(i, j):
-            if i > j: return 0            
+            if i > j: return 0
             if i == j: return 1
 
             result = 0
 
             for c in set(s[i:j + 1]):
                 L, R = s.find(c, i, j  + 1), s.rfind(c, i, j + 1)
-                if L == R: result += 1                    
+                if L == R: result += 1
                 else: result += dp(L + 1, R - 1) + 2
 
-            return result % mod        
-        
+            return result % mod
+
         return dp(0, len(s) - 1) % mod
 ```
-

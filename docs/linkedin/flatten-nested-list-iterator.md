@@ -1,6 +1,6 @@
 ---
 sidebar_position: 27
-tags: [LinkedIn]
+tags: [linkedin]
 ---
 
 # Flatten Nested List Iterator
@@ -52,7 +52,7 @@ Explanation: By calling next repeatedly until hasNext returns false, the order o
 
 ### Code
 
-```jsx title="Python"
+```python title="Python"
 class NestedIterator(object):
 
     def __init__(self, nestedList):
@@ -61,13 +61,13 @@ class NestedIterator(object):
         :type nestedList: List[NestedInteger]
         """
         self.stack = nestedList[::-1]
-        
+
     def next(self):
         """
         :rtype: int
         """
         return self.stack.pop().getInteger()
-        
+
     def hasNext(self):
         """
         :rtype: bool

@@ -1,6 +1,6 @@
 ---
 sidebar_position: 56
-tags: [LinkedIn]
+tags: [linkedin]
 ---
 
 # Number of Islands

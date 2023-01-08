@@ -1,6 +1,6 @@
 ---
 sidebar_position: 19
-tags: [LinkedIn]
+tags: [linkedin]
 ---
 
 # Factor Combinations
@@ -22,7 +22,7 @@ Write a function that takes an integer n and return all possible combinations of
 
 ```
 Input: 12
-Output: 
+Output:
 [
   [2, 6],
   [2, 2, 3],
@@ -38,7 +38,7 @@ Explanation:
 
 ```
 Input: 32
-Output: 
+Output:
 [
   [2, 16],
   [2, 2, 8],
@@ -58,7 +58,7 @@ Explanation:
 
 ### Code
 
-```jsx title="Python"
+```python title="Python"
 class Solution:
     """
     @param n: a integer
@@ -81,7 +81,7 @@ class Solution:
                 i += 1
             res.append([n])
             return res
-        
+
         res = dfs(n, 2)
         res.pop() # do not include the n itself
         return res

@@ -1,6 +1,6 @@
 ---
 sidebar_position: 12
-tags: [LinkedIn]
+tags: [linkedin]
 ---
 
 # Data Stream as Disjoint Intervals
@@ -14,7 +14,7 @@ Implement the `SummaryRanges` class:
 - `SummaryRanges()` Initializes the object with an empty stream.
 - `void addNum(int value)` Adds the integer value to the stream.
 - `int[][] getIntervals()` Returns a summary of the integers in the stream currently as a list of disjoint intervals `[starti, endi]`. The answer should be sorted by `starti`.
- 
+
 [Leetcode Link](https://leetcode.com/problems/data-stream-as-disjoint-intervals/)
 
 #### Example 1:
@@ -42,15 +42,15 @@ summaryRanges.getIntervals(); // return [[1, 3], [6, 7]]
 
 ### Code
 
-```jsx title="Python"
+```python title="Python"
 class SummaryRanges(object):
 
   def __init__(self):
     self.intervals = []
-    
+
   def addNum(self, val):
     heapq.heappush(self.intervals, (val, Interval(val, val)))
-    
+
   def getIntervals(self):
     stack = []
     while self.intervals:

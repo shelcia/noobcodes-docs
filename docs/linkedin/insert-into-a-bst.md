@@ -1,6 +1,6 @@
 ---
 sidebar_position: 31
-tags: [LinkedIn]
+tags: [linkedin]
 ---
 
 # Insert into a Binary Search Tree
@@ -22,8 +22,8 @@ Input: root = [4,2,7,1,3], val = 5
 Output: [4,2,7,1,3,5]
 Explanation: Another accepted tree is:
 ```
-![alt text](https://assets.leetcode.com/uploads/2020/10/05/bst.jpg)
 
+![alt text](https://assets.leetcode.com/uploads/2020/10/05/bst.jpg)
 
 #### Example 2:
 
@@ -41,7 +41,7 @@ Output: [4,2,7,1,3,5]
 
 ### Code
 
-```jsx title="Python"
+```python title="Python"
 class Solution(object):
     def insertIntoBST(self, root, val):
         if(root == None): return TreeNode(val);

@@ -1,6 +1,6 @@
 ---
 sidebar_position: 37
-tags: [LinkedIn]
+tags: [linkedin]
 ---
 
 # Kth Largest Element in an Array
@@ -36,7 +36,7 @@ Output: 4
 
 ### Code
 
-```jsx title="Python"
+```python title="Python"
 from collections import Counter
 
 class Solution:

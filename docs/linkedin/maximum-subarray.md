@@ -1,6 +1,6 @@
 ---
 sidebar_position: 51
-tags: [LinkedIn]
+tags: [linkedin]
 ---
 
 # Maximum Subarray
@@ -13,36 +13,37 @@ Given an integer array nums, find the subarray which has the largest sum and ret
 
 ### Examples
 
-```
-Example 1:
+#### Example 1:
 
+```
 Input: nums = [-2,1,-3,4,-1,2,1,-5,4]
 Output: 6
+
 Explanation: [4,-1,2,1] has the largest sum = 6.
+```
 
-Example 2:
+#### Example 2:
 
+```
 Input: nums = [1]
 Output: 1
+```
 
-Example 3:
+#### Example 3:
 
+```
 Input: nums = [5,4,-1,7,8]
 Output: 23
 ```
 
-### Constraints
+#### Constraints
 
-```
-1 <= nums.length <= 105
--104 <= nums[i] <= 104
-
-```
+- `1 <= nums.length <= 10`<sup>5</sup>
+- `10`<sup>4</sup> `<= nums[i] <= 10`<sup>4</sup>
 
 ### Code
 
 ```python title="Python3 Code"
-
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
         curr , maxi = float("-inf"),nums[0]

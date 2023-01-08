@@ -1,6 +1,6 @@
 ---
 sidebar_position: 57
-tags: [LinkedIn]
+tags: [linkedin]
 ---
 
 # Partition to K Equal Sum Subsets
@@ -20,6 +20,7 @@ Explanation: It is possible to divide it into 4 subsets (5), (1, 4), (2,3), (2,3
 ```
 
 #### Example 2:
+
 ```
 Input: nums = [1,2,3,4], k = 3
 Output: false
@@ -33,7 +34,7 @@ Output: false
 
 ### Code
 
-```jsx title="Python"
+```python title="Python"
 class Solution:
     def canPartitionKSubsets(self, nums: List[int], k: int) -> bool:
         if sum(nums) % k != 0: return False
@@ -54,7 +55,7 @@ class Solution:
             if i == len(nums) or total < 0: return False
 
             #Reset when we successfully find a partition sum == target
-            if total == 0: 
+            if total == 0:
                 total = target
                 k -= 1
                 i = 0
@@ -65,7 +66,7 @@ class Solution:
                 if bp(tuple(seen), i + 1, total - nums[i], k): return True
                 seen[i] = False
 
-            return bp(tuple(seen), i + 1, total, k) 
+            return bp(tuple(seen), i + 1, total, k)
 
         return bp(tuple(seen), 0, target, k)
 ```

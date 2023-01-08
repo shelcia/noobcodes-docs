@@ -1,9 +1,9 @@
 ---
 sidebar_position: 26
-tags: [LinkedIn]
+tags: [linkedin]
 ---
 
-#  Fizz Buzz
+# Fizz Buzz
 
 ### Problem Statement
 
@@ -13,7 +13,7 @@ Given an integer n, return a string array answer (1-indexed) where:
 - `answer[i] == "Fizz"` if i is divisible by 3.
 - `answer[i] == "Buzz"` if i is divisible by 5.
 - `answer[i] == i` (as a string) if none of the above conditions are true.
- 
+
 [Leetcode Link](https://leetcode.com/problems/fizz-buzz/)
 
 #### Example 1:
@@ -41,12 +41,13 @@ Output: ["1","2","Fizz","4","Buzz","Fizz","7","8","Fizz","Buzz","11","Fizz","13"
 
 - 1 <= n <= 10<sup>4</sup>
 
-### Code 
-```jsx title="Python"
+### Code
+
+```python title="Python"
 class Solution:
     def fizzBuzz(self, n: int) -> List[str]:
         answer = []
-        
+
         for num in range(1, n+1):
             if num % 3 == 0 and num % 5 == 0:
                 answer.append("FizzBuzz")

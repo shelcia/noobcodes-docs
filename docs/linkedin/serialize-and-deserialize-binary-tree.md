@@ -1,6 +1,6 @@
 ---
 sidebar_position: 75
-tags: [LinkedIn]
+tags: [linkedin]
 ---
 
 # Serialize and Deserialize Binary Tree
@@ -38,7 +38,7 @@ Output: []
 
 ### Code
 
-```jsx title="Python"
+```python title="Python"
 class Codec:
     def serialize(self, root):
         ans=[]

@@ -59,7 +59,7 @@ Output: "A"
 
 ### Code
 
-```jsx title="Python"
+```python title="Python"
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
         template = list(range(numRows)) + list(range(numRows - 2, 0, -1))

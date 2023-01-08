@@ -1,6 +1,6 @@
 ---
 sidebar_position: 9
-tags: [LinkedIn]
+tags: [linkedin]
 ---
 
 # Combination Sum II

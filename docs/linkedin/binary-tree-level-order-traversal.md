@@ -1,6 +1,6 @@
 ---
 sidebar_position: 3
-tags: [LinkedIn]
+tags: [linkedin]
 ---
 
 # Binary Tree Level Order Traversal

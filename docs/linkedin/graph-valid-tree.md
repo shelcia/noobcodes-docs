@@ -1,6 +1,6 @@
 ---
 sidebar_position: 28
-tags: [LinkedIn]
+tags: [linkedin]
 ---
 
 # Graph Valid Tree
@@ -25,9 +25,9 @@ Output: false.
 
 [Leetcode Link](https://leetcode.com/problems/Graph-Valid-Tree/)
 
-### Code 
+### Code
 
-```jsx title="Python"
+```python title="Python"
 class Solution:
     """
     @param: n: An integer
@@ -54,7 +54,7 @@ class Solution:
                 q.append(i)
                 visited.add(i)
         return len(visited) == n
-    
+
 	def validTree(self, n, edges):
         # write your code here
         if n == 0:

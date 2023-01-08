@@ -1,6 +1,6 @@
 ---
 sidebar_position: 24
-tags: [LinkedIn]
+tags: [linkedin]
 ---
 
 # Find Smallest Letter Greater Than Target
@@ -18,6 +18,7 @@ Return the smallest character in `letters` that is lexicographically greater tha
 ```
 Input: letters = ["c","f","j"], target = "a"
 Output: "c"
+
 Explanation: The smallest character that is lexicographically greater than 'a' in letters is 'c'.
 ```
 
@@ -26,6 +27,7 @@ Explanation: The smallest character that is lexicographically greater than 'a' i
 ```
 Input: letters = ["c","f","j"], target = "c"
 Output: "f"
+
 Explanation: The smallest character that is lexicographically greater than 'c' in letters is 'f'.
 ```
 
@@ -34,20 +36,21 @@ Explanation: The smallest character that is lexicographically greater than 'c' i
 ```
 Input: letters = ["x","x","y","y"], target = "z"
 Output: "x"
+
 Explanation: There are no characters in letters that is lexicographically greater than 'z' so we return letters[0].
 ```
 
 #### Constraints:
 
-- 2 <= letters.length <= 10<sup>4</sup>
-- letters[i] is a lowercase English letter.
-- letters is sorted in non-decreasing order.
-- letters contains at least two different characters.
-- target is a lowercase English letter.
+- `2 <= letters.length <= 10`<sup>4</sup>
+- `letters[i]` is a lowercase English letter.
+- `letters` is sorted in non-decreasing order.
+- `letters` contains at least two different characters.
+- `target` is a lowercase English letter.
 
 ### Code
 
-```jsx title="Python"
+```python title="Python"
 class Solution:
     def nextGreatestLetter(self, letters: List[str], target: str) -> str:
         if target >= letters[-1] or target < letters[0]:

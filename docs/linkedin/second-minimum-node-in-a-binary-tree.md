@@ -1,6 +1,6 @@
 ---
 sidebar_position: 74
-tags: [LinkedIn]
+tags: [linkedin]
 ---
 
 # Second Minimum Node In a Binary Tree
@@ -28,6 +28,7 @@ Explanation: The smallest value is 2, the second smallest value is 5.
 #### Example 2:
 
 ![alt text](https://assets.leetcode.com/uploads/2020/10/15/smbt2.jpg)
+
 ```
 Input: root = [2,2,2]
 Output: -1
@@ -36,7 +37,7 @@ Explanation: The smallest value is 2, but there isn't any second smallest value.
 
 ### Code
 
-```jsx title="Python"
+```python title="Python"
 def findSecondMinimumValue(self, root: Optional[TreeNode]) -> int:
 	arr = sorted(set(self.treeToList(root)))
 	if len(arr) < 2:
@@ -49,4 +50,3 @@ def treeToList(self, root):
 		return []
 	return self.treeToList(root.left) + [root.val] + self.treeToList(root.right)
 ```
-

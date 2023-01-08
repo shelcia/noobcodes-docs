@@ -1,6 +1,6 @@
 ---
 sidebar_position: 35
-tags: [LinkedIn]
+tags: [linkedin]
 ---
 
 # Intersection of Two Linked Lists

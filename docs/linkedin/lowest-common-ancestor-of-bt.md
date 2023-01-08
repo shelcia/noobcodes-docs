@@ -1,6 +1,6 @@
 ---
 sidebar_position: 44
-tags: [LinkedIn]
+tags: [linkedin]
 ---
 
 # Lowest Common Ancestor of a Binary Tree
@@ -39,7 +39,7 @@ Explanation: The LCA of nodes 5 and 4 is 5, since a node can be a descendant of 
 Input: root = [1,2], p = 1, q = 2
 Output: 1
 ```
- 
+
 #### Constraints:
 
 - The number of nodes in the tree is in the range [2, 10<sup>5</sup>].
@@ -50,7 +50,7 @@ Output: 1
 
 ### Code
 
-```jsx title="Python"
+```python title="Python"
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -78,4 +78,3 @@ class Solution(object):
         # Traverse the tree in pre-order and return the first node that is equal to either p or q, which will be the LCA if it exists
         return preOrderTraverse(root, p, q)
 ```
-

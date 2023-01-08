@@ -1,6 +1,6 @@
 ---
 sidebar_position: 41
-tags: [LinkedIn]
+tags: [linkedin]
 ---
 
 # Longest Palindrome Subsequence

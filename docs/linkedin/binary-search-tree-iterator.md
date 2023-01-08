@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-tags: [LinkedIn]
+tags: [linkedin]
 ---
 
 # Binary Search Tree Iterator

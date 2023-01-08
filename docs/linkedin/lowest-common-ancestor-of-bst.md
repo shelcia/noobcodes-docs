@@ -1,6 +1,6 @@
 ---
 sidebar_position: 43
-tags: [LinkedIn]
+tags: [linkedin]
 ---
 
 # Lowest Common Ancestor of a Binary Search Tree
@@ -50,7 +50,7 @@ Output: 2
 
 ### Code
 
-```jsx title="Python"
+```python title="Python"
 class Solution:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
         small = min(p.val, q.val)
