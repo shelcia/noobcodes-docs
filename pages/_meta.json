@@ -1,0 +1,11 @@
+{
+  "index": {
+    "title": "Intro",
+    "theme": {
+      "typesetting": "article",
+      "sidebar": false,
+      "toc": false,
+      "breadcrumb": false
+    }
+  }
+}
