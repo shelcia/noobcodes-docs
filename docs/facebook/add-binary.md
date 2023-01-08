@@ -7,7 +7,7 @@ tags: [facebook]
 
 ### Problem Statement
 
-Given two binary strings a and b, return their sum as a binary string.
+Given two binary strings **a** and **b**, return their sum as a binary string.
 
 [LeetCode link](https://leetcode.com/problems/add-binary)
 

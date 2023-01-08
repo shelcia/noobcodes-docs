@@ -36,8 +36,8 @@ Output: [0]
 
 ### Constraints:
 
-- The number of nodes in each linked list is in the range [1, 100].
-- 0 <= Node.val <= 9
+- The number of nodes in each linked list is in the range `[1, 100]`.
+- `0 <= Node.val <= 9`
 - It is guaranteed that the list represents a number that does not have leading zeros.
 
 ### Code

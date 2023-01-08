@@ -21,7 +21,7 @@ module.exports = {
       {
         name: "keywords",
         content:
-          "interview, preparation, python, java, data structures, algorithm, amazon, atlassian, meta, facebook",
+          "interview, preparation, python, java, data structures, algorithm, amazon, atlassian, meta, facebook,  leetcode, leetcode solutions",
       },
     ],
     prism: {

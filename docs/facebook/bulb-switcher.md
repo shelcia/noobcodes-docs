@@ -15,7 +15,7 @@ Return the number of bulbs that are on after n rounds.
 
 [Leetcode link](https://leetcode.com/problems/bulb-switcher/)
 
-### Example 1:
+#### Example 1:
 
 ```
 Input: n = 3
@@ -27,21 +27,21 @@ After the third round, the three bulbs are [on, off, off].
 So you should return 1 because there is only one bulb is on.
 ```
 
-### Example 2:
+#### Example 2:
 
 ```
 Input: n = 0
 Output: 0
 ```
 
-### Example 3:
+#### Example 3:
 
 ```
 Input: n = 1
 Output: 1
 ```
 
-### Constraints
+##### Constraints
 
 - 1 <= n <= 10<sup>9</sup>
 

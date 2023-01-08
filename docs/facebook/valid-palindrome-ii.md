@@ -7,36 +7,36 @@ tags: [facebook]
 
 ### Problem Statement
 
-Given a string s, return true if the s can be palindrome after deleting at most one character from it.
+Given a string `s`, return `true` _if the `s` can be palindrome after deleting at most one character from it._
 
 [Leetcode Link](https://leetcode.com/problems/valid-palindrome-ii)
 
-### Examples:
+#### Example 1:
 
 ```
-Example 1:
-
 Input: s = "aba"
 Output: true
+```
 
+#### Example 2:
 
-Example 2:
-
+```
 Input: s = "abca"
 Output: true
 Explanation: You could delete the character 'c'.
+```
 
+#### Example 3:
 
-Example 3:
-
+```
 Input: s = "abc"
 Output: false
 ```
 
-### Constraints:
+#### Constraints:
 
-- 1 <= s.length <= 10<sup>5</sup>
-- s consists of lowercase English letters.
+- `1` `<=` `s.length` `<=` 10<sup>5</sup>
+- `s` consists of lowercase English letters.
 
 ### Code
 

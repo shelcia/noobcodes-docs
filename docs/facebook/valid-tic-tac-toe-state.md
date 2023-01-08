@@ -43,7 +43,7 @@ Input: board = ["XOX","O O","XOX"]
 Output: true
 ```
 
-### Constraints:
+#### Constraints:
 
 - board.length == 3
 - board[i].length == 3
