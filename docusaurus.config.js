@@ -1,6 +1,8 @@
 const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/nightOwl");
 
+require("dotenv").config();
+
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: "Hello Folks",
@@ -93,6 +95,25 @@ module.exports = {
     prism: {
       theme: lightCodeTheme,
       darkTheme: darkCodeTheme,
+    },
+    algolia: {
+      // The application ID provided by Algolia
+      appId: process.env.APP_ID,
+      apiKey: process.env.APP_KEY,
+      indexName: "noobcodes-netlify",
+      contextualSearch: true,
+      replaceSearchResultPathname: {
+        from: "/docs/", // or as RegExp: /\/docs\//
+        to: "/",
+      },
+
+      // Optional: Algolia search parameters
+      searchParameters: {},
+
+      // Optional: path for search page that enabled by default (`false` to disable it)
+      searchPagePath: "search",
+
+      //... other Algolia params
     },
   },
   presets: [
