@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-tags: [blind-75]
+tags: [Blind 75, amazon, facebook, linkedin]
 ---
 
 # Climbing Stairs
@@ -10,6 +10,8 @@ tags: [blind-75]
 You are climbing a staircase. It takes `n` steps to reach the top.
 
 Each time you can either climb `1` or `2` steps. In how many distinct ways can you climb to the top?
+
+[Leetcode Link](https://leetcode.com/problems/climbing-stairs/)
 
 #### Example 1:
 

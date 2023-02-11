@@ -7,23 +7,25 @@ tags: [Blind 75, string, dynamic programming]
 
 ### Problem Statement
 
-Given a string s, return the number of palindromic substrings in it.
+Given a string `s`, return _the number of **palindromic substrings** in it._
 
-A string is a palindrome when it reads the same backward as forward.
+A string is a **palindrome** when it reads the same backward as forward.
 
-A substring is a contiguous sequence of characters within the string.
+A **substring** is a contiguous sequence of characters within the string.
 
-### Examples
+[Leetcode Link](https://leetcode.com/problems/palindromic-substrings/)
+
+#### Example 1:
 
 ```
-Example 1:
-
 Input: s = "abc"
 Output: 3
 Explanation: Three palindromic strings: "a", "b", "c".
+```
 
-Example 2:
+#### Example 2:
 
+```
 Input: s = "aaa"
 Output: 6
 Explanation: Six palindromic strings: "a", "a", "a", "aa", "aa", "aaa".
@@ -31,10 +33,8 @@ Explanation: Six palindromic strings: "a", "a", "a", "aa", "aa", "aaa".
 
 ### Constraints
 
-```
-1 <= s.length <= 1000
-s consists of lowercase English letters.
-```
+- `1 <= s.length <= 1000`
+- `s` consists of lowercase English letters.
 
 ### Code
 
